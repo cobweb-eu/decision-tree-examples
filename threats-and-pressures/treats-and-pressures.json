@@ -1,0 +1,2665 @@
+{
+  "__version__": 2,
+  "__end__": {
+    "label": "END"
+  },
+  "root": {
+    "name": "root",
+    "edges": [
+      {
+        "label": "Agriculture",
+        "value": "A",
+        "next": "A"
+      },
+      {
+        "label": "Sylviculture, forestry",
+        "value": "B",
+        "next": "B"
+      },
+      {
+        "label": "Mining, extraction of materials and energy production",
+        "value": "C",
+        "next": "C"
+      },
+      {
+        "label": "Transportation and service corridors",
+        "value": "D",
+        "next": "D"
+      },
+      {
+        "label": "Urbanisation, residential and commercial development",
+        "value": "E",
+        "next": "E"
+      },
+      {
+        "label": "Biological resource use other than agriculture & forestry",
+        "value": "F",
+        "next": "F"
+      },
+      {
+        "label": "Human intrusions and disturbances",
+        "value": "G",
+        "next": "G"
+      },
+      {
+        "label": "Pollution",
+        "value": "H",
+        "next": "H"
+      },
+      {
+        "label": "Invasive, other problematic species and genes",
+        "value": "I",
+        "next": "I"
+      },
+      {
+        "label": "Natural System modifications",
+        "value": "J",
+        "next": "J"
+      },
+      {
+        "label": "Natural biotic and abiotic processes (without catastrophes)",
+        "value": "K",
+        "next": "K"
+      },
+      {
+        "label": "Geological events, natural catastrophes",
+        "value": "L",
+        "next": "L"
+      },
+      {
+        "label": "Climate change",
+        "value": "M",
+        "next": "M"
+      },
+      {
+        "label": "No threats or pressures",
+        "value": "X",
+        "next": "__end__"
+      },
+      {
+        "label": "Threats and pressures from outside the Member State",
+        "value": "XO",
+        "next": "__end__"
+      },
+      {
+        "label": "Threats and pressures from outside the EU territory",
+        "value": "XE",
+        "next": "__end__"
+      },
+      {
+        "label": "Unknown threat or pressure",
+        "value": "U ",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the pressure or threat"
+  },
+  "A": {
+    "name": "A",
+    "edges": [
+      {
+        "label": "Cultivation",
+        "value": "A01",
+        "next": "__end__"
+      },
+      {
+        "label": "modification of cultivation practices",
+        "value": "A02",
+        "next": "A02"
+      },
+      {
+        "label": "mowing / cutting of grassland",
+        "value": "A03",
+        "next": "A03"
+      },
+      {
+        "label": "grazing",
+        "value": "A04",
+        "next": "__end__"
+      },
+      {
+        "label": "livestock farming and animal breeding (without grazing)",
+        "value": "A05",
+        "next": "A05"
+      },
+      {
+        "label": "annual and perennial non-timber crops",
+        "value": "A06",
+        "next": "A06"
+      },
+      {
+        "label": "use of biocides, hormones and chemicals",
+        "value": "A07",
+        "next": "__end__"
+      },
+      {
+        "label": "Fertilisation",
+        "value": "A08",
+        "next": "__end__"
+      },
+      {
+        "label": "Irrigation",
+        "value": "A09",
+        "next": "__end__"
+      },
+      {
+        "label": "Restructuring agricultural land holding",
+        "value": "A10",
+        "next": "A10"
+      },
+      {
+        "label": "Agriculture activities not referred to above",
+        "value": "A11",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the agricultural activity"
+  },
+  "A02": {
+    "name": "A02",
+    "edges": [
+      {
+        "label": "agricultural intensification",
+        "value": "A02.01",
+        "next": "__end__"
+      },
+      {
+        "label": "crop change",
+        "value": "A02.02",
+        "next": "__end__"
+      },
+      {
+        "label": "grassland removal for arable land",
+        "value": "A02.03",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "A03": {
+    "name": "A03",
+    "edges": [
+      {
+        "label": "intensive mowing or intensification",
+        "value": "A03.01",
+        "next": "__end__"
+      },
+      {
+        "label": "non intensive mowing",
+        "value": "A03.02",
+        "next": "__end__"
+      },
+      {
+        "label": "abandonment / lack of  mowing ",
+        "value": "A03.03",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "A04": {
+    "name": "A04",
+    "edges": [
+      {
+        "label": "intensive grazing",
+        "value": "A04.01",
+        "next": "A04.01"
+      },
+      {
+        "label": "non intensive grazing",
+        "value": "A04.02",
+        "next": "A04.02"
+      },
+      {
+        "label": "abandonment of pastoral systems, lack of grazing",
+        "value": "A04.03",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "A04.01": {
+    "name": "A04.01",
+    "edges": [
+      {
+        "label": "intensive cattle grazing",
+        "value": "A04.01.01",
+        "next": "__end__"
+      },
+      {
+        "label": "intensive sheep grazing",
+        "value": "A04.01.02",
+        "next": "__end__"
+      },
+      {
+        "label": "intensive horse grazing",
+        "value": "A04.01.03",
+        "next": "__end__"
+      },
+      {
+        "label": "intensive goat grazing",
+        "value": "A04.01.04",
+        "next": "__end__"
+      },
+      {
+        "label": "intensive mixed animal grazing",
+        "value": "A04.01.05",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "A04.02": {
+    "name": "A04.02",
+    "edges": [
+      {
+        "label": "non intensive cattle grazing",
+        "value": "A04.02.01",
+        "next": "__end__"
+      },
+      {
+        "label": "non intensive sheep grazing",
+        "value": "A04.02.02",
+        "next": "__end__"
+      },
+      {
+        "label": "non intensive horse grazing",
+        "value": "A04.02.03",
+        "next": "__end__"
+      },
+      {
+        "label": "non intensive goat grazing",
+        "value": "A04.02.04",
+        "next": "__end__"
+      },
+      {
+        "label": "non intensive mixed animal grazing",
+        "value": "A04.02.05",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "A05": {
+    "name": "A05",
+    "edges": [
+      {
+        "label": "Animal breeding, ",
+        "value": "A05.01",
+        "next": "__end__"
+      },
+      {
+        "label": "stock feeding",
+        "value": "A05.02",
+        "next": "__end__"
+      },
+      {
+        "label": "Lack of animal breeding",
+        "value": "A05.03",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "A06": {
+    "name": "A06",
+    "edges": [
+      {
+        "label": "annual crops for food production",
+        "value": "A06.01",
+        "next": "A06.01"
+      },
+      {
+        "label": "perennial non-timber crops",
+        "value": "A06.02",
+        "next": "A06.02"
+      },
+      {
+        "label": "biofuel-production",
+        "value": "A06.03",
+        "next": "__end__"
+      },
+      {
+        "label": "abandonment of crop production",
+        "value": "A06.04",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "A06.01": {
+    "name": "A06.01",
+    "edges": [
+      {
+        "label": "intensive annual crops for food production/ intensification",
+        "value": "A06.01.01",
+        "next": "__end__"
+      },
+      {
+        "label": "non- intensive annual crops for food production",
+        "value": "A06.01.02",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "A06.02": {
+    "name": "A06.02",
+    "edges": [
+      {
+        "label": "intensive perennial non-timber crops/intensification",
+        "value": "A06.02.01",
+        "next": "__end__"
+      },
+      {
+        "label": "non-intensive perennial non-timber crops",
+        "value": "A06.02.02",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "A10": {
+    "name": "A10",
+    "edges": [
+      {
+        "label": "removal of hedges and copses or scrub",
+        "value": "A10.01",
+        "next": "__end__"
+      },
+      {
+        "label": "removal of stone walls and embankments",
+        "value": "A10.02",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "B": {
+    "name": "B",
+    "edges": [
+      {
+        "label": "forest planting on open ground",
+        "value": "B01",
+        "next": "B01"
+      },
+      {
+        "label": "Forest and Plantation management  & use",
+        "value": "B02",
+        "next": "B02"
+      },
+      {
+        "label": "forest exploitation without replanting or natural regrowth",
+        "value": "B03",
+        "next": "__end__"
+      },
+      {
+        "label": "use of biocides, hormones and chemicals (forestry)",
+        "value": "B04",
+        "next": "__end__"
+      },
+      {
+        "label": "use of fertilizers (forestry)",
+        "value": "B05",
+        "next": "__end__"
+      },
+      {
+        "label": "grazing in forests/ woodland",
+        "value": "B06",
+        "next": "__end__"
+      },
+      {
+        "label": "Forestry activities not referred to above",
+        "value": "B07",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the forestry activities"
+  },
+  "B01": {
+    "name": "B01",
+    "edges": [
+      {
+        "label": "forest planting on open ground (native trees)",
+        "value": "B01.01",
+        "next": "__end__"
+      },
+      {
+        "label": "artificial planting on open ground (non-native trees)",
+        "value": "B01.02",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "B02": {
+    "name": "B02",
+    "edges": [
+      {
+        "label": "forest replanting",
+        "value": "B02.01",
+        "next": "B02.01"
+      },
+      {
+        "label": "forestry clearance",
+        "value": "B02.02",
+        "next": "__end__"
+      },
+      {
+        "label": "removal of forest undergrowth",
+        "value": "B02.03",
+        "next": "__end__"
+      },
+      {
+        "label": "removal of dead and dying trees",
+        "value": "B02.04",
+        "next": "__end__"
+      },
+      {
+        "label": "non- intensive timber production (leaving dead wood/ old trees untouched)",
+        "value": "B02.05",
+        "next": "__end__"
+      },
+      {
+        "label": "thinning of tree layer",
+        "value": "B02.06",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "B02.01": {
+    "name": "B02.01",
+    "edges": [
+      {
+        "label": "forest replanting (native trees)",
+        "value": "B02.01.01",
+        "next": "__end__"
+      },
+      {
+        "label": "forest replanting (non native trees)",
+        "value": "B02.01.02",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "C": {
+    "name": "C",
+    "edges": [
+      {
+        "label": "Mining and quarrying",
+        "value": "C01",
+        "next": "C01"
+      },
+      {
+        "label": "Exploration and extraction of oil or gas",
+        "value": "C02",
+        "next": "C02"
+      },
+      {
+        "label": "Renewable abiotic energy use",
+        "value": "C03",
+        "next": "C03"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "C01": {
+    "name": "C01",
+    "edges": [
+      {
+        "label": "Sand and gravel extraction ",
+        "value": "C01.01",
+        "next": "C01.01"
+      },
+      {
+        "label": "Loam and clay pits",
+        "value": "C01.02",
+        "next": "__end__"
+      },
+      {
+        "label": "Peat extraction",
+        "value": "C01.03",
+        "next": "C01.03"
+      },
+      {
+        "label": "Mines",
+        "value": "C01.04",
+        "next": "C01.04"
+      },
+      {
+        "label": "Salt works",
+        "value": "C01.05",
+        "next": "C01.05"
+      },
+      {
+        "label": "Geotechnical survey",
+        "value": "C01.06",
+        "next": "__end__"
+      },
+      {
+        "label": "Mining and extraction activities not referred to above",
+        "value": "C01.07",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "C01.01": {
+    "name": "C01.01",
+    "edges": [
+      {
+        "label": "sand and gravel quarries",
+        "value": "C01.01.01",
+        "next": "__end__"
+      },
+      {
+        "label": "removal of beach materials",
+        "value": "C01.01.02",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "C01.03": {
+    "name": "C01.03",
+    "edges": [
+      {
+        "label": "hand cutting of peat",
+        "value": "C01.03.01",
+        "next": "__end__"
+      },
+      {
+        "label": "mechanical removal of peat",
+        "value": "C01.03.02",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "C01.04": {
+    "name": "C01.04",
+    "edges": [
+      {
+        "label": "open cast mining",
+        "value": "C01.04.01",
+        "next": "__end__"
+      },
+      {
+        "label": "underground mining",
+        "value": "C01.04.02",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "C01.05": {
+    "name": "C01.05",
+    "edges": [
+      {
+        "label": "abandonment of saltpans (salinas)",
+        "value": "C01.05.01",
+        "next": "__end__"
+      },
+      {
+        "label": "conversion of saltpans",
+        "value": "C01.05.02",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "C02": {
+    "name": "C02",
+    "edges": [
+      {
+        "label": "exploration drilling",
+        "value": "C02.01",
+        "next": "__end__"
+      },
+      {
+        "label": "production drilling",
+        "value": "C02.02",
+        "next": "__end__"
+      },
+      {
+        "label": "jack-up drilling rig",
+        "value": "C02.03",
+        "next": "__end__"
+      },
+      {
+        "label": "semi-submersible rig",
+        "value": "C02.04",
+        "next": "__end__"
+      },
+      {
+        "label": "drill ship",
+        "value": "C02.05",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "C03": {
+    "name": "C03",
+    "edges": [
+      {
+        "label": "geothermal power production",
+        "value": "C03.01",
+        "next": "__end__"
+      },
+      {
+        "label": "solar energy production",
+        "value": "C03.02",
+        "next": "__end__"
+      },
+      {
+        "label": "wind energy production",
+        "value": "C03.03",
+        "next": "__end__"
+      },
+      {
+        "label": "tidal energy production",
+        "value": "C03.04",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "D": {
+    "name": "D",
+    "edges": [
+      {
+        "label": "Roads, paths and railroads",
+        "value": "D01",
+        "next": "D01"
+      },
+      {
+        "label": "Utility and service lines",
+        "value": "D02",
+        "next": "D02"
+      },
+      {
+        "label": "shipping lanes, ports, marine constructions",
+        "value": "D03",
+        "next": "D03"
+      },
+      {
+        "label": "airports, flightpaths",
+        "value": "D04",
+        "next": "D04"
+      },
+      {
+        "label": "Improved access to site",
+        "value": "D05",
+        "next": "__end__"
+      },
+      {
+        "label": "Other forms of transportation and communication",
+        "value": "D06",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "D01": {
+    "name": "D01",
+    "edges": [
+      {
+        "label": "paths, tracks, cycling tracks",
+        "value": "D01.01",
+        "next": "__end__"
+      },
+      {
+        "label": "roads, motorways",
+        "value": "D01.02",
+        "next": "__end__"
+      },
+      {
+        "label": "car parcs and parking areas",
+        "value": "D01.03",
+        "next": "__end__"
+      },
+      {
+        "label": "railway lines, TGV",
+        "value": "D01.04",
+        "next": "__end__"
+      },
+      {
+        "label": "bridge, viaduct",
+        "value": "D01.05",
+        "next": "__end__"
+      },
+      {
+        "label": "tunnel",
+        "value": "D01.06",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "D02": {
+    "name": "D02",
+    "edges": [
+      {
+        "label": "electricity and phone lines",
+        "value": "D02.01",
+        "next": "D02.01"
+      },
+      {
+        "label": "pipe lines",
+        "value": "D02.02",
+        "next": "__end__"
+      },
+      {
+        "label": "communication masts and antennas",
+        "value": "D02.03",
+        "next": "__end__"
+      },
+      {
+        "label": "other forms of energy transport",
+        "value": "D02.09",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "D02.01": {
+    "name": "D02.01",
+    "edges": [
+      {
+        "label": "suspended electricity and phone lines",
+        "value": "D02.01.01",
+        "next": "__end__"
+      },
+      {
+        "label": "underground/submerged electricity and phone lines",
+        "value": "D02.01.02",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "D03": {
+    "name": "D03",
+    "edges": [
+      {
+        "label": "port areas",
+        "value": "D03.01",
+        "next": "D03.01"
+      },
+      {
+        "label": "Shipping lanes",
+        "value": "D03.02",
+        "next": "D03.02"
+      },
+      {
+        "label": "marine constructions",
+        "value": "D03.03",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "D03.01": {
+    "name": "D03.01",
+    "edges": [
+      {
+        "label": "slipways",
+        "value": "D03.01.01",
+        "next": "__end__"
+      },
+      {
+        "label": "piers / tourist harbours or recreational piers",
+        "value": "D03.01.02",
+        "next": "__end__"
+      },
+      {
+        "label": "fishing harbours",
+        "value": "D03.01.03",
+        "next": "__end__"
+      },
+      {
+        "label": "industrial ports",
+        "value": "D03.01.04",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "D03.02": {
+    "name": "D03.02",
+    "edges": [
+      {
+        "label": "cargo lanes",
+        "value": "D03.02.01",
+        "next": "__end__"
+      },
+      {
+        "label": "passenger ferry lanes (high speed)",
+        "value": "D03.02.02",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "D04": {
+    "name": "D04",
+    "edges": [
+      {
+        "label": "airport",
+        "value": "D04.01",
+        "next": "__end__"
+      },
+      {
+        "label": "aerodrome, heliport",
+        "value": "D04.02",
+        "next": "__end__"
+      },
+      {
+        "label": "flight paths",
+        "value": "D04.03",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "E": {
+    "name": "E",
+    "edges": [
+      {
+        "label": "Urbanised areas, human habitation",
+        "value": "E01",
+        "next": "E01"
+      },
+      {
+        "label": "Industrial or commercial areas",
+        "value": "E02",
+        "next": "E02"
+      },
+      {
+        "label": "Discharges",
+        "value": "E03",
+        "next": "E03"
+      },
+      {
+        "label": "Structures, buildings in the landscape",
+        "value": "E04",
+        "next": "E04"
+      },
+      {
+        "label": "Storage of materials",
+        "value": "E05",
+        "next": "__end__"
+      },
+      {
+        "label": "Other urbanisation, industrial and similar activities",
+        "value": "E06",
+        "next": "E06"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "E01": {
+    "name": "E01",
+    "edges": [
+      {
+        "label": "continuous urbanisation",
+        "value": "E01.01",
+        "next": "__end__"
+      },
+      {
+        "label": "discontinuous urbanisation",
+        "value": "E01.02",
+        "next": "__end__"
+      },
+      {
+        "label": "dispersed habitation",
+        "value": "E01.03",
+        "next": "__end__"
+      },
+      {
+        "label": "other patterns of habitation",
+        "value": "E01.04",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "E02": {
+    "name": "E02",
+    "edges": [
+      {
+        "label": "factory",
+        "value": "E02.01",
+        "next": "__end__"
+      },
+      {
+        "label": "industrial stockage",
+        "value": "E02.02",
+        "next": "__end__"
+      },
+      {
+        "label": "other industrial / commercial area",
+        "value": "E02.03",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "E03": {
+    "name": "E03",
+    "edges": [
+      {
+        "label": "disposal of household / recreational facility waste",
+        "value": "E03.01",
+        "next": "__end__"
+      },
+      {
+        "label": "disposal of industrial waste",
+        "value": "E03.02",
+        "next": "__end__"
+      },
+      {
+        "label": "disposal of inert materials",
+        "value": "E03.03",
+        "next": "__end__"
+      },
+      {
+        "label": "Other discharges",
+        "value": "E03.04",
+        "next": "E03.04"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "E03.04": {
+    "name": "E03.04",
+    "edges": [
+      {
+        "label": "costal sand suppletion/ beach nourishment",
+        "value": "E03.04.01",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "E04": {
+    "name": "E04",
+    "edges": [
+      {
+        "label": "Agricultural structures, buildings in the landscape",
+        "value": "E04.01",
+        "next": "__end__"
+      },
+      {
+        "label": "Military constructions and buildings in the landscape",
+        "value": "E04.02",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "E06": {
+    "name": "E06",
+    "edges": [
+      {
+        "label": "demolishment of buildings & human structures ",
+        "value": "E06.01",
+        "next": "__end__"
+      },
+      {
+        "label": "reconstruction, renovation of buildings",
+        "value": "E06.02",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "F": {
+    "name": "F",
+    "edges": [
+      {
+        "label": "Marine and Freshwater Aquaculture",
+        "value": "F01",
+        "next": "F01"
+      },
+      {
+        "label": "Fishing and harvesting aquatic ressources",
+        "value": "F02",
+        "next": "F02"
+      },
+      {
+        "label": "Hunting and collection of wild animals (terrestrial)",
+        "value": "F03",
+        "next": "F03"
+      },
+      {
+        "label": "Taking / Removal of terrestrial plants, general",
+        "value": "F04",
+        "next": "F04"
+      },
+      {
+        "label": "Illegal taking/ removal of marine fauna",
+        "value": "F05",
+        "next": "F05"
+      },
+      {
+        "label": "Hunting, fishing or collecting activities not referred to above",
+        "value": "F06",
+        "next": "F06"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "F01": {
+    "name": "F01",
+    "edges": [
+      {
+        "label": "intensive fish farming, intensification ",
+        "value": "F01.01",
+        "next": "__end__"
+      },
+      {
+        "label": "suspension culture",
+        "value": "F01.02",
+        "next": "__end__"
+      },
+      {
+        "label": "bottom culture",
+        "value": "F01.03",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "F02": {
+    "name": "F02",
+    "edges": [
+      {
+        "label": "Professional passive fishing ",
+        "value": "F02.01",
+        "next": "F02.01"
+      },
+      {
+        "label": "Professional active fishing ",
+        "value": "F02.02",
+        "next": "F02.02"
+      },
+      {
+        "label": "Leisure fishing",
+        "value": "F02.03",
+        "next": "F02.03"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "F02.01": {
+    "name": "F02.01",
+    "edges": [
+      {
+        "label": "potting",
+        "value": "F02.01.01",
+        "next": "__end__"
+      },
+      {
+        "label": "netting",
+        "value": "F02.01.02",
+        "next": "__end__"
+      },
+      {
+        "label": "demersal longlining",
+        "value": "F02.01.03",
+        "next": "__end__"
+      },
+      {
+        "label": "pelagic longlining",
+        "value": "F02.01.04",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "F02.02": {
+    "name": "F02.02",
+    "edges": [
+      {
+        "label": "benthic or demersal trawling",
+        "value": "F02.02.01",
+        "next": "__end__"
+      },
+      {
+        "label": "pelagic trawling",
+        "value": "F02.02.02",
+        "next": "__end__"
+      },
+      {
+        "label": "demersal seining",
+        "value": "F02.02.03",
+        "next": "__end__"
+      },
+      {
+        "label": "purse seining",
+        "value": "F02.02.04",
+        "next": "__end__"
+      },
+      {
+        "label": "benthic dredging",
+        "value": "F02.02.05",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "F02.03": {
+    "name": "F02.03",
+    "edges": [
+      {
+        "label": "bait digging / collection",
+        "value": "F02.03.01",
+        "next": "__end__"
+      },
+      {
+        "label": "pole fishing",
+        "value": "F02.03.02",
+        "next": "__end__"
+      },
+      {
+        "label": "spear-fishing",
+        "value": "F02.03.03",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "F03": {
+    "name": "F03",
+    "edges": [
+      {
+        "label": "Hunting",
+        "value": "F03.01",
+        "next": "F03.01"
+      },
+      {
+        "label": "Taking and removal of animals (terrestrial)",
+        "value": "F03.02",
+        "next": "F03.02"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "F03.01": {
+    "name": "F03.01",
+    "edges": [
+      {
+        "label": "damage caused by game (excess population density)",
+        "value": "F03.01.01",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "F03.02": {
+    "name": "F03.02",
+    "edges": [
+      {
+        "label": "collection of animals (insects, reptiles, amphibians.....)",
+        "value": "F03.02.01",
+        "next": "__end__"
+      },
+      {
+        "label": "taking from nest (e.g. falcons)",
+        "value": "F03.02.02",
+        "next": "__end__"
+      },
+      {
+        "label": "trapping, poisoning, poaching",
+        "value": "F03.02.03",
+        "next": "__end__"
+      },
+      {
+        "label": "predator control",
+        "value": "F03.02.04",
+        "next": "__end__"
+      },
+      {
+        "label": "accidential capture",
+        "value": "F03.02.05",
+        "next": "__end__"
+      },
+      {
+        "label": "other forms of taking animals",
+        "value": "F03.02.09",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "F04": {
+    "name": "F04",
+    "edges": [
+      {
+        "label": "pillaging of floristic stations",
+        "value": "F04.01",
+        "next": "__end__"
+      },
+      {
+        "label": "collection (fungi, lichen, berries etc.)",
+        "value": "F04.02",
+        "next": "F04.02"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "F04.02": {
+    "name": "F04.02",
+    "edges": [
+      {
+        "label": "hand raking",
+        "value": "F04.02.01",
+        "next": "__end__"
+      },
+      {
+        "label": "hand collection",
+        "value": "F04.02.02",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "F05": {
+    "name": "F05",
+    "edges": [
+      {
+        "label": "dynamite",
+        "value": "F05.01",
+        "next": "__end__"
+      },
+      {
+        "label": "date mussel-fishing",
+        "value": "F05.02",
+        "next": "__end__"
+      },
+      {
+        "label": "poisons",
+        "value": "F05.03",
+        "next": "__end__"
+      },
+      {
+        "label": "poaching",
+        "value": "F05.04",
+        "next": "__end__"
+      },
+      {
+        "label": "shooting",
+        "value": "F05.05",
+        "next": "__end__"
+      },
+      {
+        "label": "removal for collection purposes",
+        "value": "F05.06",
+        "next": "__end__"
+      },
+      {
+        "label": "other (i.e. drift nets)",
+        "value": "F05.07",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "F06": {
+    "name": "F06",
+    "edges": [
+      {
+        "label": "game/ bird breeding station",
+        "value": "F06.01",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "G": {
+    "name": "G",
+    "edges": [
+      {
+        "label": "Outdoor sports and leisure activities, recreational activities",
+        "value": "G01",
+        "next": "G01"
+      },
+      {
+        "label": "Sport and leisure structures",
+        "value": "G02",
+        "next": "G02"
+      },
+      {
+        "label": "Interpretative centres",
+        "value": "G03",
+        "next": "__end__"
+      },
+      {
+        "label": "Military use and civil unrest",
+        "value": "G04",
+        "next": "G04"
+      },
+      {
+        "label": "Other human intrusions and disturbances ",
+        "value": "G05",
+        "next": "G05"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "G01": {
+    "name": "G01",
+    "edges": [
+      {
+        "label": "nautical sports",
+        "value": "G01.01",
+        "next": "G01.01"
+      },
+      {
+        "label": "walking, horseriding and non-motorised vehicles",
+        "value": "G01.02",
+        "next": "__end__"
+      },
+      {
+        "label": "motorised vehicles",
+        "value": "G01.03",
+        "next": "G01.03"
+      },
+      {
+        "label": "mountaineering, rock climbing, speleology",
+        "value": "G01.04",
+        "next": "G01.04"
+      },
+      {
+        "label": "gliding, delta plane, paragliding, ballooning",
+        "value": "G01.05",
+        "next": "__end__"
+      },
+      {
+        "label": "skiing, off-piste",
+        "value": "G01.06",
+        "next": "__end__"
+      },
+      {
+        "label": "scubadiving, snorkelling",
+        "value": "G01.07",
+        "next": "__end__"
+      },
+      {
+        "label": "other outdoor sports and leisure activities",
+        "value": "G01.08",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "G01.01": {
+    "name": "G01.01",
+    "edges": [
+      {
+        "label": "motorized nautical sports",
+        "value": "G01.01.01",
+        "next": "__end__"
+      },
+      {
+        "label": "non-motorized nautical sports",
+        "value": "G01.01.02",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "G01.03": {
+    "name": "G01.03",
+    "edges": [
+      {
+        "label": "regular motorized driving",
+        "value": "G01.03.01",
+        "next": "__end__"
+      },
+      {
+        "label": "off-road motorized driving",
+        "value": "G01.03.02",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "G01.04": {
+    "name": "G01.04",
+    "edges": [
+      {
+        "label": "mountaineering & rock climbing",
+        "value": "G01.04.01",
+        "next": "__end__"
+      },
+      {
+        "label": "speleology",
+        "value": "G01.04.02",
+        "next": "__end__"
+      },
+      {
+        "label": "recreational cave visits ",
+        "value": "G01.04.03",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "G02": {
+    "name": "G02",
+    "edges": [
+      {
+        "label": "golf course",
+        "value": "G02.01",
+        "next": "__end__"
+      },
+      {
+        "label": "skiing complex",
+        "value": "G02.02",
+        "next": "__end__"
+      },
+      {
+        "label": "stadium",
+        "value": "G02.03",
+        "next": "__end__"
+      },
+      {
+        "label": "circuit, track",
+        "value": "G02.04",
+        "next": "__end__"
+      },
+      {
+        "label": "hippodrome",
+        "value": "G02.05",
+        "next": "__end__"
+      },
+      {
+        "label": "attraction park",
+        "value": "G02.06",
+        "next": "__end__"
+      },
+      {
+        "label": "sports pitch",
+        "value": "G02.07",
+        "next": "__end__"
+      },
+      {
+        "label": "camping and caravans",
+        "value": "G02.08",
+        "next": "__end__"
+      },
+      {
+        "label": "wildlife watching",
+        "value": "G02.09",
+        "next": "__end__"
+      },
+      {
+        "label": "other sport / leisure complexes",
+        "value": "G02.10",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "G04": {
+    "name": "G04",
+    "edges": [
+      {
+        "label": "Military manouvres",
+        "value": "G04.01",
+        "next": "__end__"
+      },
+      {
+        "label": "abandonment of military use",
+        "value": "G04.02",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "G05": {
+    "name": "G05",
+    "edges": [
+      {
+        "label": "Trampling, overuse",
+        "value": "G05.01",
+        "next": "__end__"
+      },
+      {
+        "label": "shallow surface abrasion/ mechanical damage to seabed surface",
+        "value": "G05.02",
+        "next": "__end__"
+      },
+      {
+        "label": "penetration/ disturbance below surface of the seabed ",
+        "value": "G05.03",
+        "next": "__end__"
+      },
+      {
+        "label": "Vandalism",
+        "value": "G05.04",
+        "next": "__end__"
+      },
+      {
+        "label": "intensive maintenance of public parcs /cleaning of beaches",
+        "value": "G05.05",
+        "next": "__end__"
+      },
+      {
+        "label": "tree surgery, felling for public safety, removal of roadside trees",
+        "value": "G05.06",
+        "next": "__end__"
+      },
+      {
+        "label": "missing or wrongly directed conservation measures",
+        "value": "G05.07",
+        "next": "__end__"
+      },
+      {
+        "label": "closures of caves or galleries",
+        "value": "G05.08",
+        "next": "__end__"
+      },
+      {
+        "label": "fences, fencing",
+        "value": "G05.09",
+        "next": "__end__"
+      },
+      {
+        "label": "overflying with aircrafts (agricultural)",
+        "value": "G05.10",
+        "next": "__end__"
+      },
+      {
+        "label": "death or injury by collision",
+        "value": "G05.11",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "H": {
+    "name": "H",
+    "edges": [
+      {
+        "label": "Pollution to surface waters (limnic & terrestrial, marine & brackish)",
+        "value": "H01",
+        "next": "H01"
+      },
+      {
+        "label": "Pollution to groundwater (point sources and diffuse sources)",
+        "value": "H02",
+        "next": "H02"
+      },
+      {
+        "label": "Marine water pollution",
+        "value": "H03",
+        "next": "H03"
+      },
+      {
+        "label": "Air pollution, air-borne pollutants",
+        "value": "H04",
+        "next": "H04"
+      },
+      {
+        "label": "Soil pollution and solid waste (excluding discharges)",
+        "value": "H05",
+        "next": "H05"
+      },
+      {
+        "label": "excess energy",
+        "value": "H06",
+        "next": "H06"
+      },
+      {
+        "label": "Other forms of pollution",
+        "value": "H07",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "H01": {
+    "name": "H01",
+    "edges": [
+      {
+        "label": "pollution to surface waters by industrial plants",
+        "value": "H01.01",
+        "next": "__end__"
+      },
+      {
+        "label": "pollution to surface waters by storm overflows",
+        "value": "H01.02",
+        "next": "__end__"
+      },
+      {
+        "label": "other point source pollution to surface water",
+        "value": "H01.03",
+        "next": "__end__"
+      },
+      {
+        "label": "diffuse pollution to surface waters via strom overlows or urban run-off",
+        "value": "H01.04",
+        "next": "__end__"
+      },
+      {
+        "label": "diffuse pollution to surface waters due to agricultural and forestry activities",
+        "value": "H01.05",
+        "next": "__end__"
+      },
+      {
+        "label": "diffuse pollution to surface waters due to transport and infrastructure without connection to canalization/sweepers",
+        "value": "H01.06",
+        "next": "__end__"
+      },
+      {
+        "label": "diffuse pollution to surface waters due to abandoned industrial sites",
+        "value": "H01.07",
+        "next": "__end__"
+      },
+      {
+        "label": "diffuse pollution to surface waters due to household sewage and waste waters",
+        "value": "H01.08",
+        "next": "__end__"
+      },
+      {
+        "label": "diffuse pollution to surface waters due to other sources not listed",
+        "value": "H01.09",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "H02": {
+    "name": "H02",
+    "edges": [
+      {
+        "label": "groundwater pollution by leakages from contaminated sites",
+        "value": "H02.01",
+        "next": "__end__"
+      },
+      {
+        "label": "groundwater pollution by leakages from waste disposal sites",
+        "value": "H02.02",
+        "next": "__end__"
+      },
+      {
+        "label": "groundwater pollution associated with oil industry infrastructure",
+        "value": "H02.03",
+        "next": "__end__"
+      },
+      {
+        "label": "groundwater pollution by mine water discharges",
+        "value": "H02.04",
+        "next": "__end__"
+      },
+      {
+        "label": "groundwater pollution by discharge to ground such as disposal of contaminated water to soakaways",
+        "value": "H02.05",
+        "next": "__end__"
+      },
+      {
+        "label": "diffuse groundwater pollution due to agricultural and forestry activities",
+        "value": "H02.06",
+        "next": "__end__"
+      },
+      {
+        "label": "diffuse groundwater pollution due to non-sewered population",
+        "value": "H02.07",
+        "next": "__end__"
+      },
+      {
+        "label": "diffuse groundwater pollution due to urban land use",
+        "value": "H02.08",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "H03": {
+    "name": "H03",
+    "edges": [
+      {
+        "label": "oil spills in the sea",
+        "value": "H03.01",
+        "next": "__end__"
+      },
+      {
+        "label": "toxic chemical discharge from material dumped at sea",
+        "value": "H03.02",
+        "next": "H03.02"
+      },
+      {
+        "label": "marine macro-pollution (i.e. plastic bags, styrofoam)",
+        "value": "H03.03",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "H03.02": {
+    "name": "H03.02",
+    "edges": [
+      {
+        "label": "non-synthetic compound contamination",
+        "value": "H03.02.01",
+        "next": "__end__"
+      },
+      {
+        "label": "synthetic compound contamination ",
+        "value": "H03.02.02",
+        "next": "__end__"
+      },
+      {
+        "label": "radionucleide contamination",
+        "value": "H03.02.03",
+        "next": "__end__"
+      },
+      {
+        "label": "introduction of other substances (e.g. liquid, gas)",
+        "value": "H03.02.04",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "H04": {
+    "name": "H04",
+    "edges": [
+      {
+        "label": "Acid rain",
+        "value": "H04.01",
+        "next": "__end__"
+      },
+      {
+        "label": "Nitrogen-input",
+        "value": "H04.02",
+        "next": "__end__"
+      },
+      {
+        "label": "other air pollution",
+        "value": "H04.03",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "H05": {
+    "name": "H05",
+    "edges": [
+      {
+        "label": "garbage and solid waste",
+        "value": "H05.01",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "H06": {
+    "name": "H06",
+    "edges": [
+      {
+        "label": "Noise nuisance, noise pollution",
+        "value": "H06.01",
+        "next": "H06.01"
+      },
+      {
+        "label": "Light pollution",
+        "value": "H06.02",
+        "next": "__end__"
+      },
+      {
+        "label": "Thermal heating of water bodies",
+        "value": "H06.03",
+        "next": "__end__"
+      },
+      {
+        "label": "Electromagnetic changes",
+        "value": "H06.04",
+        "next": "__end__"
+      },
+      {
+        "label": "Seismic exploration, explosions",
+        "value": "H06.05",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "H06.01": {
+    "name": "H06.01",
+    "edges": [
+      {
+        "label": "point source or irregular noise pollution",
+        "value": "H06.01.01",
+        "next": "__end__"
+      },
+      {
+        "label": "diffuse or permanent noise pollution",
+        "value": "H06.01.02",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "I": {
+    "name": "I",
+    "edges": [
+      {
+        "label": "invasive non-native species",
+        "value": "I01",
+        "next": "__end__"
+      },
+      {
+        "label": "problematic native species",
+        "value": "I02",
+        "next": "__end__"
+      },
+      {
+        "label": "introduced genetic material, GMO",
+        "value": "I03",
+        "next": "I03"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "I03": {
+    "name": "I03",
+    "edges": [
+      {
+        "label": "genetic pollution (animals)",
+        "value": "I03.01",
+        "next": "__end__"
+      },
+      {
+        "label": "genetic pollution (plants)",
+        "value": "I03.02",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "J": {
+    "name": "J",
+    "edges": [
+      {
+        "label": "fire and fire suppression",
+        "value": "J01",
+        "next": "J01"
+      },
+      {
+        "label": "human induced changes in hydraulic conditions",
+        "value": "J02",
+        "next": "J02"
+      },
+      {
+        "label": "Other ecosystem modifications",
+        "value": "J03",
+        "next": "J03"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "J01": {
+    "name": "J01",
+    "edges": [
+      {
+        "label": "burning down",
+        "value": "J01.01",
+        "next": "__end__"
+      },
+      {
+        "label": "supression of natural fires",
+        "value": "J01.02",
+        "next": "__end__"
+      },
+      {
+        "label": "lack of fires",
+        "value": "J01.03",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "J02": {
+    "name": "J02",
+    "edges": [
+      {
+        "label": "Landfill, land reclamation and drying out, general",
+        "value": "J02.01",
+        "next": "J02.01"
+      },
+      {
+        "label": "Removal of sediments (mud...)",
+        "value": "J02.02",
+        "next": "J02.02"
+      },
+      {
+        "label": "Canalisation & water deviation",
+        "value": "J02.03",
+        "next": "J02.03"
+      },
+      {
+        "label": "Flooding modifications",
+        "value": "J02.04",
+        "next": "J02.04"
+      },
+      {
+        "label": "Modification of hydrographic functioning, general",
+        "value": "J02.05",
+        "next": "J02.05"
+      },
+      {
+        "label": "Water abstractions from surface waters",
+        "value": "J02.06",
+        "next": "J02.06"
+      },
+      {
+        "label": "Water abstractions from groundwater",
+        "value": "J02.07",
+        "next": "J02.07"
+      },
+      {
+        "label": "Raising the groundwater table /artificial recharge of goundwater",
+        "value": "J02.08",
+        "next": "J02.08"
+      },
+      {
+        "label": "Saltwater intrusion of groundwater",
+        "value": "J02.09",
+        "next": "J02.09"
+      },
+      {
+        "label": "management of aquatic and bank vegetation for drainage purposes",
+        "value": "J02.10",
+        "next": "__end__"
+      },
+      {
+        "label": "Siltation rate changes, dumping, depositing of dredged deposits",
+        "value": "J02.11",
+        "next": "J02.11"
+      },
+      {
+        "label": "Dykes, embankments, artificial beaches, general",
+        "value": "J02.12",
+        "next": "J02.12"
+      },
+      {
+        "label": "Abandonment of management of water bodies",
+        "value": "J02.13",
+        "next": "__end__"
+      },
+      {
+        "label": "Altered water quality due anthropogenic changes in salinity",
+        "value": "J02.14",
+        "next": "__end__"
+      },
+      {
+        "label": "Other human induced changes in hydraulic conditions",
+        "value": "J02.15",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "J02.01": {
+    "name": "J02.01",
+    "edges": [
+      {
+        "label": "polderisation",
+        "value": "J02.01.01",
+        "next": "__end__"
+      },
+      {
+        "label": "reclamation of land from sea, estuary or marsh",
+        "value": "J02.01.02",
+        "next": "__end__"
+      },
+      {
+        "label": "infilling of ditches, dykes, ponds, pools, marshes or pits",
+        "value": "J02.01.03",
+        "next": "__end__"
+      },
+      {
+        "label": "recultivation of mining areas",
+        "value": "J02.01.04",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "J02.02": {
+    "name": "J02.02",
+    "edges": [
+      {
+        "label": "dredging/ removal of limnic sediments",
+        "value": "J02.02.01",
+        "next": "__end__"
+      },
+      {
+        "label": "estuarine and coastal dredging",
+        "value": "J02.02.02",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "J02.03": {
+    "name": "J02.03",
+    "edges": [
+      {
+        "label": "large scale water deviation",
+        "value": "J02.03.01",
+        "next": "__end__"
+      },
+      {
+        "label": "canalisation",
+        "value": "J02.03.02",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "J02.04": {
+    "name": "J02.04",
+    "edges": [
+      {
+        "label": "flooding",
+        "value": "J02.04.01",
+        "next": "__end__"
+      },
+      {
+        "label": "lack of  flooding",
+        "value": "J02.04.02",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "J02.05": {
+    "name": "J02.05",
+    "edges": [
+      {
+        "label": "modification of water flow (tidal & marine currents)",
+        "value": "J02.05.01",
+        "next": "__end__"
+      },
+      {
+        "label": "modifying structures of inland water courses",
+        "value": "J02.05.02",
+        "next": "__end__"
+      },
+      {
+        "label": "mofification of standing water bodies",
+        "value": "J02.05.03",
+        "next": "__end__"
+      },
+      {
+        "label": "reservoirs",
+        "value": "J02.05.04",
+        "next": "__end__"
+      },
+      {
+        "label": "small hydropower projects, weirs",
+        "value": "J02.05.05",
+        "next": "__end__"
+      },
+      {
+        "label": "wave exposure changes ",
+        "value": "J02.05.06",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "J02.06": {
+    "name": "J02.06",
+    "edges": [
+      {
+        "label": "surface water abstractions for agriculture",
+        "value": "J02.06.01",
+        "next": "__end__"
+      },
+      {
+        "label": "surface water abstractions for public water supply",
+        "value": "J02.06.02",
+        "next": "__end__"
+      },
+      {
+        "label": "surface water abstractions by manufacturing industry",
+        "value": "J02.06.03",
+        "next": "__end__"
+      },
+      {
+        "label": "surface water abstractions for the production of electricity (cooling)",
+        "value": "J02.06.04",
+        "next": "__end__"
+      },
+      {
+        "label": "surface water abstractions by fish farms",
+        "value": "J02.06.05",
+        "next": "__end__"
+      },
+      {
+        "label": "surface water abstractions by hydro-energy",
+        "value": "J02.06.06",
+        "next": "__end__"
+      },
+      {
+        "label": "surface water abstractions by quarries/ open cast (coal) sites",
+        "value": "J02.06.07",
+        "next": "__end__"
+      },
+      {
+        "label": "surface water abstractions for navigation",
+        "value": "J02.06.08",
+        "next": "__end__"
+      },
+      {
+        "label": "surface water abstractions for water transfer",
+        "value": "J02.06.09",
+        "next": "__end__"
+      },
+      {
+        "label": "other major surface water abstractions",
+        "value": "J02.06.10",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "J02.07": {
+    "name": "J02.07",
+    "edges": [
+      {
+        "label": "groundwater abstractions for agriculture",
+        "value": "J02.07.01",
+        "next": "__end__"
+      },
+      {
+        "label": "groundwater abstractions for  public water supply",
+        "value": "J02.07.02",
+        "next": "__end__"
+      },
+      {
+        "label": "groundwater abstractions by industry",
+        "value": "J02.07.03",
+        "next": "__end__"
+      },
+      {
+        "label": "groundwater abstractions by quarries/open cast (coal)sites",
+        "value": "J02.07.04",
+        "next": "__end__"
+      },
+      {
+        "label": "other major groundwater abstractions from groundwater for agriculture",
+        "value": "J02.07.05",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "J02.08": {
+    "name": "J02.08",
+    "edges": [
+      {
+        "label": "discharges to groundwater for artificial recharge purposes",
+        "value": "J02.08.01",
+        "next": "__end__"
+      },
+      {
+        "label": "returns of groundwater to GWB from which it was abstracted",
+        "value": "J02.08.02",
+        "next": "__end__"
+      },
+      {
+        "label": "mine water rebound",
+        "value": "J02.08.03",
+        "next": "__end__"
+      },
+      {
+        "label": "other major groundwater recharge",
+        "value": "J02.08.04",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "J02.09": {
+    "name": "J02.09",
+    "edges": [
+      {
+        "label": "saltwater intrusion",
+        "value": "J02.09.01",
+        "next": "__end__"
+      },
+      {
+        "label": "other intrusion",
+        "value": "J02.09.02",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "J02.11": {
+    "name": "J02.11",
+    "edges": [
+      {
+        "label": "Dumping, depositing of dredged deposits",
+        "value": "J02.11.01",
+        "next": "__end__"
+      },
+      {
+        "label": "Other siltation rate changes",
+        "value": "J02.11.02",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "J02.12": {
+    "name": "J02.12",
+    "edges": [
+      {
+        "label": "sea defense or coast protection works, tidal barrages",
+        "value": "J02.12.01",
+        "next": "__end__"
+      },
+      {
+        "label": "dykes and flooding defense in inland water systems",
+        "value": "J02.12.02",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "J03": {
+    "name": "J03",
+    "edges": [
+      {
+        "label": "reduction or loss of specific habitat features",
+        "value": "J03.01",
+        "next": "J03.01"
+      },
+      {
+        "label": "anthropogenic reduction of habitat connectivity",
+        "value": "J03.02",
+        "next": "J03.02"
+      },
+      {
+        "label": "reduction, lack or prevention of erosion",
+        "value": "J03.03",
+        "next": "__end__"
+      },
+      {
+        "label": "applied (industrial) destructive research",
+        "value": "J03.04",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "J03.01": {
+    "name": "J03.01",
+    "edges": [
+      {
+        "label": "reduction of prey availability (inluding carcasses)",
+        "value": "J03.01.01",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "J03.02": {
+    "name": "J03.02",
+    "edges": [
+      {
+        "label": "reduction in migration/ migration barriers",
+        "value": "J03.02.01",
+        "next": "__end__"
+      },
+      {
+        "label": "reduction in dispersal",
+        "value": "J03.02.02",
+        "next": "__end__"
+      },
+      {
+        "label": "reduction in genetic exchange",
+        "value": "J03.02.03",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "K": {
+    "name": "K",
+    "edges": [
+      {
+        "label": "abiotic (slow) natural processes",
+        "value": "K01",
+        "next": "K01"
+      },
+      {
+        "label": "Biocenotic evolution, succession",
+        "value": "K02",
+        "next": "K02"
+      },
+      {
+        "label": "Interspecific faunal relations",
+        "value": "K03",
+        "next": "K03"
+      },
+      {
+        "label": "Interspecific floral relations",
+        "value": "K04",
+        "next": "K04"
+      },
+      {
+        "label": "reduced fecundity/ genetic depression",
+        "value": "K05",
+        "next": "K05"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "K01": {
+    "name": "K01",
+    "edges": [
+      {
+        "label": "Erosion",
+        "value": "K01.01",
+        "next": "__end__"
+      },
+      {
+        "label": "Silting up",
+        "value": "K01.02",
+        "next": "__end__"
+      },
+      {
+        "label": "Drying out",
+        "value": "K01.03",
+        "next": "__end__"
+      },
+      {
+        "label": "Submersion",
+        "value": "K01.04",
+        "next": "__end__"
+      },
+      {
+        "label": "Soil salinization",
+        "value": "K01.05",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "K02": {
+    "name": "K02",
+    "edges": [
+      {
+        "label": "species composition change (succession)",
+        "value": "K02.01",
+        "next": "__end__"
+      },
+      {
+        "label": "accumulation of organic material",
+        "value": "K02.02",
+        "next": "__end__"
+      },
+      {
+        "label": "eutrophication (natural)",
+        "value": "K02.03",
+        "next": "__end__"
+      },
+      {
+        "label": "acidification (natural)",
+        "value": "K02.04",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "K03": {
+    "name": "K03",
+    "edges": [
+      {
+        "label": "competition (fauna)",
+        "value": "K03.01",
+        "next": "__end__"
+      },
+      {
+        "label": "parasitism (fauna)",
+        "value": "K03.02",
+        "next": "__end__"
+      },
+      {
+        "label": "introduction of disease (microbial pathogens)",
+        "value": "K03.03",
+        "next": "__end__"
+      },
+      {
+        "label": "predation",
+        "value": "K03.04",
+        "next": "__end__"
+      },
+      {
+        "label": "antagonism arising from introduction of species",
+        "value": "K03.05",
+        "next": "__end__"
+      },
+      {
+        "label": "antagonism with domestic animals",
+        "value": "K03.06",
+        "next": "__end__"
+      },
+      {
+        "label": "other forms of interspecific faunal competition",
+        "value": "K03.07",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "K04": {
+    "name": "K04",
+    "edges": [
+      {
+        "label": "competition (flora)",
+        "value": "K04.01",
+        "next": "__end__"
+      },
+      {
+        "label": "parasitism (flora)",
+        "value": "K04.02",
+        "next": "__end__"
+      },
+      {
+        "label": "introduction of disease (microbial pathogens)",
+        "value": "K04.03",
+        "next": "__end__"
+      },
+      {
+        "label": "lack of pollinating agents",
+        "value": "K04.04",
+        "next": "__end__"
+      },
+      {
+        "label": "damage by herbivores (including game species)",
+        "value": "K04.05",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "K05": {
+    "name": "K05",
+    "edges": [
+      {
+        "label": "reduced fecundity/ genetic depression in animals (inbreeding)",
+        "value": "K05.01",
+        "next": "__end__"
+      },
+      {
+        "label": "reduced fecundity/ genetic depression in plants (incl. endogamy)",
+        "value": "K05.02",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "": {
+    "name": "",
+    "edges": [
+      {
+        "label": "other forms or mixed forms of interspecific floral competition",
+        "value": "K06",
+        "next": "__end__"
+      }
+    ]
+  },
+  "L": {
+    "name": "L",
+    "edges": [
+      {
+        "label": "volcanic activity",
+        "value": "L01",
+        "next": "__end__"
+      },
+      {
+        "label": "tidal wave, tsunamis",
+        "value": "L02",
+        "next": "__end__"
+      },
+      {
+        "label": "earthquake",
+        "value": "L03",
+        "next": "__end__"
+      },
+      {
+        "label": "avalanche",
+        "value": "L04",
+        "next": "__end__"
+      },
+      {
+        "label": "collapse of terrain, landslide",
+        "value": "L05",
+        "next": "__end__"
+      },
+      {
+        "label": "undergound collapses",
+        "value": "L06",
+        "next": "__end__"
+      },
+      {
+        "label": "storm, cyclone",
+        "value": "L07",
+        "next": "__end__"
+      },
+      {
+        "label": "inundation (natural processes)",
+        "value": "L08",
+        "next": "__end__"
+      },
+      {
+        "label": "fire (natural)",
+        "value": "L09",
+        "next": "__end__"
+      },
+      {
+        "label": "other natural catastrophes",
+        "value": "L10",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "M": {
+    "name": "M",
+    "edges": [
+      {
+        "label": "Changes in abiotic conditions",
+        "value": "M01",
+        "next": "M01"
+      },
+      {
+        "label": "Changes in biotic conditions",
+        "value": "M02",
+        "next": "M02"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "M01": {
+    "name": "M01",
+    "edges": [
+      {
+        "label": "temperature changes (e.g. rise of temperature & extremes)",
+        "value": "M01.01",
+        "next": "__end__"
+      },
+      {
+        "label": "droughts and less precipitations",
+        "value": "M01.02",
+        "next": "__end__"
+      },
+      {
+        "label": "flooding and rising precipitations",
+        "value": "M01.03",
+        "next": "__end__"
+      },
+      {
+        "label": "pH-changes",
+        "value": "M01.04",
+        "next": "__end__"
+      },
+      {
+        "label": "water flow changes (limnic, tidal and oceanic)",
+        "value": "M01.05",
+        "next": "__end__"
+      },
+      {
+        "label": "wave exposure changes ",
+        "value": "M01.06",
+        "next": "__end__"
+      },
+      {
+        "label": "sea-level changes",
+        "value": "M01.07",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "M02": {
+    "name": "M02",
+    "edges": [
+      {
+        "label": "habitat shifting and alteration",
+        "value": "M02.01",
+        "next": "__end__"
+      },
+      {
+        "label": "desynchronisation of processes",
+        "value": "M02.02",
+        "next": "__end__"
+      },
+      {
+        "label": "decline or extinction of species",
+        "value": "M02.03",
+        "next": "__end__"
+      },
+      {
+        "label": "migration of species (natural newcomers)",
+        "value": "M02.04",
+        "next": "__end__"
+      }
+    ],
+    "label": "Select the most appropriate"
+  },
+  "__root__": "root"
+}
