@@ -115,7 +115,7 @@
       {
         "label": "grazing",
         "value": "A04",
-        "next": "__end__"
+        "next": "A04"
       },
       {
         "label": "livestock farming and animal breeding (without grazing)",

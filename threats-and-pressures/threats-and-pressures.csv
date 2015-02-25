@@ -9,7 +9,7 @@ answer,mowing / cutting of grassland,A03,A,A03
 answer,intensive mowing or intensification,A03.01,A03,
 answer,non intensive mowing,A03.02,A03,
 answer,abandonment / lack of  mowing ,A03.03,A03,
-answer,grazing,A04,A,
+answer,grazing,A04,A,A04
 answer,intensive grazing,A04.01,A04,A04.01
 answer,intensive cattle grazing,A04.01.01,A04.01,
 answer,intensive sheep grazing,A04.01.02,A04.01,
