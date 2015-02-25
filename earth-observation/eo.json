@@ -1,0 +1,1010 @@
+{
+  "__version__": 2,
+  "__root__": "root",
+  "root": {
+    "name": "root",
+    "label": "Select the most appropriate",
+    "edges": [
+      {
+        "label": "Primarly vegetated",
+        "value": "1.0.0",
+        "next": "Base Class I"
+      },
+      {
+        "label": "Primarly non-vegetated",
+        "value": "2.0.0",
+        "next": "2.0.0"
+      }
+    ]
+  },
+  "Base Class I": {
+    "name":  "Base Class I",
+    "label": "Is it mostly",
+    "edges": [
+      {
+        "label": "green",
+        "value": "green",
+        "next": "1.0.0"
+      },
+      {
+        "label": "brown",
+        "value": "brown",
+        "next": "1.0.0"
+      },
+      {
+        "label": "burnt",
+        "value": "burnt",
+        "next": "1.0.0"
+      }
+    ]
+  },
+  "1.0.0": {
+    "name": "1.0.0",
+    "label": "Select the most appropriate",
+    "edges": [
+      {
+        "label": "It is terrestrial",
+        "value": "1.1.0",
+        "next": "PV"
+      },
+      {
+        "label": "It is aquatic/regularly flooded",
+        "value": "1.2.0",
+        "next": "PV"
+      }
+    ]
+  },
+  "1.1.0": {
+    "name": "1.1.0",
+    "label": "Select the most appropriate",
+    "edges": [
+      {
+        "label": "It is cultivated/managed (Primarily vegetated, terrestrial cultivated/managed)",
+        "value": "1.1.1",
+        "next": "1.1.1_1.2.1_1"
+      },
+      {
+        "label": "It is natural/semi-natural (Primarily vegetated, terrestrial natural/semi-natural)",
+        "value": "1.1.2",
+        "next": "__end__"
+      }
+    ]
+  },
+  "1.2.0": {
+    "name": "1.2.0",
+    "label": "Select the most appropriate",
+    "edges": [
+      {
+        "label": "It is cultivated/managed (Primarily vegetated, aquatic/regularly flooded, cultivated/managed)",
+        "value": "1.2.1",
+        "next": "1.2.1_1"
+      },
+      {
+        "label": "It is natural/semi-natural (Primarily vegetated, aquatic/regularly flooded, natural/semi-natural)",
+        "value": "1.2.2",
+        "next": "__end__"
+      }
+    ]
+  },
+  "PV": {
+    "name": "PV",
+    "label": "Is it primarly ",
+    "edges": [
+      {
+        "label": "Trees",
+        "value": "PV.1",
+        "next": "PV.1"
+      },
+      {
+        "label": "Bushes,shrubs",
+        "value": "PV.2",
+        "next": "PV.2.1"
+      },
+      {
+        "label": "Herbaceous plants(grasses and forbs)",
+        "value": "PV.3.1",
+        "next": "PV.3.1"
+      },
+      {
+        "label": "Succulents",
+        "value": "PV.2-1",
+        "next": "PV.2"
+      },
+      {
+        "label": "Lichens",
+        "value": "PV.2-2",
+        "next": "PV.2"
+      },
+      {
+        "label": "Mosses",
+        "value": "PV.2-3",
+        "next": "PV.2"
+      }
+    ]
+  },
+  "PV.1": {
+    "name": "PV.1",
+    "label": "Select the most appropriate",
+    "edges": [
+      {
+        "label": "Broadleaved",
+        "value": "PV.1.1",
+        "next": "PV.2"
+      },
+      {
+        "label": "Coniferous",
+        "value": "PV1.2",
+        "next": "PV.2"
+      },
+      {
+        "label": "Palm Trees",
+        "value": "PV1.3",
+        "next": "PV.2"
+      }
+    ]
+  },
+  "PV.2": {
+    "name": "PV.2",
+    "label": "Name the leaf character",
+    "edges": [
+      {
+        "label": "Sclerophyte",
+        "value": "PV.1.1_2.1",
+        "next": "PV.3"
+      },
+      {
+        "label": "Regular",
+        "value": "PV.1.1_2.2",
+        "next": "PV.3"
+      }
+    ]
+  },
+  "PV.3": {
+    "name": "PV.3",
+    "label": "Describe the phenology",
+    "edges": [
+      {
+        "label": "Annual",
+        "value": "Annual",
+        "next": "PV.4"
+      },
+      {
+        "label": "Multiannual",
+        "value": "Multiannual",
+        "next": "PV.4"
+      },
+      {
+        "label": "Permanent",
+        "value": "Permanent",
+        "next": "PV.4"
+      },
+      {
+        "label": "Evergreen",
+        "value": "Evergreen",
+        "next": "PV.4"
+      },
+      {
+        "label": "Deciduous",
+        "value": "Deciduous",
+        "next": "PV.4"
+      }
+    ]
+  },
+  "PV.4": {
+    "name": "PV.4",
+    "label": "What is the crown cover density (%)?",
+    "edges": [
+      {
+        "label": "density",
+        "match": {
+          "type": "number"
+        },
+        "element": {
+          "type": "slider",
+          "options": {
+            "min": 0,
+            "max": 100,
+            "value": 50
+          }
+        },
+        "next": "PV.5"
+      }
+    ]
+  },
+  "PV.5": {
+    "name": "PV.5",
+    "label": "What is the vegetation height (m)?",
+    "edges": [
+      {
+        "label": "height",
+        "match": {
+          "type": "number"
+        },
+        "element": {
+          "type": "slider",
+          "options": {
+            "min": 0,
+            "max": 30,
+            "value": 10
+          }
+        },
+        "next": "PV.6"
+      }
+    ]
+  },
+  "PV.6": {
+    "name": "PV.6",
+    "label": "Is there a second layer of vegetation?",
+    "edges": [
+      {
+        "label": "yes, but I don’t want to add more info on it",
+        "value": "yes",
+        "next": "1.1.0"
+      },
+      {
+        "label": "no",
+        "value": "no",
+        "next": "1.1.0"
+      },
+      {
+        "label": "yes and I will provide more info on that now",
+        "value": "yes_extra_info",
+        "next": "PV"
+      }
+    ]
+  },
+  "PV.2.1": {
+    "label": "Select the most appropriate",
+    "name": "PV.2.1",
+    "edges": [
+      {
+        "label": "Regular bushes",
+        "value": "PV2.1",
+        "next": "PV.1"
+      },
+      {
+        "label": "Dwarf Shrubs",
+        "value": "PV2.2",
+        "next": "PV.1"
+      }
+    ]
+  },
+  "PV.3.1": {
+    "label": "Select the most appropriate",
+    "name": "PV.3.1",
+    "edges": [
+      {
+        "label": "Regular graminaceous",
+        "value": "PV1.1",
+        "next": "PV.1"
+      },
+      {
+        "label": "Reeds",
+        "value": "PV1.2",
+        "next": "PV.1"
+      },
+      {
+        "label": "Forbs, ferns",
+        "value": "PV3.3",
+        "next": "PV.1"
+      }
+    ]
+  },
+  "1.1.1_1.2.1_1": {
+    "label": "What is the agricultural type?",
+    "name": "1.1.1_1.2.1_1",
+    "edges": [
+      {
+        "label": "Arable cropland",
+        "value": "1.1.1_1.2.1_1.1",
+        "next": "1.1.1_1.2.1_1_2"
+      },
+      {
+        "label": "Permanent cropland",
+        "value": "1.1.1_1.2.1_1.2",
+        "next": "1.1.1_1.2.1_1_2"
+      },
+      {
+        "label": "Permanent grassland",
+        "value": "1.1.1_1.2.1_1.3",
+        "next": "1.1.1_1.2.1_1_2"
+      }
+    ]
+  },
+  "1.1.1_1.2.1_1_2": {
+    "name": "1.1.1_1.2.1_1_2",
+    "label": "What is the cultivation pattern?",
+    "edges": [
+      {
+        "label": "Crop rotation",
+        "value": "1.1.1_1.2.1_2.1",
+        "next": "1.1.1_1.2.1_3"
+      },
+      {
+        "label": "No crop rotation",
+        "value": "1.1.1_1.2.1_2.2",
+        "next": "1.1.1_1.2.1_3"
+      },
+      {
+        "label": "Plantation",
+        "value": "1.1.1_1.2.1_2.3",
+        "next": "1.1.1_1.2.1_3"
+      },
+      {
+        "label": "Extensive orchards",
+        "value": "1.1.1_1.2.1_2.4",
+        "next": "1.1.1_1.2.1_3"
+      },
+      {
+        "label": "Agroforestry",
+        "value": "1.1.1_1.2.1_2.5",
+        "next": "1.1.1_1.2.1_3"
+      },
+      {
+        "label": "Shifting cultivation (slash and burn)",
+        "value": "1.1.1_1.2.1_2.6",
+        "next": "1.1.1_1.2.1_3"
+      }
+    ]
+  },
+  "1.1.1_1.2.1_3": {
+    "label": "Is there fertilizing?",
+    "name": "1.1.1_1.2.1_3",
+    "edges": [
+      {
+        "label": "Yes",
+        "value": "1.1.1_1.2.1_3.1",
+        "next": "1.1.1_1.2.1_4"
+      },
+      {
+        "label": "No",
+        "value": "1.1.1_1.2.1_3.2",
+        "next": "1.1.1_1.2.1_4"
+      },
+      {
+        "label": "Not sure",
+        "value": "1.1.1_1.2.1_3.3",
+        "next": "1.1.1_1.2.1_4"
+      }
+    ]
+  },
+  "1.1.1_1.2.1_4": {
+    "label": "Is there irrigation?",
+    "name": "1.1.1_1.2.1_4",
+    "edges": [
+      {
+        "label": "Yes",
+        "value": "1.1.1_1.2.1_4.1",
+        "next": "1.1.1_1.2.1_5"
+      },
+      {
+        "label": "No",
+        "value": "1.1.1_1.2.1_4.2",
+        "next": "1.1.1_1.2.1_5"
+      },
+      {
+        "label": "Not sure",
+        "value": "1.1.1_1.2.1_4.3",
+        "next": "1.1.1_1.2.1_5"
+      }
+    ]
+  },
+  "1.1.1_1.2.1_5": {
+    "label": "Is there mowing?",
+    "name": "1.1.1_1.2.1_5",
+    "edges": [
+      {
+        "label": "Yes",
+        "value": "1.1.1_1.2.1_5.1",
+        "next": "1.1.1_1.2.1_5.1"
+      },
+      {
+        "label": "No",
+        "value": "1.1.1_1.2.1_6-2",
+        "next": "1.1.1_1.2.1_6"
+      },
+      {
+        "label": "Not sure",
+        "value": "1.1.1_1.2.1_6-3"
+      }
+    ]
+  },
+  "1.1.1_1.2.1_5.1": {
+    "label": "Is it intense?",
+    "name": "1.1.1_1.2.1_5.1",
+    "edges": [
+      {
+        "label": "yes",
+        "value": "",
+        "next": "1.1.1_1.2.1_6"
+      },
+      {
+        "label": "no",
+        "value": "",
+        "next": "1.1.1_1.2.1_6"
+      }
+    ]
+  },
+  "1.1.1_1.2.1_6": {
+    "label": "Is there grazing?",
+    "name": "1.1.1_1.2.1_6",
+    "edges": [
+      {
+        "label": "Yes",
+        "value": "1.1.1_1.2.1_6.1",
+        "next": "1.1.1_1.2.1_6.1"
+      },
+      {
+        "label": "No",
+        "value": "1.1.1_1.2.1_7-2",
+        "next": "1.1.1_1.2.1_7"
+      },
+      {
+        "label": "Not sure",
+        "value": "1.1.1_1.2.1_7-3"
+      }
+    ]
+  },
+  "1.1.1_1.2.1_6.1": {
+    "label": "Is it intense?",
+    "name": "1.1.1_1.2.1_6.1",
+    "edges": [
+      {
+        "label": "yes",
+        "value": "",
+        "next": "1.1.1_1.2.1_7"
+      },
+      {
+        "label": "no",
+        "value": "",
+        "next": "1.1.1_1.2.1_7"
+      }
+    ]
+  },
+  "1.1.1_1.2.1_7": {
+    "label": "Is there drainage?",
+    "name": "1.1.1_1.2.1_7",
+    "edges": [
+      {
+        "label": "Yes",
+        "value": "1.1.1_1.2.1_7.1",
+        "next": "1.1.1_1.2.1_8"
+      },
+      {
+        "label": "No",
+        "value": "1.1.1_1.2.1_7.2",
+        "next": "1.1.1_1.2.1_8"
+      },
+      {
+        "label": "Not sure",
+        "value": "1.1.1_1.2.1_7.3",
+        "next": "1.1.1_1.2.1_8"
+      }
+    ]
+  },
+  "1.1.1_1.2.1_8": {
+    "label": "Is the land managed as a forest?",
+    "name": "1.1.1_1.2.1_8",
+    "edges": [
+      {
+        "label": "Yes",
+        "value": "1.1.1_1.2.1_8.1",
+        "next": "1.1.1_1.2.1_8.1"
+      },
+      {
+        "label": "No",
+        "value": "1.1.1_1.2.1_9.2",
+        "next": "1.1.1_1.2.1_9"
+      },
+      {
+        "label": "Not sure",
+        "value": "1.1.1_1.2.1_9.3",
+        "next": "1.1.1_1.2.1_9"
+      }
+    ]
+  },
+  "1.1.1_1.2.1_8.1": {
+    "label": "Is it managed for wood production?",
+    "name": "1.1.1_1.2.1_8.1",
+    "edges": [
+      {
+        "label": "Yes",
+        "value": "1.1.1_1.2.1_8.1.1",
+        "next": "1.1.1_1.2.1_8.1.1"
+      },
+      {
+        "label": "No",
+        "value": "1.1.1_1.2.1_9.2-1",
+        "next": "1.1.1_1.2.1_8.2"
+      },
+      {
+        "label": "Not sure",
+        "value": "1.1.1_1.2.1_8.2-2"
+      }
+    ]
+  },
+  "1.1.1_1.2.1_8.1.1": {
+    "label": "Select the most appropriate",
+    "name": "1.1.1_1.2.1_8.1.1",
+    "edges": [
+      {
+        "label": "It is a plantation (i.e. plantation, monoculture, large clearcuts, strong soil preparation, short cycles)",
+        "value": "1.1.1_1.2.1_10.1.1.1",
+        "next": "1.1.1_1.2.1_8.2"
+      },
+      {
+        "label": "It is regular forestry with clearcuts possible?",
+        "value": "1.1.1_1.2.1_10.1.1.2",
+        "next": "1.1.1_1.2.1_8.2"
+      }
+    ]
+  },
+  "1.1.1_1.2.1_8.2": {
+    "label": "Is it multifunctional?",
+    "name": "1.1.1_1.2.1_8.2",
+    "edges": [
+      {
+        "label": "Yes",
+        "value": "1.1.1_1.2.1_8.2.1",
+        "next": "1.1.1_1.2.1_9"
+      },
+      {
+        "label": "No",
+        "value": "1.1.1_1.2.1_8.2.2",
+        "next": "1.1.1_1.2.1_9"
+      },
+      {
+        "label": "Not sure",
+        "value": "1.1.1_1.2.1_8.2.3",
+        "next": "1.1.1_1.2.1_9"
+      }
+    ]
+  },
+  "1.1.1_1.2.1_9": {
+    "label": "Is the land managed as cropland? ",
+    "name": "1.1.1_1.2.1_9",
+    "edges": [
+      {
+        "label": "Yes",
+        "value": "1.1.1_1.2.1_9.1",
+        "next": "1.1.1_1.2.1_9.1"
+      },
+      {
+        "label": "No",
+        "value": "1.1.1_1.2.1_10-1",
+        "next": "1.1.1_1.2.1_10"
+      },
+      {
+        "label": "Not sure",
+        "value": "1.1.1_1.2.1_10-2",
+        "next": "__end__"
+      }
+    ]
+  },
+  "1.1.1_1.2.1_9.1": {
+    "label": "Is it for ",
+    "name": "1.1.1_1.2.1_9.1",
+    "edges": [
+      {
+        "label": "arable crops? (e.g. cereal, rice, root crops, leguminous, oil crops, vegetables, cotton, hop, asparagus, strawberries, flowers)",
+        "value": "1.1.1_1.2.1_10.1.1",
+        "next": "1.1.1_1.2.1_10"
+      },
+      {
+        "label": "permanent crops? (e.g. vineyards, fruit/berries/nuts, olive trees, nursery/Christmas trees, coffee/tea/cacao, banana, willow)",
+        "value": "1.1.1_1.2.1_10.1.2",
+        "next": "1.1.1_1.2.1_10"
+      }
+    ]
+  },
+  "1.1.1_1.2.1_10": {
+    "label": "Is it pasture/meadow?",
+    "name": "1.1.1_1.2.1_10",
+    "edges": [
+      {
+        "label": "Yes",
+        "value": "1.1.1_1.2.1_12.1",
+        "next": "1.1.1_1.2.1_11"
+      },
+      {
+        "label": "No",
+        "value": "1.1.1_1.2.1_12.2",
+        "next": "1.1.1_1.2.1_11"
+      },
+      {
+        "label": "Not sure",
+        "value": "1.1.1_1.2.1_12.3",
+        "next": "1.1.1_1.2.1_11"
+      },
+      {
+        "label": "Other",
+        "value": "1.1.1_1.2.1_12.4",
+        "next": "1.1.1_1.2.1_11"
+      }
+    ]
+  },
+  "1.1.1_1.2.1_11": {
+    "label": "What is the approx. field size? (ha)",
+    "name": "1.1.1_1.2.1_11",
+    "edges": [
+      {
+        "label": "size",
+        "match": {
+          "type": "number"
+        },
+        "element": {
+          "type": "slider",
+          "options": {
+            "min": 0,
+            "max": 20,
+            "value": 10
+          }
+        },
+        "next": "__end__"
+      }
+    ]
+  },
+  "1.2.1_1": {
+    "label": "Water regime:",
+    "name": "1.2.1_1",
+    "edges": [
+      {
+        "label": "waterlogged",
+        "value": "1.2.1_1.1",
+        "next": "1.2.1_2"
+      },
+      {
+        "label": "wet periodically/seasonally",
+        "value": "1.2.1_1.2",
+        "next": "1.2.1_2"
+      },
+      {
+        "label": "episodic i.e. dry for several months",
+        "value": "1.2.1_1.3",
+        "next": "1.2.1_2"
+      }
+    ]
+  },
+  "1.2.1_2": {
+    "label": "Wetness:",
+    "name": "1.2.1_2",
+    "edges": [
+      {
+        "label": "surface water",
+        "value": "1.2.1_2.1",
+        "next": "1.2.1_3"
+      },
+      {
+        "label": "saturated ground",
+        "value": "1.2.1_2.2",
+        "next": "1.2.1_3"
+      }
+    ]
+  },
+  "1.2.1_3": {
+    "label": "Salinity",
+    "name": "1.2.1_3",
+    "edges": [
+      {
+        "label": "Is the water saline?",
+        "value": "1.2.1_3.1",
+        "next": "1.2.1_4"
+      },
+      {
+        "label": "Is the water brackish?",
+        "value": "1.2.1_3.2",
+        "next": "1.2.1_4"
+      },
+      {
+        "label": "Is the water fresh?",
+        "value": "1.2.1_3.3",
+        "next": "1.2.1_4"
+      }
+    ]
+  },
+  "1.2.1_4": {
+    "label": "Is there a tidal influence?",
+    "name": "1.2.1_4",
+    "edges": [
+      {
+        "label": "Yes",
+        "value": "1.2.1_4.1",
+        "next": "1.1.1_1.2.1_1"
+      },
+      {
+        "label": "No",
+        "value": "1.2.1_3.2",
+        "next": "1.1.1_1.2.1_1"
+      },
+      {
+        "label": "Not Sure",
+        "value": "1.2.1_4.1",
+        "next": "1.1.1_1.2.1_1"
+      }
+    ]
+  },
+  "2.0.0": {
+    "label": "Select the most appropriate",
+    "name": "2.0.0",
+    "edges": [
+      {
+        "label": "terrestrial",
+        "value": "2.1.0",
+        "next": "2.1.0"
+      },
+      {
+        "label": "aquatic/regularly flooded",
+        "value": "2.2.0",
+        "next": "2.2.0"
+      }
+    ]
+  },
+  "2.1.0": {
+    "label": "Select the most appropriate",
+    "name": "2.1.0",
+    "edges": [
+      {
+        "label": "artificial surfaces and constructions (primarily non-vegetated, terrestrial, artificial surfaces and constructions)",
+        "value": "2.1.1",
+        "next": "2.1.1"
+      },
+      {
+        "label": "bare areas/natural material surface (primarily non-vegetated, terrestrial, bare areas/natural material surfaces)",
+        "value": "2.1.2",
+        "next": "2.1.2"
+      }
+    ]
+  },
+  "2.2.0": {
+    "label": "Select the most appropriate",
+    "name": "2.2.0",
+    "edges": [
+      {
+        "label": "artificial waterbodies, snow, ice (primarily non-vegetated, aquatic/regularly flooded, artificial waterbodies, snow, ice)",
+        "value": "2.2.1",
+        "next": "2.2.1"
+      },
+      {
+        "label": "natural waterbodies, snow, ice (primarily non-vegetated, aquatic/regularly flooded, natural waterbodies, snow, ice)",
+        "value": "2.2.2",
+        "next": "2.2.2"
+      }
+    ]
+  },
+  "2.1.1": {
+    "label": "Select the most appropriate",
+    "name": "2.1.1",
+    "edges": [
+      {
+        "label": "Sealed",
+        "value": "AS-C1",
+        "next": "AS-C1"
+      },
+      {
+        "label": "Non-sealed",
+        "value": "AS-C2",
+        "next": "AS-C2"
+      }
+    ]
+  },
+  "AS-C1": {
+    "label": "Select the most appropriate",
+    "name": "AS-C1",
+    "edges": [
+      {
+        "label": "Buildings",
+        "value": "AS-C1.1",
+        "next": "AS-C1.1"
+      },
+      {
+        "label": "Other constructions",
+        "value": "AS-C1.2",
+        "next": "__end__"
+      }
+    ]
+  },
+  "AS-C1.1": {
+    "label": "Buldings:",
+    "name": "AS-C1.1",
+    "edges": [
+      {
+        "label": "Are they, Conventional buildings (e.g. houses, blocks of flats, city street blocks, stores) ",
+        "value": "AS-C1.1.1",
+        "next": "__end__"
+      },
+      {
+        "label": "Specific buildings (e.g. stadiums, churches, towers, greenhouse)",
+        "value": "AS-C2.1.2",
+        "next": "__end__"
+      }
+    ]
+  },
+  "AS-C2": {
+    "label": "Select the most appropriate",
+    "name": "AS-C2",
+    "edges": [
+      {
+        "label": "It is Waste materials (e.g. communal / industrial/ waste)",
+        "value": "AS-C2.1",
+        "next": "__end__"
+      },
+      {
+        "label": "Other artificial surface (e.g. nat. mat. displaced from original origin, artificially consolidated, e.g. logistic and storage areas, festive squares, unvegetated sport fields, railway tracks)",
+        "value": "AS-C2.2",
+        "next": "__end__"
+      }
+    ]
+  },
+  "2.1.2": {
+    "label": "Select the most appropriate",
+    "name": "2.1.2",
+    "edges": [
+      {
+        "label": "Consolidated?",
+        "value": "BNM1",
+        "next": "BNM1"
+      },
+      {
+        "label": "Un-consolidated",
+        "value": "BNM2",
+        "next": "BNM2"
+      }
+    ]
+  },
+  "BNM1": {
+    "label": "Select the most appropriate",
+    "name": "BNM1",
+    "edges": [
+      {
+        "label": "Bare rock?",
+        "value": "BNM1.1",
+        "next": "__end__"
+      },
+      {
+        "label": "Hard-pan?",
+        "value": "BNM1.2",
+        "next": "__end__"
+      }
+    ]
+  },
+  "BNM2": {
+    "label": "Select the most appropriate",
+    "name": "BNM2",
+    "edges": [
+      {
+        "label": "Mineral fragments?",
+        "value": "BNM2.1",
+        "next": "BNM2.1"
+      },
+      {
+        "label": "Bare soils",
+        "value": "BNM2.2"
+      },
+      {
+        "label": "Natural deposits",
+        "value": "BNM2.3",
+        "next": "BNM2.3"
+      }
+    ]
+  },
+  "BNM2.1": {
+    "label": "Select the most appropriate",
+    "name": "BNM2.1",
+    "edges": [
+      {
+        "label": "Boulders, stones?",
+        "value": "BNM2.1.1",
+        "next": "__end__"
+      },
+      {
+        "label": "Pebbles, gravel?",
+        "value": "BNM2.1.2",
+        "next": "__end__"
+      },
+      {
+        "label": "Sand, grit?",
+        "value": "BNM2.1.3",
+        "next": "__end__"
+      },
+      {
+        "label": "Clay, silt?",
+        "value": "BNM2.1.4",
+        "next": "__end__"
+      },
+      {
+        "label": "Mixed, unsorted material?",
+        "value": "BNM2.1.5",
+        "next": "__end__"
+      }
+    ]
+  },
+  "BNM2.3": {
+    "label": "Select the most appropriate",
+    "name": "BNM2.3",
+    "edges": [
+      {
+        "label": "inorganic deposits?",
+        "value": "BNM2.3.1",
+        "next": "__end__"
+      },
+      {
+        "label": "organic deposits?",
+        "value": "BNM2.3.2",
+        "next": "__end__"
+      }
+    ]
+  },
+  "2.2.1": {
+    "label": "Select the most appropriate",
+    "name": "2.2.1",
+    "edges": [
+      {
+        "label": "watersource?",
+        "value": "2.2.1.1",
+        "next": "__end__"
+      },
+      {
+        "label": "waterbody?",
+        "value": "2.2.1.2",
+        "next": "__end__"
+      },
+      {
+        "label": "lagoon?",
+        "value": "2.2.1.3",
+        "next": "__end__"
+      },
+      {
+        "label": "other?",
+        "value": "2.2.1.4",
+        "next": "__end__"
+      }
+    ]
+  },
+  "2.2.2": {
+    "label": "Select the most appropriate",
+    "name": "2.2.2",
+    "edges": [
+      {
+        "label": "watersource?",
+        "value": "2.2.2.1",
+        "next": "__end__"
+      },
+      {
+        "label": "waterbody?",
+        "value": "2.2.2.2",
+        "next": "__end__"
+      },
+      {
+        "label": "estuary?",
+        "value": "2.2.2.3",
+        "next": "__end__"
+      },
+      {
+        "label": "lagoon?",
+        "value": "2.2.2.3",
+        "next": "__end__"
+      },
+      {
+        "label": "open sea?",
+        "value": "2.2.2.4",
+        "next": "__end__"
+      },
+      {
+        "label": "permanent snow?",
+        "value": "2.2.2.5",
+        "next": "__end__"
+      },
+      {
+        "label": "ice/glacier?",
+        "value": "2.2.2.6",
+        "next": "__end__"
+      }
+    ]
+  },
+  "__todo__": {
+    "label": "TODO"
+  },
+  "__end__": {
+    "label": "END"
+  }
+}
