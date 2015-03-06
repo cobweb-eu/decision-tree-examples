@@ -1,0 +1,55 @@
+type,id,,,
+root,root,,,
+,,,,
+type,label,id,,
+question,"Select a species",root,,
+answer,"Abies borisii-regis",A1,root,B
+answer,"Anemone blanda",A2,root,B
+answer,"Aremonia agrimonoides",A3,root,B
+answer,"Brachypodium sylvaticum",A4,root,B
+answer,"Calamintha grandiflora",A5,root,B
+answer,"Campanula persicifolia",A6,root,B
+answer,"Campanula spatulata",A7,root,B
+answer,"Clinopodium vulgare",S8,root,B
+answer,"Daphne laureola",A9,root,B
+answer,"Fagus sylvatica",A10,root,B
+answer,"Festuca drymeja",A11,root,B
+answer,"Festuca heterophylla",A12,root,B
+answer,"Fragaria vesca",A13,root,B
+answer,"Fraxinus ornus",A14,root,B
+answer,"Galium rotundifolium",A15,root,B
+answer,"Geranium robertianum",A16,root,B
+answer,"Hieracium hoppeanum s.l.",A17,root,B
+answer,"Hieracium murorum",A18,root,B
+answer,"Hieracium pavichii",A19,root,B
+answer,"Juniperus oxycedrus",A20,root,B
+answer,"Lathyrus laxiflorus",A21,root,B
+answer,"Luzula forsteri",A22,root,B
+answer,"Ostrya carpinifolia",A23,root,B
+answer,"Pinus nigra",A24,root,B
+answer,"Primula veris",A25,root,B
+answer,"Pteridium aquilinum",A26,root,B
+answer,"Quercus cerris",A27,root,B
+answer,"Quercus pubescens",A28,root,B
+answer,"Rubus canescens",A29,root,B
+answer,"Silene italica",A30,root,B
+answer,"Teucrium chamaedrys",A31,root,B
+answer,"Trifolium alpestre",A32,root,B
+answer,"Trifolium pignantii",A33,root,B
+answer,"Veronica chamaedrys",A34,root,B
+answer,"Vicia cracca",A35,root,B
+answer,"Viola alba",A36,root,B
+answer,"Viola reichenbachiana/riviniana",A37,root,B
+question,"Define the coverage of the plot",B,,
+answer,r,B1,B,C
+answer,+,B2,B,C
+answer,1,B3,B,C
+answer,2,B4,B,C
+answer,3,B5,B,C
+answer,4,B6,B,C
+answer,5,B7,B,C
+question,"Define how often you see this species in the general area",C,,
+answer,"A (Abundant)",C1,C,
+answer,"F (Frequently)",C2,C,
+answer,"O (Occasionaly)",C3,C,
+answer,"R (rare)",C4,C,

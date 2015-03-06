@@ -1,0 +1,260 @@
+{
+    "root": {
+        "name": "root",
+        "label": "Select a species",
+        "edges": [
+            {
+                "label": "Abies borisii-regis",
+                "value": "A1",
+                "next": "B"
+            },
+            {
+                "label": "Anemone blanda",
+                "value": "A2",
+                "next": "B"
+            },
+            {
+                "label": "Aremonia agrimonoides",
+                "value": "A3",
+                "next": "B"
+            },
+            {
+                "label": "Brachypodium sylvaticum",
+                "value": "A4",
+                "next": "B"
+            },
+            {
+                "label": "Calamintha grandiflora",
+                "value": "A5",
+                "next": "B"
+            },
+            {
+                "label": "Campanula persicifolia",
+                "value": "A6",
+                "next": "B"
+            },
+            {
+                "label": "Campanula spatulata",
+                "value": "A7",
+                "next": "B"
+            },
+            {
+                "label": "Clinopodium vulgare",
+                "value": "S8",
+                "next": "B"
+            },
+            {
+                "label": "Daphne laureola",
+                "value": "A9",
+                "next": "B"
+            },
+            {
+                "label": "Fagus sylvatica",
+                "value": "A10",
+                "next": "B"
+            },
+            {
+                "label": "Festuca drymeja",
+                "value": "A11",
+                "next": "B"
+            },
+            {
+                "label": "Festuca heterophylla",
+                "value": "A12",
+                "next": "B"
+            },
+            {
+                "label": "Fragaria vesca",
+                "value": "A13",
+                "next": "B"
+            },
+            {
+                "label": "Fraxinus ornus",
+                "value": "A14",
+                "next": "B"
+            },
+            {
+                "label": "Galium rotundifolium",
+                "value": "A15",
+                "next": "B"
+            },
+            {
+                "label": "Geranium robertianum",
+                "value": "A16",
+                "next": "B"
+            },
+            {
+                "label": "Hieracium hoppeanum s.l.",
+                "value": "A17",
+                "next": "B"
+            },
+            {
+                "label": "Hieracium murorum",
+                "value": "A18",
+                "next": "B"
+            },
+            {
+                "label": "Hieracium pavichii",
+                "value": "A19",
+                "next": "B"
+            },
+            {
+                "label": "Juniperus oxycedrus",
+                "value": "A20",
+                "next": "B"
+            },
+            {
+                "label": "Lathyrus laxiflorus",
+                "value": "A21",
+                "next": "B"
+            },
+            {
+                "label": "Luzula forsteri",
+                "value": "A22",
+                "next": "B"
+            },
+            {
+                "label": "Ostrya carpinifolia",
+                "value": "A23",
+                "next": "B"
+            },
+            {
+                "label": "Pinus nigra",
+                "value": "A24",
+                "next": "B"
+            },
+            {
+                "label": "Primula veris",
+                "value": "A25",
+                "next": "B"
+            },
+            {
+                "label": "Pteridium aquilinum",
+                "value": "A26",
+                "next": "B"
+            },
+            {
+                "label": "Quercus cerris",
+                "value": "A27",
+                "next": "B"
+            },
+            {
+                "label": "Quercus pubescens",
+                "value": "A28",
+                "next": "B"
+            },
+            {
+                "label": "Rubus canescens",
+                "value": "A29",
+                "next": "B"
+            },
+            {
+                "label": "Silene italica",
+                "value": "A30",
+                "next": "B"
+            },
+            {
+                "label": "Teucrium chamaedrys",
+                "value": "A31",
+                "next": "B"
+            },
+            {
+                "label": "Trifolium alpestre",
+                "value": "A32",
+                "next": "B"
+            },
+            {
+                "label": "Trifolium pignantii",
+                "value": "A33",
+                "next": "B"
+            },
+            {
+                "label": "Veronica chamaedrys",
+                "value": "A34",
+                "next": "B"
+            },
+            {
+                "label": "Vicia cracca",
+                "value": "A35",
+                "next": "B"
+            },
+            {
+                "label": "Viola alba",
+                "value": "A36",
+                "next": "B"
+            },
+            {
+                "label": "Viola reichenbachiana/riviniana",
+                "value": "A37",
+                "next": "B"
+            }
+        ]
+    },
+    "B": {
+        "name": "B",
+        "label": "Define the coverage of the plot",
+        "edges": [
+            {
+                "label": "r",
+                "value": "B1",
+                "next": "C"
+            },
+            {
+                "label": "+",
+                "value": "B2",
+                "next": "C"
+            },
+            {
+                "label": "1",
+                "value": "B3",
+                "next": "C"
+            },
+            {
+                "label": "2",
+                "value": "B4",
+                "next": "C"
+            },
+            {
+                "label": "3",
+                "value": "B5",
+                "next": "C"
+            },
+            {
+                "label": "4",
+                "value": "B6",
+                "next": "C"
+            },
+            {
+                "label": "5",
+                "value": "B7",
+                "next": "C"
+            }
+        ]
+    },
+    "C": {
+        "name": "C",
+        "label": "Define how often you see this species in the general area",
+        "edges": [
+            {
+                "label": "A ()",
+                "value": "C1",
+                "next": "__end__"
+            },
+            {
+                "label": "F (Frequently)",
+                "value": "C2",
+                "next": "__end__"
+            },
+            {
+                "label": "O (Occasionaly)",
+                "value": "C3",
+                "next": "__end__"
+            },
+            {
+                "label": "R (rare)",
+                "value": "C4",
+                "next": "__end__"
+            }
+        ]
+    }
+}
