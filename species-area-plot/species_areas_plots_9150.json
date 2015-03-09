@@ -14,18 +14,13 @@
         "next": "B"
       },
       {
-        "label": "Anemone blanda",
-        "value": "anebla",
-        "next": "B"
-      },
-      {
         "label": "Aremonia agrimonoides",
         "value": "areagr",
         "next": "B"
       },
       {
-        "label": "Brachypodium sylvaticum",
-        "value": "brasyl",
+        "label": "Buxus sempervirens",
+        "value": "buxsem",
         "next": "B"
       },
       {
@@ -34,23 +29,53 @@
         "next": "B"
       },
       {
-        "label": "Campanula persicifolia",
-        "value": "camper",
+        "label": "Cardamine bulbifera",
+        "value": "carbul",
         "next": "B"
       },
       {
-        "label": "Campanula spatulata",
-        "value": "camspa",
+        "label": "Cardamine graeca",
+        "value": "cargra",
         "next": "B"
       },
       {
-        "label": "Clinopodium vulgare",
-        "value": "clivul",
+        "label": "Cephalanthera damasonium",
+        "value": "cepdam",
+        "next": "B"
+      },
+      {
+        "label": "Cephalanthera rubra",
+        "value": "ceprub",
+        "next": "B"
+      },
+      {
+        "label": "Cotoneaster nebrodensis",
+        "value": "cotneb",
         "next": "B"
       },
       {
         "label": "Daphne laureola",
         "value": "daplau",
+        "next": "B"
+      },
+      {
+        "label": "Doronicum orientale",
+        "value": "dorori",
+        "next": "B"
+      },
+      {
+        "label": "Epipactis helleborine",
+        "value": "epihel",
+        "next": "B"
+      },
+      {
+        "label": "Euonymus verrucosus",
+        "value": "euover",
+        "next": "B"
+      },
+      {
+        "label": "Euphorbia amygdaloides",
+        "value": "eupamy",
         "next": "B"
       },
       {
@@ -64,18 +89,13 @@
         "next": "B"
       },
       {
-        "label": "Festuca heterophylla",
-        "value": "feshet",
-        "next": "B"
-      },
-      {
         "label": "Fragaria vesca",
         "value": "fraves",
         "next": "B"
       },
       {
-        "label": "Fraxinus ornus",
-        "value": "fraorn",
+        "label": "Galium odoratum",
+        "value": "galodo",
         "next": "B"
       },
       {
@@ -84,13 +104,8 @@
         "next": "B"
       },
       {
-        "label": "Geranium robertianum",
-        "value": "gerrob",
-        "next": "B"
-      },
-      {
-        "label": "Hieracium hoppeanum s.l.",
-        "value": "hiehop",
+        "label": "Hedera helix",
+        "value": "hedhel",
         "next": "B"
       },
       {
@@ -99,13 +114,13 @@
         "next": "B"
       },
       {
-        "label": "Hieracium pavichii",
-        "value": "hiepav",
+        "label": "Ilex aquifolium",
+        "value": "ileaqu",
         "next": "B"
       },
       {
-        "label": "Juniperus oxycedrus",
-        "value": "junoxy",
+        "label": "Lathyrus alpestris",
+        "value": "latalp",
         "next": "B"
       },
       {
@@ -114,23 +129,53 @@
         "next": "B"
       },
       {
-        "label": "Luzula forsteri",
-        "value": "luzfor",
+        "label": "Lilium martagon",
+        "value": "lilmar",
         "next": "B"
       },
       {
-        "label": "Ostrya carpinifolia",
-        "value": "ostcar",
+        "label": "Luzula sylvatica",
+        "value": "luzsyl",
         "next": "B"
       },
       {
-        "label": "Pinus nigra",
-        "value": "pinnig",
+        "label": "Melica uniflora",
+        "value": "meluni",
         "next": "B"
       },
       {
-        "label": "Primula veris",
-        "value": "priver",
+        "label": "Mercurialis ovata",
+        "value": "merova",
+        "next": "B"
+      },
+      {
+        "label": "Neottia nidus-avis",
+        "value": "neonid",
+        "next": "B"
+      },
+      {
+        "label": "Orthilia secunda",
+        "value": "ortsec",
+        "next": "B"
+      },
+      {
+        "label": "Physospermum cornubiense",
+        "value": "phycor",
+        "next": "B"
+      },
+      {
+        "label": "Poa nemoralis",
+        "value": "poanem",
+        "next": "B"
+      },
+      {
+        "label": "Polystichum aculeatum",
+        "value": "polacu",
+        "next": "B"
+      },
+      {
+        "label": "Polystichum lonchitis",
+        "value": "pollon",
         "next": "B"
       },
       {
@@ -139,53 +184,43 @@
         "next": "B"
       },
       {
-        "label": "Quercus cerris",
-        "value": "quecer",
+        "label": "Pyrola chlorantha",
+        "value": "pyrchl",
         "next": "B"
       },
       {
-        "label": "Quercus pubescens",
-        "value": "quepub",
+        "label": "Sanicula europaea",
+        "value": "saneur",
         "next": "B"
       },
       {
-        "label": "Rubus canescens",
-        "value": "rubcan",
+        "label": "Saxifraga rotundifolia",
+        "value": "saxrot",
         "next": "B"
       },
       {
-        "label": "Silene italica",
-        "value": "silita",
+        "label": "Silene multicaulis",
+        "value": "silmul",
         "next": "B"
       },
       {
-        "label": "Teucrium chamaedrys",
-        "value": "teucha",
+        "label": "Solidago virgaurea",
+        "value": "solvir",
         "next": "B"
       },
       {
-        "label": "Trifolium alpestre",
-        "value": "trialp",
+        "label": "Sorbus aria",
+        "value": "sorari",
         "next": "B"
       },
       {
-        "label": "Trifolium pignantii",
-        "value": "tripig",
+        "label": "Sorbus aucuparia",
+        "value": "sorauc",
         "next": "B"
       },
       {
         "label": "Veronica chamaedrys",
         "value": "vercha",
-        "next": "B"
-      },
-      {
-        "label": "Vicia cracca",
-        "value": "viccra",
-        "next": "B"
-      },
-      {
-        "label": "Viola alba",
-        "value": "vioalb",
         "next": "B"
       },
       {
@@ -199,6 +234,11 @@
     "name": "B",
     "label": "Define the coverage of the plot",
     "edges": [
+      {
+        "label": "no coverage",
+        "value": "B0",
+        "next": "C"
+      },
       {
         "label": "r",
         "value": "B1",
@@ -232,11 +272,6 @@
       {
         "label": "5",
         "value": "B7",
-        "next": "C"
-      },
-      {
-        "label": "no coverage",
-        "value": "B8",
         "next": "C"
       }
     ]

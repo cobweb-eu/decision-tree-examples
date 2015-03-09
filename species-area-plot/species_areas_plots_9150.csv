@@ -1,63 +1,70 @@
-type,id,,,
-root,root,,,
+"type","id",,,
+"root","root",,,
 ,,,,
-type,label,id,,
-question,Select a species,root,,
-type,label,value,from,to
-answer,Abies borisii-regis,abibor,root,B
-answer,Anemone blanda,anebla,root,B
-answer,Aremonia agrimonoides,areagr,root,B
-answer,Brachypodium sylvaticum,brasyl,root,B
-answer,Calamintha grandiflora,calgra,root,B
-answer,Campanula persicifolia,camper,root,B
-answer,Campanula spatulata,camspa,root,B
-answer,Clinopodium vulgare,clivul,root,B
-answer,Daphne laureola,daplau,root,B
-answer,Fagus sylvatica,fagsyl,root,B
-answer,Festuca drymeja,fesdry,root,B
-answer,Festuca heterophylla,feshet,root,B
-answer,Fragaria vesca,fraves,root,B
-answer,Fraxinus ornus,fraorn,root,B
-answer,Galium rotundifolium,galrot,root,B
-answer,Geranium robertianum,gerrob,root,B
-answer,Hieracium hoppeanum s.l.,hiehop,root,B
-answer,Hieracium murorum,hiemur,root,B
-answer,Hieracium pavichii,hiepav,root,B
-answer,Juniperus oxycedrus,junoxy,root,B
-answer,Lathyrus laxiflorus,latlax,root,B
-answer,Luzula forsteri,luzfor,root,B
-answer,Ostrya carpinifolia,ostcar,root,B
-answer,Pinus nigra,pinnig,root,B
-answer,Primula veris,priver,root,B
-answer,Pteridium aquilinum,pteaqu,root,B
-answer,Quercus cerris,quecer,root,B
-answer,Quercus pubescens,quepub,root,B
-answer,Rubus canescens,rubcan,root,B
-answer,Silene italica,silita,root,B
-answer,Teucrium chamaedrys,teucha,root,B
-answer,Trifolium alpestre,trialp,root,B
-answer,Trifolium pignantii,tripig,root,B
-answer,Veronica chamaedrys,vercha,root,B
-answer,Vicia cracca,viccra,root,B
-answer,Viola alba,vioalb,root,B
-answer,Viola reichenbachiana/riviniana,viorei,root,B
+"type","label","id",,
+"question","Select a species","root",,
+"type","label","value","from","to"
+"answer","Abies borisii-regis","abibor","root","B"
+"answer","Aremonia agrimonoides","areagr","root","B"
+"answer","Buxus sempervirens","buxsem","root","B"
+"answer","Calamintha grandiflora","calgra","root","B"
+"answer","Cardamine bulbifera","carbul","root","B"
+"answer","Cardamine graeca","cargra","root","B"
+"answer","Cephalanthera damasonium","cepdam","root","B"
+"answer","Cephalanthera rubra","ceprub","root","B"
+"answer","Cotoneaster nebrodensis","cotneb","root","B"
+"answer","Daphne laureola","daplau","root","B"
+"answer","Doronicum orientale","dorori","root","B"
+"answer","Epipactis helleborine","epihel","root","B"
+"answer","Euonymus verrucosus","euover","root","B"
+"answer","Euphorbia amygdaloides","eupamy","root","B"
+"answer","Fagus sylvatica","fagsyl","root","B"
+"answer","Festuca drymeja","fesdry","root","B"
+"answer","Fragaria vesca","fraves","root","B"
+"answer","Galium odoratum","galodo","root","B"
+"answer","Galium rotundifolium","galrot","root","B"
+"answer","Hedera helix","hedhel","root","B"
+"answer","Hieracium murorum","hiemur","root","B"
+"answer","Ilex aquifolium","ileaqu","root","B"
+"answer","Lathyrus alpestris","latalp","root","B"
+"answer","Lathyrus laxiflorus","latlax","root","B"
+"answer","Lilium martagon","lilmar","root","B"
+"answer","Luzula sylvatica","luzsyl","root","B"
+"answer","Melica uniflora","meluni","root","B"
+"answer","Mercurialis ovata","merova","root","B"
+"answer","Neottia nidus-avis","neonid","root","B"
+"answer","Orthilia secunda","ortsec","root","B"
+"answer","Physospermum cornubiense","phycor","root","B"
+"answer","Poa nemoralis","poanem","root","B"
+"answer","Polystichum aculeatum","polacu","root","B"
+"answer","Polystichum lonchitis","pollon","root","B"
+"answer","Pteridium aquilinum","pteaqu","root","B"
+"answer","Pyrola chlorantha","pyrchl","root","B"
+"answer","Sanicula europaea","saneur","root","B"
+"answer","Saxifraga rotundifolia","saxrot","root","B"
+"answer","Silene multicaulis","silmul","root","B"
+"answer","Solidago virgaurea","solvir","root","B"
+"answer","Sorbus aria","sorari","root","B"
+"answer","Sorbus aucuparia","sorauc","root","B"
+"answer","Veronica chamaedrys","vercha","root","B"
+"answer","Viola reichenbachiana/riviniana","viorei","root","B"
 ,,,,
-type,label,id,,
-question,Define the coverage of the plot,B,,
-type,label,value,from,to
-answer,r,B1,B,C
-answer,+,B2,B,C
-answer,1,B3,B,C
-answer,2,B4,B,C
-answer,3,B5,B,C
-answer,4,B6,B,C
-answer,5,B7,B,C
-answer,no coverage,B8,B,C
+"type","label","id",,
+"question","Define the coverage of the plot","B",,
+"type","label","value","from","to"
+"answer","no coverage","B0","B","C"
+"answer","r","B1","B","C"
+"answer","+","B2","B","C"
+"answer",1,"B3","B","C"
+"answer",2,"B4","B","C"
+"answer",3,"B5","B","C"
+"answer",4,"B6","B","C"
+"answer",5,"B7","B","C"
 ,,,,
-type,label,id,,
-question,Define how often you see this species in the general area,C,,
-type,label,value,from,to
-answer,A (Abundant),C1,C,
-answer,F (Frequent),C2,C,
-answer,O (Occasional),C3,C,
-answer,R (Rare),C4,C,
+"type","label","id",,
+"question","Define how often you see this species in the general area","C",,
+"type","label","value","from","to"
+"answer","A (Abundant)","C1","C",
+"answer","F (Frequent)","C2","C",
+"answer","O (Occasional)","C3","C",
+"answer","R (Rare)","C4","C",
