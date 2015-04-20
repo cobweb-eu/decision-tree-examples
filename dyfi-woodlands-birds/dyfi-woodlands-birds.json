@@ -54,7 +54,7 @@
   },
   "willow_warbler": {
     "name": "willow_warbler",
-    "label": "Willow Warbler",
+    "label": "It was a Willow Warbler",
     "edges": [
       {
         "label": "Willow Warbler",
@@ -102,7 +102,7 @@
   },
   "wood_warbler": {
     "name": "wood_warbler",
-    "label": "Wood Warbler",
+    "label": "It was a Wood Warbler",
     "edges": [
       {
         "label": "Wood Warbler",
@@ -113,7 +113,7 @@
   },
   "great_tit": {
     "name": "great_tit",
-    "label": "Great Tit",
+    "label": "It was a Great Tit",
     "edges": [
       {
         "label": "Great Tit",
@@ -124,7 +124,7 @@
   },
   "chiff_chaff": {
     "name": "chiff_chaff",
-    "label": "Chiff Chaff",
+    "label": "It was a Chiff Chaff",
     "edges": [
       {
         "label": "Chiff Chaff",
@@ -183,7 +183,7 @@
   },
   "redstart": {
     "name": "redstart",
-    "label": "Redstart",
+    "label": "It was a Redstart",
     "edges": [
       {
         "label": "Redstart",
@@ -194,7 +194,7 @@
   },
   "pied_flycatcher": {
     "name": "pied_flycatcher",
-    "label": "Pied Flycatcher",
+    "label": "It was a Pied Flycatcher",
     "edges": [
       {
         "label": "Pied Flycatcher",
