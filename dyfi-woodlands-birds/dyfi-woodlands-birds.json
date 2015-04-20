@@ -1,0 +1,227 @@
+{
+  "__version__": 2,
+  "__end__": {
+    "label": "END"
+  },
+  "__root__": "root",
+  "heard": {
+    "name": "heard",
+    "label": "Did you hear it?",
+    "edges": [
+      {
+        "label": "Yes",
+        "value": "Yes",
+        "next": "descending"
+      },
+      {
+        "label": "No",
+        "value": "No",
+        "next": "seen"
+      }
+    ]
+  },
+  "descending": {
+    "name": "descending",
+    "label": "Was it decending?",
+    "edges": [
+      {
+        "label": "Yes",
+        "value": "Yes",
+        "next": "willow_warbler"
+      },
+      {
+        "label": "No",
+        "value": "No",
+        "next": "seen"
+      }
+    ]
+  },
+  "seen": {
+    "name": "seen",
+    "label": "Did you see it?",
+    "edges": [
+      {
+        "label": "Yes",
+        "value": "Yes",
+        "next": "any_color"
+      },
+      {
+        "label": "No",
+        "value": "No",
+        "next": "__end__"
+      }
+    ]
+  },
+  "willow_warbler": {
+    "name": "willow_warbler",
+    "label": "Willow Warbler",
+    "edges": [
+      {
+        "label": "Willow Warbler",
+        "value": "Willow Warbler",
+        "next": "__end__"
+      }
+    ]
+  },
+  "repetitive": {
+    "name": "repetitive",
+    "label": "Was it repetitive?",
+    "edges": [
+      {
+        "label": "Yes",
+        "value": "Yes",
+        "next": "repeat"
+      },
+      {
+        "label": "No",
+        "value": "No",
+        "next": "seen"
+      }
+    ]
+  },
+  "repeat": {
+    "name": "repeat",
+    "label": "Did it repeat?",
+    "edges": [
+      {
+        "label": "One Note",
+        "value": "One Note",
+        "next": "wood_warbler"
+      },
+      {
+        "label": "Rapid two notes",
+        "value": "Rapid two notes",
+        "next": "great_tit"
+      },
+      {
+        "label": "Slow two notes",
+        "value": "Slow two notes",
+        "next": "chiff_chaff"
+      }
+    ]
+  },
+  "wood_warbler": {
+    "name": "wood_warbler",
+    "label": "Wood Warbler",
+    "edges": [
+      {
+        "label": "Wood Warbler",
+        "value": "Wood Warbler",
+        "next": "__end__"
+      }
+    ]
+  },
+  "great_tit": {
+    "name": "great_tit",
+    "label": "Great Tit",
+    "edges": [
+      {
+        "label": "Great Tit",
+        "value": "Great Tit",
+        "next": "__end__"
+      }
+    ]
+  },
+  "chiff_chaff": {
+    "name": "chiff_chaff",
+    "label": "Chiff Chaff",
+    "edges": [
+      {
+        "label": "Chiff Chaff",
+        "value": "Chiff Chaff",
+        "next": "__end__"
+      }
+    ]
+  },
+  "any_color": {
+    "name": "any_color",
+    "label": "Did you see any colour on the bird?",
+    "edges": [
+      {
+        "label": "Yes",
+        "value": "Yes",
+        "next": "colour"
+      },
+      {
+        "label": "No",
+        "value": "No",
+        "next": "any_movement"
+      }
+    ]
+  },
+  "colour": {
+    "name": "colour",
+    "label": "Was it?",
+    "edges": [
+      {
+        "label": "orange on its breast (aka rump) and tail",
+        "value": "orange on its breast (aka rump) and tail",
+        "next": "redstart"
+      },
+      {
+        "label": " black and white only over its whole body",
+        "value": " black and white only over its whole body",
+        "next": "pied_flycatcher"
+      }
+    ]
+  },
+  "any_movement": {
+    "name": "any_movement",
+    "label": "Did you see any movement?",
+    "edges": [
+      {
+        "label": "Yes",
+        "value": "Yes",
+        "next": "movement"
+      },
+      {
+        "label": "No",
+        "value": "No",
+        "next": "__end__"
+      }
+    ]
+  },
+  "redstart": {
+    "name": "redstart",
+    "label": "Redstart",
+    "edges": [
+      {
+        "label": "Redstart",
+        "value": "Redstart",
+        "next": "__end__"
+      }
+    ]
+  },
+  "pied_flycatcher": {
+    "name": "pied_flycatcher",
+    "label": "Pied Flycatcher",
+    "edges": [
+      {
+        "label": "Pied Flycatcher",
+        "value": "Pied Flycatcher",
+        "next": "__end__"
+      }
+    ]
+  },
+  "movement": {
+    "name": "movement",
+    "label": "Was it?",
+    "edges": [
+      {
+        "label": "feeding on ground",
+        "value": "feeding on ground",
+        "next": "pied_flycatcher"
+      },
+      {
+        "label": "twitch its wings and tail constantly",
+        "value": "twitch its wings and tail constantly",
+        "next": "chiff_chaff"
+      },
+      {
+        "label": "quivering its tail every now and then",
+        "value": "quivering its tail every now and then",
+        "next": "redstart"
+      }
+    ]
+  }
+}

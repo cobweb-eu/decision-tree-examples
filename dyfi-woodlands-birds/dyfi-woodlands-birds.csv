@@ -1,0 +1,62 @@
+"type","id",,,
+"root","root",,,
+,,,,
+"type","label","id",,
+"type","label","value","from","to"
+,,,,
+"question","Did you hear it?","heard",,
+"answer","Yes","Yes","heard","descending"
+"answer","No","No","heard","seen"
+,,,,
+"question","Was it decending?","descending",,
+"answer","Yes","Yes","descending","willow_warbler"
+"answer","No","No","descending","seen"
+,,,,
+"question","Was it repetitive?","repetitive",,
+"answer","Yes","Yes","repetitive","repeat"
+"answer","No","No","repetitive","seen"
+,,,,
+"question","Did it repeat?","repeat",,
+"answer","One Note","One Note","repeat","wood_warbler"
+"answer","Rapid two notes","Rapid two notes","repeat","great_tit"
+"answer","Slow two notes","Slow two notes","repeat","chiff_chaff"
+,,,,
+"question","Did you see it?","seen",,
+"answer","Yes","Yes","seen","any_color"
+"answer","No","No","seen",
+,,,,
+"question","Did you see any colour on the bird?","any_color",,
+"answer","Yes","Yes","any_color","colour"
+"answer","No","No","any_color","any_movement"
+,,,,
+"question","Was it?","colour",,
+"answer","orange on its breast (aka rump) and tail","orange on its breast (aka rump) and tail","colour","redstart"
+"answer"," black and white only over its whole body"," black and white only over its whole body","colour","pied_flycatcher"
+,,,,
+"question","Did you see any movement?","any_movement",,
+"answer","Yes","Yes","any_movement","movement"
+"answer","No","No","any_movement",
+,,,,
+"question","Was it?","movement",,
+"answer","feeding on ground","feeding on ground","movement","pied_flycatcher"
+"answer","twitch its wings and tail constantly","twitch its wings and tail constantly","movement","chiff_chaff"
+"answer","quivering its tail every now and then","quivering its tail every now and then","movement","redstart"
+,,,,
+"type","label","id",,
+"question","Willow Warbler","willow_warbler",,
+"answer","Willow Warbler","Willow Warbler","willow_warbler",
+,,,,
+"question","Wood Warbler","wood_warbler",,
+"answer","Wood Warbler","Wood Warbler","wood_warbler",
+,,,,
+"question","Great Tit","great_tit",,
+"answer","Great Tit","Great Tit","great_tit",
+,,,,
+"question","Chiff Chaff","chiff_chaff",,
+"answer","Chiff Chaff","Chiff Chaff","chiff_chaff",
+,,,,
+"question","Redstart","redstart",,
+"answer","Redstart","Redstart","redstart",
+,,,,
+"question","Pied Flycatcher","pied_flycatcher",,
+"answer","Pied Flycatcher","Pied Flycatcher","pied_flycatcher",
