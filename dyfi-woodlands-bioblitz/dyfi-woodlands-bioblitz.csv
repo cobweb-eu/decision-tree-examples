@@ -58,15 +58,15 @@
 "answer","Other","other","plant","other_type"
 "answer","Not sure","not sure","plant",
 ,,,,
-"question","Do you know the species?","other_type",,
+"question","What do you think it might be","other_type",,
 "answer","Custom","custom","other_type","know_specie"
 ,,,,
 "question","Do you know the species?","know_specie",,
 "answer","Yes","yes","know_specie","specie"
 "answer","No","no","know_specie",
 ,,,,
-"question","What do you think it might be","specie",,
-"answer","Custom","custom","specie",
+"question","What specie do you think it might be","specie",,
+"answer","Custom","custom","specie","verified"
 ,,,,
 "question","Has it been verified? ","verified",,
 "answer","Yes","yes","verified",

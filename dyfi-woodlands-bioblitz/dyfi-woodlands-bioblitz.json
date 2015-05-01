@@ -267,10 +267,17 @@
   },
   "other_type": {
     "name": "other_type",
-    "label": "Do you know the species?",
+    "label": "What do you think it might be",
     "edges": [
       {
         "label": "Custom",
+        "element": {
+          "type": "textbox",
+          "name": "specie"
+        },
+        "match": {
+          "type": "nonempty"
+        },
         "value": "custom",
         "next": "know_specie"
       }
@@ -278,12 +285,19 @@
   },
   "specie": {
     "name": "specie",
-    "label": "What do you think it might be",
+    "label": "What specie do you think it might be",
     "edges": [
       {
         "label": "Custom",
+        "element": {
+          "type": "textbox",
+          "name": "specie"
+        },
+        "match": {
+          "type": "nonempty"
+        },
         "value": "custom",
-        "next": "__end__"
+        "next": "verified"
       }
     ]
   },
