@@ -1,0 +1,510 @@
+{
+  "__version__": 2,
+  "__end__": {
+    "label": "END"
+  },
+  "__root__": "spotted",
+  "spotted": {
+    "name": "spotted",
+    "label": "What have you spotted?",
+    "edges": [
+      {
+        "label": "Reptile",
+        "value": "reptile",
+        "next": "legged"
+      },
+      {
+        "label": "Bird",
+        "value": "bird",
+        "next": "heard"
+      },
+      {
+        "label": "Invertebrate",
+        "value": "invertebrated",
+        "next": "invertebrated"
+      },
+      {
+        "label": "Plant",
+        "value": "plant",
+        "next": "plant"
+      },
+      {
+        "label": "Other",
+        "value": "other",
+        "next": "know_specie"
+      }
+    ]
+  },
+  "legged": {
+    "name": "legged",
+    "label": "Does it have legs?",
+    "edges": [
+      {
+        "label": "Yes",
+        "value": "yes",
+        "next": "common_lizard"
+      },
+      {
+        "label": "No",
+        "value": "no",
+        "next": "patterns"
+      }
+    ]
+  },
+  "heard": {
+    "name": "heard",
+    "label": "Did you hear it?",
+    "edges": [
+      {
+        "label": "Yes",
+        "value": "Yes",
+        "next": "descending"
+      },
+      {
+        "label": "No",
+        "value": "No",
+        "next": "seen"
+      }
+    ]
+  },
+  "invertebrated": {
+    "name": "invertebrated",
+    "label": "What invertebrate do you think it is?",
+    "edges": [
+      {
+        "label": "Bee",
+        "value": "bee",
+        "next": "know_specie"
+      },
+      {
+        "label": "Beetle",
+        "value": "beetle",
+        "next": "know_specie"
+      },
+      {
+        "label": "Fly",
+        "value": "fly",
+        "next": "know_specie"
+      },
+      {
+        "label": "Ant",
+        "value": "ant",
+        "next": "know_specie"
+      },
+      {
+        "label": "Spider",
+        "value": "spider",
+        "next": "know_specie"
+      },
+      {
+        "label": "Bug",
+        "value": "bug",
+        "next": "know_specie"
+      },
+      {
+        "label": "Centipede",
+        "value": "centipede",
+        "next": "know_specie"
+      },
+      {
+        "label": "Millipede",
+        "value": "millipede",
+        "next": "know_specie"
+      },
+      {
+        "label": "Earwig",
+        "value": "earwig",
+        "next": "know_specie"
+      },
+      {
+        "label": "Butterfly",
+        "value": "butterfly",
+        "next": "know_specie"
+      },
+      {
+        "label": "Moth",
+        "value": "moth",
+        "next": "know_specie"
+      },
+      {
+        "label": "Woodlouse",
+        "value": "woodlouse",
+        "next": "know_specie"
+      },
+      {
+        "label": "Other",
+        "value": "other",
+        "next": "other_type"
+      },
+      {
+        "label": "Not sure",
+        "value": "not sure",
+        "next": "__end__"
+      }
+    ]
+  },
+  "plant": {
+    "name": "plant",
+    "label": "What plant do you think it is?",
+    "edges": [
+      {
+        "label": "tree",
+        "value": "tree",
+        "next": "know_specie"
+      },
+      {
+        "label": "flower",
+        "value": "flower",
+        "next": "know_specie"
+      },
+      {
+        "label": "lichen",
+        "value": "lichen",
+        "next": "know_specie"
+      },
+      {
+        "label": "fern",
+        "value": "fern",
+        "next": "know_specie"
+      },
+      {
+        "label": "moss",
+        "value": "moss",
+        "next": "know_specie"
+      },
+      {
+        "label": "Other",
+        "value": "other",
+        "next": "other_type"
+      },
+      {
+        "label": "Not sure",
+        "value": "not sure",
+        "next": "__end__"
+      }
+    ]
+  },
+  "know_specie": {
+    "name": "know_specie",
+    "label": "Do you know the species?",
+    "edges": [
+      {
+        "label": "Yes",
+        "value": "yes",
+        "next": "specie"
+      },
+      {
+        "label": "No",
+        "value": "no",
+        "next": "__end__"
+      }
+    ]
+  },
+  "common_lizard": {
+    "name": "common_lizard",
+    "label": "It is a",
+    "edges": [
+      {
+        "label": "Common Lizard",
+        "value": "common lizard",
+        "next": "__end__"
+      }
+    ]
+  },
+  "patterns": {
+    "name": "patterns",
+    "label": "Does it have obvious patterns?",
+    "edges": [
+      {
+        "label": "Zig Zag",
+        "value": "zig zag",
+        "next": "adder"
+      },
+      {
+        "label": "White collar and black spots down its side",
+        "value": "white collar and black spots",
+        "next": "grass_snake"
+      },
+      {
+        "label": "No",
+        "value": "no",
+        "next": "slow_worm"
+      }
+    ]
+  },
+  "adder": {
+    "name": "adder",
+    "label": "It is a",
+    "edges": [
+      {
+        "label": "Adder",
+        "value": "adder",
+        "next": "__end__"
+      }
+    ]
+  },
+  "grass_snake": {
+    "name": "grass_snake",
+    "label": "It is a",
+    "edges": [
+      {
+        "label": "Grass Snake",
+        "value": "grass snake",
+        "next": "__end__"
+      }
+    ]
+  },
+  "slow_worm": {
+    "name": "slow_worm",
+    "label": "It is a",
+    "edges": [
+      {
+        "label": "Slow Worm",
+        "value": "slow worm",
+        "next": "__end__"
+      }
+    ]
+  },
+  "other_type": {
+    "name": "other_type",
+    "label": "Do you know the species?",
+    "edges": [
+      {
+        "label": "Custom",
+        "value": "custom",
+        "next": "know_specie"
+      }
+    ]
+  },
+  "specie": {
+    "name": "specie",
+    "label": "What do you think it might be",
+    "edges": [
+      {
+        "label": "Custom",
+        "value": "custom",
+        "next": "__end__"
+      }
+    ]
+  },
+  "verified": {
+    "name": "verified",
+    "label": "Has it been verified? ",
+    "edges": [
+      {
+        "label": "Yes",
+        "value": "yes",
+        "next": "__end__"
+      },
+      {
+        "label": "No",
+        "value": "no",
+        "next": "__end__"
+      }
+    ]
+  },
+  "descending": {
+    "name": "descending",
+    "label": "Was it decending?",
+    "edges": [
+      {
+        "label": "Yes",
+        "value": "Yes",
+        "next": "willow_warbler"
+      },
+      {
+        "label": "No",
+        "value": "No",
+        "next": "seen"
+      }
+    ]
+  },
+  "seen": {
+    "name": "seen",
+    "label": "Did you see it?",
+    "edges": [
+      {
+        "label": "Yes",
+        "value": "Yes",
+        "next": "any_color"
+      },
+      {
+        "label": "No",
+        "value": "No",
+        "next": "__end__"
+      }
+    ]
+  },
+  "willow_warbler": {
+    "name": "willow_warbler",
+    "label": "It was a Willow Warbler",
+    "edges": [
+      {
+        "label": "Willow Warbler",
+        "value": "Willow Warbler",
+        "next": "__end__"
+      }
+    ]
+  },
+  "repetitive": {
+    "name": "repetitive",
+    "label": "Was it repetitive?",
+    "edges": [
+      {
+        "label": "Yes",
+        "value": "Yes",
+        "next": "repeat"
+      },
+      {
+        "label": "No",
+        "value": "No",
+        "next": "seen"
+      }
+    ]
+  },
+  "repeat": {
+    "name": "repeat",
+    "label": "Did it repeat?",
+    "edges": [
+      {
+        "label": "One Note",
+        "value": "One Note",
+        "next": "wood_warbler"
+      },
+      {
+        "label": "Rapid two notes",
+        "value": "Rapid two notes",
+        "next": "great_tit"
+      },
+      {
+        "label": "Slow two notes",
+        "value": "Slow two notes",
+        "next": "chiff_chaff"
+      }
+    ]
+  },
+  "wood_warbler": {
+    "name": "wood_warbler",
+    "label": "It was a Wood Warbler",
+    "edges": [
+      {
+        "label": "Wood Warbler",
+        "value": "Wood Warbler",
+        "next": "__end__"
+      }
+    ]
+  },
+  "great_tit": {
+    "name": "great_tit",
+    "label": "It was a Great Tit",
+    "edges": [
+      {
+        "label": "Great Tit",
+        "value": "Great Tit",
+        "next": "__end__"
+      }
+    ]
+  },
+  "chiff_chaff": {
+    "name": "chiff_chaff",
+    "label": "It was a Chiff Chaff",
+    "edges": [
+      {
+        "label": "Chiff Chaff",
+        "value": "Chiff Chaff",
+        "next": "__end__"
+      }
+    ]
+  },
+  "any_color": {
+    "name": "any_color",
+    "label": "Did you see any colour on the bird?",
+    "edges": [
+      {
+        "label": "Yes",
+        "value": "Yes",
+        "next": "colour"
+      },
+      {
+        "label": "No",
+        "value": "No",
+        "next": "any_movement"
+      }
+    ]
+  },
+  "colour": {
+    "name": "colour",
+    "label": "Was it?",
+    "edges": [
+      {
+        "label": "orange on its breast (aka rump) and tail",
+        "value": "orange on its breast (aka rump) and tail",
+        "next": "redstart"
+      },
+      {
+        "label": " black and white only over its whole body",
+        "value": " black and white only over its whole body",
+        "next": "pied_flycatcher"
+      }
+    ]
+  },
+  "any_movement": {
+    "name": "any_movement",
+    "label": "Did you see any movement?",
+    "edges": [
+      {
+        "label": "Yes",
+        "value": "Yes",
+        "next": "movement"
+      },
+      {
+        "label": "No",
+        "value": "No",
+        "next": "__end__"
+      }
+    ]
+  },
+  "redstart": {
+    "name": "redstart",
+    "label": "It was a Redstart",
+    "edges": [
+      {
+        "label": "Redstart",
+        "value": "Redstart",
+        "next": "__end__"
+      }
+    ]
+  },
+  "pied_flycatcher": {
+    "name": "pied_flycatcher",
+    "label": "It was a Pied Flycatcher",
+    "edges": [
+      {
+        "label": "Pied Flycatcher",
+        "value": "Pied Flycatcher",
+        "next": "__end__"
+      }
+    ]
+  },
+  "movement": {
+    "name": "movement",
+    "label": "Was it?",
+    "edges": [
+      {
+        "label": "feeding on ground",
+        "value": "feeding on ground",
+        "next": "pied_flycatcher"
+      },
+      {
+        "label": "twitch its wings and tail constantly",
+        "value": "twitch its wings and tail constantly",
+        "next": "chiff_chaff"
+      },
+      {
+        "label": "quivering its tail every now and then",
+        "value": "quivering its tail every now and then",
+        "next": "redstart"
+      }
+    ]
+  }
+}

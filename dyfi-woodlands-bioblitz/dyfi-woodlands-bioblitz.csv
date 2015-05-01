@@ -1,0 +1,131 @@
+"type","id",,,
+"root","spotted",,,
+,,,,
+"type","label","id",,
+"type","label","value","from","to"
+,,,,
+"question","What have you spotted?","spotted",,
+"answer","Reptile","reptile","spotted","legged"
+"answer","Bird","bird","spotted","heard"
+"answer","Invertebrate","invertebrated","spotted","invertebrated"
+"answer","Plant","plant","spotted","plant"
+"answer","Other","other","spotted","know_specie"
+,,,,
+"question","Does it have legs?","legged",,
+"answer","Yes","yes","legged","common_lizard"
+"answer","No","no","legged","patterns"
+,,,,
+,,,,
+"question","Does it have obvious patterns?","patterns",,
+"answer","Zig Zag","zig zag","patterns","adder"
+"answer","White collar and black spots down its side","white collar and black spots","patterns","grass_snake"
+"answer","No","no","patterns","slow_worm"
+,,,,
+"question","It is a","common_lizard",,
+"answer","Common Lizard","common lizard","common_lizard",
+,,,,
+"question","It is a","adder",,
+"answer","Adder","adder","adder",
+,,,,
+"question","It is a","grass_snake",,
+"answer","Grass Snake","grass snake","grass_snake",
+,,,,
+"question","It is a","slow_worm",,
+"answer","Slow Worm","slow worm","slow_worm",
+,,,,
+"question","What invertebrate do you think it is?","invertebrated",,
+"answer","Bee","bee","invertebrated","know_specie"
+"answer","Beetle","beetle","invertebrated","know_specie"
+"answer","Fly","fly","invertebrated","know_specie"
+"answer","Ant","ant","invertebrated","know_specie"
+"answer","Spider","spider","invertebrated","know_specie"
+"answer","Bug","bug","invertebrated","know_specie"
+"answer","Centipede","centipede","invertebrated","know_specie"
+"answer","Millipede","millipede","invertebrated","know_specie"
+"answer","Earwig","earwig","invertebrated","know_specie"
+"answer","Butterfly","butterfly","invertebrated","know_specie"
+"answer","Moth","moth","invertebrated","know_specie"
+"answer","Woodlouse","woodlouse","invertebrated","know_specie"
+"answer","Other","other","invertebrated","other_type"
+"answer","Not sure","not sure","invertebrated",
+,,,,
+"question","What plant do you think it is?","plant",,
+"answer","tree","tree","plant","know_specie"
+"answer","flower","flower","plant","know_specie"
+"answer","lichen","lichen","plant","know_specie"
+"answer","fern","fern","plant","know_specie"
+"answer","moss","moss","plant","know_specie"
+"answer","Other","other","plant","other_type"
+"answer","Not sure","not sure","plant",
+,,,,
+"question","Do you know the species?","other_type",,
+"answer","Custom","custom","other_type","know_specie"
+,,,,
+"question","Do you know the species?","know_specie",,
+"answer","Yes","yes","know_specie","specie"
+"answer","No","no","know_specie",
+,,,,
+"question","What do you think it might be","specie",,
+"answer","Custom","custom","specie",
+,,,,
+"question","Has it been verified? ","verified",,
+"answer","Yes","yes","verified",
+"answer","No","no","verified",
+,,,,
+,,,,
+"question","Did you hear it?","heard",,
+"answer","Yes","Yes","heard","descending"
+"answer","No","No","heard","seen"
+,,,,
+"question","Was it decending?","descending",,
+"answer","Yes","Yes","descending","willow_warbler"
+"answer","No","No","descending","seen"
+,,,,
+"question","Was it repetitive?","repetitive",,
+"answer","Yes","Yes","repetitive","repeat"
+"answer","No","No","repetitive","seen"
+,,,,
+"question","Did it repeat?","repeat",,
+"answer","One Note","One Note","repeat","wood_warbler"
+"answer","Rapid two notes","Rapid two notes","repeat","great_tit"
+"answer","Slow two notes","Slow two notes","repeat","chiff_chaff"
+,,,,
+"question","Did you see it?","seen",,
+"answer","Yes","Yes","seen","any_color"
+"answer","No","No","seen",
+,,,,
+"question","Did you see any colour on the bird?","any_color",,
+"answer","Yes","Yes","any_color","colour"
+"answer","No","No","any_color","any_movement"
+,,,,
+"question","Was it?","colour",,
+"answer","orange on its breast (aka rump) and tail","orange on its breast (aka rump) and tail","colour","redstart"
+"answer"," black and white only over its whole body"," black and white only over its whole body","colour","pied_flycatcher"
+,,,,
+"question","Did you see any movement?","any_movement",,
+"answer","Yes","Yes","any_movement","movement"
+"answer","No","No","any_movement",
+,,,,
+"question","Was it?","movement",,
+"answer","feeding on ground","feeding on ground","movement","pied_flycatcher"
+"answer","twitch its wings and tail constantly","twitch its wings and tail constantly","movement","chiff_chaff"
+"answer","quivering its tail every now and then","quivering its tail every now and then","movement","redstart"
+,,,,
+"type","label","id",,
+"question","It was a Willow Warbler","willow_warbler",,
+"answer","Willow Warbler","Willow Warbler","willow_warbler",
+,,,,
+"question","It was a Wood Warbler","wood_warbler",,
+"answer","Wood Warbler","Wood Warbler","wood_warbler",
+,,,,
+"question","It was a Great Tit","great_tit",,
+"answer","Great Tit","Great Tit","great_tit",
+,,,,
+"question","It was a Chiff Chaff","chiff_chaff",,
+"answer","Chiff Chaff","Chiff Chaff","chiff_chaff",
+,,,,
+"question","It was a Redstart","redstart",,
+"answer","Redstart","Redstart","redstart",
+,,,,
+"question","It was a Pied Flycatcher","pied_flycatcher",,
+"answer","Pied Flycatcher","Pied Flycatcher","pied_flycatcher",
