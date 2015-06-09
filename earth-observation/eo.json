@@ -415,12 +415,12 @@
     "edges": [
       {
         "label": "yes",
-        "value": "",
+        "value": "yes",
         "next": "1.1.1_1.2.1_6"
       },
       {
         "label": "no",
-        "value": "",
+        "value": "no",
         "next": "1.1.1_1.2.1_6"
       }
     ]
@@ -451,12 +451,12 @@
     "edges": [
       {
         "label": "yes",
-        "value": "",
+        "value": "yes",
         "next": "1.1.1_1.2.1_7"
       },
       {
         "label": "no",
-        "value": "",
+        "value": "no",
         "next": "1.1.1_1.2.1_7"
       }
     ]
