@@ -1,0 +1,1272 @@
+{
+  "__version__": 2,
+  "__end__": {
+    "label": "END"
+  },
+  "q01_n": {
+    "name": "q01_n",
+    "label": "Neigung",
+    "edges": [
+      {
+        "label": "flach",
+        "next": "q03_f",
+        "value": "a01_1"
+      },
+      {
+        "label": "Tiedestromkante",
+        "next": "q03_f",
+        "value": "a01_2"
+      },
+      {
+        "label": "Prielkante",
+        "next": "q03_f",
+        "value": "a01_3"
+      },
+      {
+        "label": "Brandungszone",
+        "next": "q03_f",
+        "value": "a01_4"
+      }
+    ]
+  },
+  "q03_f": {
+    "name": "q03_f",
+    "label": "Farbe des Sediments",
+    "edges": [
+      {
+        "label": "[color code]",
+        "next": "q040_wb",
+        "element": {
+          "type": "textbox"
+        },
+        "match": {
+          "type": "nonempty"
+        }
+      }
+    ]
+  },
+  "q040_wb": {
+    "name": "q040_wb",
+    "label": "Anteil Wasserbedeckung",
+    "edges": [
+      {
+        "label": "centimeters",
+        "next": "q043_r",
+        "element": {
+          "type": "slider",
+          "options": {
+            "min": "0",
+            "max": "80",
+            "value": "20"
+          }
+        },
+        "match": {
+          "type": "number"
+        }
+      }
+    ]
+  },
+  "q043_r": {
+    "name": "q043_r",
+    "label": "Rippel",
+    "edges": [
+      {
+        "label": "ja",
+        "next": "q0431_rh",
+        "value": "a043_j"
+      },
+      {
+        "label": "nein",
+        "next": "q044_mr",
+        "value": "a043_n"
+      }
+    ]
+  },
+  "q041_twb": {
+    "name": "q041_twb",
+    "label": "Tiefe der Wasserbedeckung",
+    "edges": [
+      {
+        "label": "centimeters",
+        "next": "q042_awb",
+        "element": {
+          "type": "slider",
+          "options": {
+            "min": "0",
+            "max": "10",
+            "value": "3"
+          }
+        },
+        "match": {
+          "type": "number"
+        }
+      }
+    ]
+  },
+  "q042_awb": {
+    "name": "q042_awb",
+    "label": "Art der Wasserbedeckung",
+    "edges": [
+      {
+        "label": "Pfütze/unregelmäßige Fläche",
+        "next": "q043_r",
+        "value": "a042_2"
+      },
+      {
+        "label": "(Erosions-)Mulde",
+        "next": "q043_r",
+        "value": "a042_3"
+      },
+      {
+        "label": "Senke",
+        "next": "q043_r",
+        "value": "a042_4"
+      },
+      {
+        "label": "Rippeltäler",
+        "next": "q0431_rh",
+        "value": "a042_5"
+      }
+    ]
+  },
+  "q0431_rh": {
+    "name": "q0431_rh",
+    "label": "Rippelhöhe, in cm",
+    "edges": [
+      {
+        "label": "centimeters",
+        "next": "q0432_rl",
+        "element": {
+          "type": "slider",
+          "options": {
+            "min": "0",
+            "max": "10",
+            "value": "3"
+          }
+        },
+        "match": {
+          "type": "number"
+        }
+      }
+    ]
+  },
+  "q044_mr": {
+    "name": "q044_mr",
+    "label": "Megarippel",
+    "edges": [
+      {
+        "label": "ja",
+        "next": "q045_e",
+        "value": "a044_j"
+      },
+      {
+        "label": "nein",
+        "next": "q045_e",
+        "value": "a044_n"
+      }
+    ]
+  },
+  "q0432_rl": {
+    "name": "q0432_rl",
+    "label": "Rippellänge, in cm",
+    "edges": [
+      {
+        "label": "centimeters",
+        "next": "q0433_rb",
+        "element": {
+          "type": "slider",
+          "options": {
+            "min": "0",
+            "max": "10",
+            "value": "3"
+          }
+        },
+        "match": {
+          "type": "number"
+        }
+      }
+    ]
+  },
+  "q0433_rb": {
+    "name": "q0433_rb",
+    "label": "Rippelbreite, in m",
+    "edges": [
+      {
+        "label": "meters",
+        "next": "q0434_erh",
+        "element": {
+          "type": "slider",
+          "options": {
+            "min": "0",
+            "max": "10",
+            "value": "5"
+          }
+        },
+        "match": {
+          "type": "number"
+        }
+      }
+    ]
+  },
+  "q0434_erh": {
+    "name": "q0434_erh",
+    "label": "effektive Rippelhöhe, in cm",
+    "edges": [
+      {
+        "label": "centimeters",
+        "next": "q0435_ra",
+        "element": {
+          "type": "slider",
+          "options": {
+            "min": "0",
+            "max": "10",
+            "value": "3"
+          }
+        },
+        "match": {
+          "type": "number"
+        }
+      }
+    ]
+  },
+  "q0435_ra": {
+    "name": "q0435_ra",
+    "label": "konstante Rippelausrichtung",
+    "edges": [
+      {
+        "label": "ja",
+        "next": "q04352_ra",
+        "value": "a0435_1"
+      },
+      {
+        "label": "nein",
+        "next": "q04351_ra",
+        "value": "a0435_2"
+      }
+    ]
+  },
+  "q04352_ra": {
+    "name": "q04352_ra",
+    "label": "Rippelausrichtung",
+    "edges": [
+      {
+        "label": "Kreuzrippel",
+        "next": "q0436_rs",
+        "value": "a04352_1"
+      },
+      {
+        "label": "chaotisch",
+        "next": "q0436_rs",
+        "value": "a04352_2"
+      }
+    ]
+  },
+  "q04351_ra": {
+    "name": "q04351_ra",
+    "label": "Rippelausrichtung",
+    "edges": [
+      {
+        "label": "Kreuzrippel",
+        "next": "q0436_rs",
+        "value": "a04351_1"
+      },
+      {
+        "label": "chaotisch",
+        "next": "q0436_rs",
+        "value": "a04351_2"
+      }
+    ]
+  },
+  "q0436_rs": {
+    "name": "q0436_rs",
+    "label": "Rippelsymmetrie",
+    "edges": [
+      {
+        "label": "symmetrisch",
+        "next": "q044_mr",
+        "value": "a0436_1"
+      },
+      {
+        "label": "asymmetrisch",
+        "next": "q044_mr",
+        "value": "a0436_2"
+      }
+    ]
+  },
+  "q045_e": {
+    "name": "q045_e",
+    "label": "Erosion",
+    "edges": [
+      {
+        "label": "ja",
+        "next": "q046_d",
+        "value": "a045_j"
+      },
+      {
+        "label": "nein",
+        "next": "q046_d",
+        "value": "a045_n"
+      }
+    ]
+  },
+  "q046_d": {
+    "name": "q046_d",
+    "label": "Diatomeen",
+    "edges": [
+      {
+        "label": "ja",
+        "next": "q047_am",
+        "value": "a046_j"
+      },
+      {
+        "label": "nein",
+        "next": "q047_am",
+        "value": "a046_n"
+      }
+    ]
+  },
+  "q047_am": {
+    "name": "q047_am",
+    "label": "Algenmatten",
+    "edges": [
+      {
+        "label": "ja",
+        "next": "q048_sgw",
+        "value": "a047_j"
+      },
+      {
+        "label": "nein",
+        "next": "q048_sgw",
+        "value": "a047_n"
+      }
+    ]
+  },
+  "q048_sgw": {
+    "name": "q048_sgw",
+    "label": "Seegraswiese",
+    "edges": [
+      {
+        "label": "ja",
+        "next": "q049_mb",
+        "value": "a048_j"
+      },
+      {
+        "label": "nein",
+        "next": "q049_mb",
+        "value": "a048_n"
+      }
+    ]
+  },
+  "q049_mb": {
+    "name": "q049_mb",
+    "label": "Muschelbank",
+    "edges": [
+      {
+        "label": "ja",
+        "next": "q1114_mb",
+        "value": "a049_j"
+      },
+      {
+        "label": "nein",
+        "next": "q0410_sb",
+        "value": "a049_n"
+      }
+    ]
+  },
+  "q1114_mb": {
+    "name": "q1114_mb",
+    "label": "Muschelbank",
+    "edges": [
+      {
+        "label": "Mytilus",
+        "next": "q11142",
+        "value": "q1114_1"
+      },
+      {
+        "label": "Crassostrea",
+        "next": "q11142",
+        "value": "q1114_2"
+      },
+      {
+        "label": "Crassostrea – Mytilus Mix",
+        "next": "q11141_mbm",
+        "value": "q1114_3"
+      }
+    ]
+  },
+  "q0410_sb": {
+    "name": "q0410_sb",
+    "label": "Schillbedeckung, in Prozent",
+    "edges": [
+      {
+        "label": "%",
+        "next": "q0411_et",
+        "element": {
+          "type": "slider",
+          "options": {
+            "min": "0",
+            "max": "100",
+            "value": "50"
+          }
+        },
+        "match": {
+          "type": "number"
+        }
+      }
+    ]
+  },
+  "q11142": {
+    "name": "q11142",
+    "label": "Struktur",
+    "edges": [
+      {
+        "label": "Klumpungen",
+        "next": "q1115_mbs",
+        "value": "a11142_1"
+      },
+      {
+        "label": "kleine Einzelbeete",
+        "next": "q1115_mbs",
+        "value": "a11142_2"
+      },
+      {
+        "label": "kleine dichte Beete",
+        "next": "q1115_mbs",
+        "value": "a11142_3"
+      },
+      {
+        "label": "Muschelbank >30%",
+        "next": "q1115_mbs",
+        "value": "a11142_4"
+      },
+      {
+        "label": "Muschelbank <70%",
+        "next": "q1115_mbs",
+        "value": "a11142_5"
+      },
+      {
+        "label": "Muschelbank >70%",
+        "next": "q1115_mbs",
+        "value": "a11142_6"
+      }
+    ]
+  },
+  "q11141_mbm": {
+    "name": "q11141_mbm",
+    "label": "Crassostrea – Mytilus Mix",
+    "edges": [
+      {
+        "label": "Crassostrea < Mytilus",
+        "next": "q11142",
+        "value": "a11141_1"
+      },
+      {
+        "label": "Crassostrea > Mytilus",
+        "next": "q11142",
+        "value": "a11141_2"
+      },
+      {
+        "label": "Crassostrea = Mytilus",
+        "next": "q11142",
+        "value": "a11141_3"
+      }
+    ]
+  },
+  "q1115_mbs": {
+    "name": "q1115_mbs",
+    "label": "Status",
+    "edges": [
+      {
+        "label": "Brutbank",
+        "next": "q0410_sb",
+        "value": "a1115_1"
+      },
+      {
+        "label": "1-3 jährig",
+        "next": "q0410_sb",
+        "value": "a1115_2"
+      },
+      {
+        "label": "reif",
+        "next": "q0410_sb",
+        "value": "a1115_3"
+      }
+    ]
+  },
+  "q0411_et": {
+    "name": "q0411_et",
+    "label": "Einsinktiefe, in cm",
+    "edges": [
+      {
+        "label": "cm",
+        "next": "q051_sb",
+        "element": {
+          "type": "slider",
+          "options": {
+            "min": "0",
+            "max": "5",
+            "value": "2"
+          }
+        },
+        "match": {
+          "type": "number"
+        }
+      }
+    ]
+  },
+  "q051_sb": {
+    "name": "q051_sb",
+    "label": "Sediment Basis",
+    "edges": [
+      {
+        "label": "Klei",
+        "next": "q061_sa",
+        "value": "a051_1"
+      },
+      {
+        "label": "Schlick",
+        "next": "q061_sa",
+        "value": "a051_2"
+      },
+      {
+        "label": "schlickiger Sand",
+        "next": "q061_sa",
+        "value": "a051_3"
+      },
+      {
+        "label": "Feinsand",
+        "next": "q061_sa",
+        "value": "a051_4"
+      },
+      {
+        "label": "Mittel-/Grobsand",
+        "next": "q061_sa",
+        "value": "a051_5"
+      },
+      {
+        "label": "Kies/Kiesel",
+        "next": "q061_sa",
+        "value": "a051_6"
+      },
+      {
+        "label": "Steine",
+        "next": "q061_sa",
+        "value": "a051_7"
+      },
+      {
+        "label": "Torf/Gyttien",
+        "next": "q061_sa",
+        "value": "a051_8"
+      }
+    ]
+  },
+  "q061_sa": {
+    "name": "q061_sa",
+    "label": "Sedimentauflage",
+    "edges": [
+      {
+        "label": "ja",
+        "next": "q062_saa",
+        "value": "a061_1"
+      },
+      {
+        "label": "nein",
+        "next": "q071_rt",
+        "value": "a061_2"
+      }
+    ]
+  },
+  "q062_saa": {
+    "name": "q062_saa",
+    "label": "Art der Sedimentauflage",
+    "edges": [
+      {
+        "label": "Klei",
+        "next": "q063_sab",
+        "value": "a062_1"
+      },
+      {
+        "label": "Schlick",
+        "next": "q063_sab",
+        "value": "a062_2"
+      },
+      {
+        "label": "schlickiger Sand",
+        "next": "q063_sab",
+        "value": "a062_3"
+      },
+      {
+        "label": "Feinsand",
+        "next": "q063_sab",
+        "value": "a062_4"
+      },
+      {
+        "label": "Mittel-/Grobsand",
+        "next": "q063_sab",
+        "value": "a062_5"
+      },
+      {
+        "label": "Kies/Kiesel",
+        "next": "q063_sab",
+        "value": "a062_6"
+      },
+      {
+        "label": "Steine",
+        "next": "q063_sab",
+        "value": "a062_7"
+      },
+      {
+        "label": "Torf/Gyttien",
+        "next": "q063_sab",
+        "value": "a062_8"
+      },
+      {
+        "label": "vollständig abgedeckt (z.B. durch Makrophyten)",
+        "next": "q063_sab",
+        "value": "a062_9"
+      }
+    ]
+  },
+  "q071_rt": {
+    "name": "q071_rt",
+    "label": "Redox-Tiefe",
+    "edges": [
+      {
+        "label": "Redox-Tiefe",
+        "next": "q072_sf",
+        "element": {
+          "type": "slider",
+          "options": {
+            "min": "0",
+            "max": "5",
+            "value": "2"
+          }
+        },
+        "match": {
+          "type": "number"
+        }
+      }
+    ]
+  },
+  "q063_sab": {
+    "name": "q063_sab",
+    "label": "Bedeckung",
+    "edges": [
+      {
+        "label": "stellenweise",
+        "next": "q071_rt",
+        "value": "a063_1"
+      },
+      {
+        "label": "vorherrschend",
+        "next": "q071_rt",
+        "value": "a063_2"
+      },
+      {
+        "label": "deckend",
+        "next": "q071_rt",
+        "value": "a063_3"
+      }
+    ]
+  },
+  "q072_sf": {
+    "name": "q072_sf",
+    "label": "Schwarze Flecken, Größe in cm",
+    "edges": [
+      {
+        "label": "centimeters",
+        "next": "q081_d",
+        "element": {
+          "type": "slider",
+          "options": {
+            "min": "0",
+            "max": "40",
+            "value": "20"
+          }
+        },
+        "match": {
+          "type": "number"
+        }
+      }
+    ]
+  },
+  "q081_d": {
+    "name": "q081_d",
+    "label": "Diatomeen, in %",
+    "edges": [
+      {
+        "label": "%",
+        "next": "q082_dd",
+        "element": {
+          "type": "slider",
+          "options": {
+            "min": "0",
+            "max": "100",
+            "value": "50"
+          }
+        },
+        "match": {
+          "type": "number"
+        }
+      }
+    ]
+  },
+  "q0721_b": {
+    "name": "q0721_b",
+    "label": "Bedeckung",
+    "edges": [
+      {
+        "label": "Bedeckung",
+        "next": "q081_d",
+        "element": {
+          "type": "slider",
+          "options": {
+            "min": "0",
+            "max": "60",
+            "value": "30"
+          }
+        },
+        "match": {
+          "type": "number"
+        }
+      }
+    ]
+  },
+  "q082_dd": {
+    "name": "q082_dd",
+    "label": "sonstige Mikroalgen",
+    "edges": [
+      {
+        "label": "vereinzelt",
+        "next": "q090_mp",
+        "value": "a082_1"
+      },
+      {
+        "label": "wenig",
+        "next": "q090_mp",
+        "value": "a082_2"
+      },
+      {
+        "label": "viel",
+        "next": "q090_mp",
+        "value": "a082_3"
+      },
+      {
+        "label": "dicht",
+        "next": "q090_mp",
+        "value": "a082_4"
+      }
+    ]
+  },
+  "q0811_dd": {
+    "name": "q0811_dd",
+    "label": "Dichte der Diatomeen",
+    "edges": [
+      {
+        "label": "vereinzelt",
+        "next": "q0812_dd",
+        "value": "a0811_1"
+      },
+      {
+        "label": "wenig",
+        "next": "q0812_dd",
+        "value": "a0811_2"
+      },
+      {
+        "label": "viel",
+        "next": "q0812_dd",
+        "value": "a0811_3"
+      },
+      {
+        "label": "dicht",
+        "next": "q0812_dd",
+        "value": "a0811_4"
+      }
+    ]
+  },
+  "q0812_dd": {
+    "name": "q0812_dd",
+    "label": "schlauchförmige Diatomeen",
+    "edges": [
+      {
+        "label": "vereinzelt",
+        "next": "q082_dd",
+        "value": "a0812_1"
+      },
+      {
+        "label": "wenig",
+        "next": "q082_dd",
+        "value": "a0812_2"
+      },
+      {
+        "label": "viel",
+        "next": "q082_dd",
+        "value": "a0812_3"
+      },
+      {
+        "label": "dicht",
+        "next": "q082_dd",
+        "value": "a0812_4"
+      }
+    ]
+  },
+  "q090_mp": {
+    "name": "q090_mp",
+    "label": "Gesamtbedeckung Makrophyten, in %",
+    "edges": [
+      {
+        "label": "%",
+        "next": "q111_mf",
+        "element": {
+          "type": "slider",
+          "options": {
+            "min": "0",
+            "max": "100",
+            "value": "50"
+          }
+        },
+        "match": {
+          "type": "number"
+        }
+      }
+    ]
+  },
+  "q111_mf": {
+    "name": "q111_mf",
+    "label": "Makrofauna",
+    "edges": [
+      {
+        "label": "Heteromastus (Kotpillenwurm)",
+        "next": "q112_mfv",
+        "element": {
+          "type": "checkbox",
+          "options": {
+            "value": "a111_1"
+          }
+        },
+        "match": {
+          "type": "nonempty"
+        }
+      },
+      {
+        "label": "Mya (Sandklaffmuschel)",
+        "next": "q112_mfv",
+        "element": {
+          "type": "checkbox",
+          "options": {
+            "value": "a111_2"
+          }
+        },
+        "match": {
+          "type": "nonempty"
+        }
+      },
+      {
+        "label": "Cerastoderma (Herzmuschel)",
+        "next": "q112_mfv",
+        "element": {
+          "type": "checkbox",
+          "options": {
+            "value": "a111_3"
+          }
+        },
+        "match": {
+          "type": "nonempty"
+        }
+      },
+      {
+        "label": "Corophium (Schlickkrebs)",
+        "next": "q112_mfv",
+        "element": {
+          "type": "checkbox",
+          "options": {
+            "value": "a111_4"
+          }
+        },
+        "match": {
+          "type": "nonempty"
+        }
+      },
+      {
+        "label": "Hydrobia (Wattschnecke)",
+        "next": "q112_mfv",
+        "element": {
+          "type": "checkbox",
+          "options": {
+            "value": "a111_5"
+          }
+        },
+        "match": {
+          "type": "nonempty"
+        }
+      },
+      {
+        "label": "Lanice (Bäumchenröhrenwurm)",
+        "next": "q112_mfv",
+        "element": {
+          "type": "checkbox",
+          "options": {
+            "value": "a111_6"
+          }
+        },
+        "match": {
+          "type": "nonempty"
+        }
+      },
+      {
+        "label": "Arenicola (Wattwurm)",
+        "next": "q113_ac",
+        "element": {
+          "type": "checkbox",
+          "options": {
+            "value": "a111_7"
+          }
+        },
+        "match": {
+          "type": "nonempty"
+        }
+      },
+      {
+        "label": "Littorina (Strandschnecke)",
+        "next": "q112_mfv",
+        "element": {
+          "type": "checkbox",
+          "options": {
+            "value": "a111_8"
+          }
+        },
+        "match": {
+          "type": "nonempty"
+        }
+      },
+      {
+        "label": "Nereis (Seeringelwurm)",
+        "next": "q112_mfv",
+        "element": {
+          "type": "checkbox",
+          "options": {
+            "value": "a111_9"
+          }
+        },
+        "match": {
+          "type": "nonempty"
+        }
+      }
+    ]
+  },
+  "q091_mpa": {
+    "name": "q091_mpa",
+    "label": "Arten der Makrophyten",
+    "edges": [
+      {
+        "label": "Enteromorpha/Ulva (Darmtang/Meersalat)",
+        "next": "q092_mpv",
+        "value": "a091_1"
+      },
+      {
+        "label": "Fucus (Blasentang)",
+        "next": "q092_mpv",
+        "value": "a091_2"
+      },
+      {
+        "label": "Porphyra (Hauttang)",
+        "next": "q092_mpv",
+        "value": "a091_3"
+      },
+      {
+        "label": "Chaetomorpha (Uferborstenhaar)",
+        "next": "q092_mpv",
+        "value": "a091_4"
+      },
+      {
+        "label": "Gracilaria (roter Besentang)",
+        "next": "q092_mpv",
+        "value": "a091_5"
+      },
+      {
+        "label": "Zostera (Seegras)",
+        "next": "q092_mpv",
+        "value": "a091_6"
+      },
+      {
+        "label": "Spartina (Schlickgras)",
+        "next": "q092_mpv",
+        "value": "a091_7"
+      },
+      {
+        "label": "Salicornia (Queller)",
+        "next": "q092_mpv",
+        "value": "a091_8"
+      },
+      {
+        "label": "andere Grünalge",
+        "next": "q092_mpv",
+        "value": "a091_9"
+      },
+      {
+        "label": "andere Braunalge",
+        "next": "q092_mpv",
+        "value": "a091_10"
+      },
+      {
+        "label": "andere Rotalge",
+        "next": "q092_mpv",
+        "value": "a091_11"
+      }
+    ]
+  },
+  "q092_mpv": {
+    "name": "q092_mpv",
+    "label": "Vorkommen, Abdeckung in %",
+    "edges": [
+      {
+        "label": "mehrere Einzelpflanzen",
+        "next": "q111_mf",
+        "value": "a092_1"
+      },
+      {
+        "label": "<10",
+        "next": "q111_mf",
+        "value": "a092_2"
+      },
+      {
+        "label": "10<20",
+        "next": "q111_mf",
+        "value": "a092_3"
+      },
+      {
+        "label": "20<50",
+        "next": "q111_mf",
+        "value": "a092_4"
+      },
+      {
+        "label": "50<70",
+        "next": "q111_mf",
+        "value": "a092_5"
+      },
+      {
+        "label": ">=70",
+        "next": "q111_mf",
+        "value": "a092_6"
+      }
+    ]
+  },
+  "q112_mfv": {
+    "name": "q112_mfv",
+    "label": "Vorkommen, Abdeckung in %",
+    "edges": [
+      {
+        "label": "vereinzelt",
+        "next": "q1114_mb",
+        "value": "a112_1"
+      },
+      {
+        "label": "wenig",
+        "next": "q1114_mb",
+        "value": "a112_2"
+      },
+      {
+        "label": "viel",
+        "next": "q1114_mb",
+        "value": "a112_3"
+      },
+      {
+        "label": "dicht",
+        "next": "q1114_mb",
+        "value": "a112_4"
+      }
+    ]
+  },
+  "q113_ac": {
+    "name": "q113_ac",
+    "label": "Anzahl Arenicola, pro m²",
+    "edges": [
+      {
+        "label": "pro m²",
+        "next": "q1114_mb",
+        "element": {
+          "type": "slider",
+          "options": {
+            "min": "0",
+            "max": "100",
+            "value": "50"
+          }
+        },
+        "match": {
+          "type": "number"
+        }
+      }
+    ]
+  },
+  "q121_s": {
+    "name": "q121_s",
+    "label": "Sicht",
+    "edges": [
+      {
+        "label": "schlecht",
+        "next": "q122_wr",
+        "value": "a121_1"
+      },
+      {
+        "label": "eingeschränkt",
+        "next": "q122_wr",
+        "value": "a121_2"
+      },
+      {
+        "label": "gut",
+        "next": "q122_wr",
+        "value": "a121_3"
+      },
+      {
+        "label": "sehr gut",
+        "next": "q122_wr",
+        "value": "a121_4"
+      }
+    ]
+  },
+  "q122_wr": {
+    "name": "q122_wr",
+    "label": "Windrichtung",
+    "edges": [
+      {
+        "label": "[direction pointer]",
+        "next": "q123_wg",
+        "value": "a122_1"
+      }
+    ]
+  },
+  "q123_wg": {
+    "name": "q123_wg",
+    "label": "Windgeschwindigkeit, in Bft",
+    "edges": [
+      {
+        "label": "0 (spiegelglatte See)",
+        "next": "q124_b",
+        "value": "a123_1"
+      },
+      {
+        "label": "1 (kleine Kräuselwellen ohne Schaumkämme)",
+        "next": "q124_b",
+        "value": "a123_2"
+      },
+      {
+        "label": "2 (Wind am Gesicht fühlbar)",
+        "next": "q124_b",
+        "value": "a123_3"
+      },
+      {
+        "label": "3 (brechende Kämme, Schaumköpfe)",
+        "next": "q124_b",
+        "value": "a123_4"
+      },
+      {
+        "label": "4 (verbreitet Schaumköpfe)",
+        "next": "q124_b",
+        "value": "a123_5"
+      },
+      {
+        "label": "5 (mäßige Wellen, vereinzelt Gischt)",
+        "next": "q124_b",
+        "value": "a123_6"
+      },
+      {
+        "label": "6 (große Wellen, ausgedehnte Schaumkämme)",
+        "next": "q124_b",
+        "value": "a123_7"
+      },
+      {
+        "label": ">=7",
+        "next": "q124_b",
+        "value": "a123_8"
+      }
+    ]
+  },
+  "q124_b": {
+    "name": "q124_b",
+    "label": "Bewölkung",
+    "edges": [
+      {
+        "label": "0",
+        "next": "q125_ices",
+        "value": "a124_1"
+      },
+      {
+        "label": "1/8 – 2/8",
+        "next": "q125_ices",
+        "value": "a124_2"
+      },
+      {
+        "label": "3/8 – 5/8",
+        "next": "q125_ices",
+        "value": "a124_3"
+      },
+      {
+        "label": "6/8 – 7/8",
+        "next": "q125_ices",
+        "value": "a124_4"
+      },
+      {
+        "label": "8/8",
+        "next": "q125_ices",
+        "value": "a124_5"
+      }
+    ]
+  },
+  "q125_ices": {
+    "name": "q125_ices",
+    "label": "ICES Wettercode",
+    "edges": [
+      {
+        "label": "0 (klar)",
+        "next": "__end__",
+        "value": "a125_1"
+      },
+      {
+        "label": "1 (teilw. bewölkt)",
+        "next": "__end__",
+        "value": "a125_2"
+      },
+      {
+        "label": "2 (geschlossene Wolkendecke)",
+        "next": "__end__",
+        "value": "a125_3"
+      },
+      {
+        "label": "3 (Sandsturm)",
+        "next": "__end__",
+        "value": "a125_4"
+      },
+      {
+        "label": "4 (Nebel/starker Dunst)",
+        "next": "__end__",
+        "value": "a125_5"
+      },
+      {
+        "label": "5 (Sprühregen)",
+        "next": "__end__",
+        "value": "a125_6"
+      },
+      {
+        "label": "6 (Regen)",
+        "next": "__end__",
+        "value": "a125_7"
+      },
+      {
+        "label": "7 (Schnee, Schneeregen)",
+        "next": "__end__",
+        "value": "a125_8"
+      },
+      {
+        "label": "8 (Schauer)",
+        "next": "__end__",
+        "value": "a125_9"
+      },
+      {
+        "label": "9 (Hagel)",
+        "next": "__end__",
+        "value": "a125_10"
+      }
+    ]
+  },
+  "__root__": "q01_n"
+}
