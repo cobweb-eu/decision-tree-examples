@@ -1057,22 +1057,22 @@
     "edges": [
       {
         "label": "vereinzelt",
-        "next": "q1114_mb",
+        "next": "q121_s",
         "value": "a112_1"
       },
       {
         "label": "wenig",
-        "next": "q1114_mb",
+        "next": "q121_s",
         "value": "a112_2"
       },
       {
         "label": "viel",
-        "next": "q1114_mb",
+        "next": "q121_s",
         "value": "a112_3"
       },
       {
         "label": "dicht",
-        "next": "q1114_mb",
+        "next": "q121_s",
         "value": "a112_4"
       }
     ]
@@ -1083,7 +1083,7 @@
     "edges": [
       {
         "label": "pro m²",
-        "next": "q1114_mb",
+        "next": "q121_s",
         "element": {
           "type": "slider",
           "options": {
