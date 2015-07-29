@@ -203,13 +203,13 @@
 "answer","Nereis (Seeringelwurm)","a111_9","q111_mf","q112_mfv","checkbox",,
 ,,,,,,,
 "question","Vorkommen, Abdeckung in %","q112_mfv",,,,,"for each makrofauna type that was selected before"
-"answer","vereinzelt","a112_1","q112_mfv","q1114_mb",,,"radio button"
-"answer","wenig","a112_2","q112_mfv","q1114_mb",,,
-"answer","viel","a112_3","q112_mfv","q1114_mb",,,
-"answer","dicht","a112_4","q112_mfv","q1114_mb",,,
+"answer","vereinzelt","a112_1","q112_mfv","q121_s",,,"radio button"
+"answer","wenig","a112_2","q112_mfv","q121_s",,,
+"answer","viel","a112_3","q112_mfv","q121_s",,,
+"answer","dicht","a112_4","q112_mfv","q121_s",,,
 ,,,,,,,
 "question","Anzahl Arenicola, pro m²","q113_ac",,,,,"for both juvenil and adult (either combined or 2 questions)"
-"answer","pro m²","a113_1","q113_ac","q1114_mb","slider","0,100,50","slider"
+"answer","pro m²","a113_1","q113_ac","q121_s","slider","0,100,50","slider"
 ,,,,,,,
 "question","Sicht","q121_s",,,,,"radio button"
 "answer","schlecht","a121_1","q121_s","q122_wr",,,
