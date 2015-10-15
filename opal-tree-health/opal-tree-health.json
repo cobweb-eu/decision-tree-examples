@@ -1,0 +1,530 @@
+{
+  "__version__": 2,
+  "__end__": {
+    "label": "END"
+  },
+  "__root__": "needles",
+  "needles": {
+    "name": "needles",
+    "label": "Does the tree have needles or scale-like leaves?",
+    "info": "box1.png",
+    "edges": [
+      {
+        "label": "Yes",
+        "next": "conifer",
+        "value": "Yes"
+      },
+      {
+        "label": "No",
+        "next": "leaves",
+        "value": "No"
+      }
+    ]
+  },
+  "conifer": {
+    "name": "conifer",
+    "label": "It was a Conifer",
+    "edges": [
+      {
+        "label": "Conifer",
+        "next": "__end__",
+        "value": "Conifer",
+        "image": "conifer.png"
+      }
+    ]
+  },
+  "leaves": {
+    "name": "leaves",
+    "label": "Does the tree have simple leaves?",
+    "edges": [
+      {
+        "label": "Yes",
+        "next": "lobes",
+        "value": "Yes"
+      },
+      {
+        "label": "No",
+        "next": "stalk",
+        "value": "No"
+      }
+    ]
+  },
+  "lobes": {
+    "name": "lobes",
+    "label": "Do the leaves have lobes?",
+    "info": "box5.png",
+    "edges": [
+      {
+        "label": "Yes",
+        "next": "palmate",
+        "value": "Yes"
+      },
+      {
+        "label": "No",
+        "next": "wide",
+        "value": "No"
+      }
+    ]
+  },
+  "stalk": {
+    "name": "stalk",
+    "label": "Do all the leaflets grow from the end of the stalk?",
+    "edges": [
+      {
+        "label": "Yes",
+        "next": "horse_chestnut",
+        "value": "Yes"
+      },
+      {
+        "label": "No",
+        "next": "pairs_leaflets",
+        "value": "No"
+      }
+    ]
+  },
+  "palmate": {
+    "name": "palmate",
+    "label": "Are the leaves palmate?",
+    "info": "box3.png",
+    "edges": [
+      {
+        "label": "Yes",
+        "next": "toothed_edge",
+        "value": "Yes"
+      },
+      {
+        "label": "No",
+        "next": "thorny",
+        "value": "No"
+      }
+    ]
+  },
+  "wide": {
+    "name": "wide",
+    "label": "Is the leaf at least twice as long as it is wide?",
+    "edges": [
+      {
+        "label": "Yes",
+        "next": "shorter_10",
+        "value": "Yes"
+      },
+      {
+        "label": "No",
+        "next": "toothed_edge2",
+        "value": "No"
+      }
+    ]
+  },
+  "toothed_edge": {
+    "name": "toothed_edge",
+    "label": "Does the leaf have a toothed edge?",
+    "info": "box6.png",
+    "edges": [
+      {
+        "label": "Yes",
+        "next": "sycamore",
+        "value": "Yes"
+      },
+      {
+        "label": "No",
+        "next": "opposite_pairs",
+        "value": "No"
+      }
+    ]
+  },
+  "thorny": {
+    "name": "thorny",
+    "label": "Are the twigs thorny?",
+    "edges": [
+      {
+        "label": "Yes",
+        "next": "hawthorn",
+        "value": "Yes"
+      },
+      {
+        "label": "No",
+        "next": "oak",
+        "value": "No"
+      }
+    ]
+  },
+  "sycamore": {
+    "name": "sycamore",
+    "label": "It was a Sycamore",
+    "edges": [
+      {
+        "label": "Sycamore",
+        "next": "__end__",
+        "value": "Sycamore",
+        "image": "sycamore.png"
+      }
+    ]
+  },
+  "opposite_pairs": {
+    "name": "opposite_pairs",
+    "label": "Do the leaves grow in opposite pairs?",
+    "edges": [
+      {
+        "label": "Yes",
+        "next": "maple",
+        "value": "Yes"
+      },
+      {
+        "label": "No",
+        "next": "london_plane",
+        "value": "No"
+      }
+    ]
+  },
+  "hawthorn": {
+    "name": "hawthorn",
+    "label": "It was a Hawthorn",
+    "edges": [
+      {
+        "label": "Hawthorn",
+        "next": "__end__",
+        "value": "Hawthorn",
+        "image": "hawthorn.png"
+      }
+    ]
+  },
+  "oak": {
+    "name": "oak",
+    "label": "It was an Oak",
+    "edges": [
+      {
+        "label": "Oak",
+        "next": "__end__",
+        "value": "Oak",
+        "image": "oak.png"
+      }
+    ]
+  },
+  "maple": {
+    "name": "maple",
+    "label": "It was a Maple",
+    "info": "Check: Maple leaves have more rounded lobes",
+    "edges": [
+      {
+        "label": "Maple",
+        "next": "__end__",
+        "value": "Maple",
+        "image": "maple.png"
+      }
+    ]
+  },
+  "london_plane": {
+    "name": "london_plane",
+    "label": "It was a London Plane",
+    "edges": [
+      {
+        "label": "London Plane",
+        "next": "__end__",
+        "value": "London Plane",
+        "image": "london_plane.png"
+      }
+    ]
+  },
+  "horse_chestnut": {
+    "name": "horse_chestnut",
+    "label": "It was a Horse Chestnut",
+    "edges": [
+      {
+        "label": "Horse Chestnut",
+        "next": "__end__",
+        "value": "Horse Chestnut",
+        "image": "horse_chestnut.png"
+      }
+    ]
+  },
+  "pairs_leaflets": {
+    "name": "pairs_leaflets",
+    "label": "Does the leaf have two or three pairs of leaflets?",
+    "edges": [
+      {
+        "label": "Yes",
+        "next": "elder",
+        "value": "Yes"
+      },
+      {
+        "label": "No",
+        "next": "opposite_pairs_twig",
+        "value": "No"
+      }
+    ]
+  },
+  "elder": {
+    "name": "elder",
+    "label": "It was an Elder",
+    "info": "Check: Elder leaves release a pungent smell when you rub them",
+    "edges": [
+      {
+        "label": "Elder",
+        "next": "__end__",
+        "value": "Elder",
+        "image": "elder.png"
+      }
+    ]
+  },
+  "opposite_pairs_twig": {
+    "name": "opposite_pairs_twig",
+    "label": "Does the leaves grow in opposite pairs on the twig?",
+    "info": "box4.png",
+    "edges": [
+      {
+        "label": "Yes",
+        "next": "ash",
+        "value": "Yes"
+      },
+      {
+        "label": "No",
+        "next": "rowan",
+        "value": "No"
+      }
+    ]
+  },
+  "ash": {
+    "name": "ash",
+    "label": "It was an Ash",
+    "info": "Check: Ash has black buds",
+    "edges": [
+      {
+        "label": "Ash",
+        "next": "__end__",
+        "value": "Ash",
+        "image": "ash.png"
+      }
+    ]
+  },
+  "rowan": {
+    "name": "rowan",
+    "label": "It was a Rowan",
+    "info": "Check: Rowan never has black buds like Ash. Rowan leaflets are deeper toothed than Ash. Look out for red berries on Rowan in autumn.",
+    "edges": [
+      {
+        "label": "Rowan",
+        "next": "__end__",
+        "value": "Rowan",
+        "image": "rowan.png"
+      }
+    ]
+  },
+  "shorter_10": {
+    "name": "shorter_10",
+    "label": "Is the leaf shorter than 10cm?",
+    "edges": [
+      {
+        "label": "Yes",
+        "next": "double_toothed",
+        "value": "Yes"
+      },
+      {
+        "label": "No",
+        "next": "large_teeth",
+        "value": "No"
+      }
+    ]
+  },
+  "toothed_edge2": {
+    "name": "toothed_edge2"
+  },
+  "double_toothed": {
+    "name": "double_toothed",
+    "label": "Is the leaf shorter than 10cm?",
+    "edges": [
+      {
+        "label": "Yes",
+        "next": "hornbeam",
+        "value": "Yes"
+      },
+      {
+        "label": "No",
+        "next": "cherry",
+        "value": "No"
+      }
+    ]
+  },
+  "large_teeth": {
+    "name": "large_teeth",
+    "label": "Does the edge of the leaf have large teeth?",
+    "edges": [
+      {
+        "label": "Yes",
+        "next": "sweet_chestnut",
+        "value": "Yes"
+      },
+      {
+        "label": "No",
+        "next": "red_spots",
+        "value": "No"
+      }
+    ]
+  },
+  "hornbeam": {
+    "name": "hornbeam",
+    "label": "It was a Hornbeam",
+    "edges": [
+      {
+        "label": "Hornbeam",
+        "next": "__end__",
+        "value": "Hornbeam[hornbeam.png]"
+      }
+    ]
+  },
+  "cherry": {
+    "name": "cherry",
+    "label": "It was a Cherry",
+    "info": "Cherry leaves have a wide range of sizes",
+    "edges": [
+      {
+        "label": "Cherry",
+        "next": "__end__",
+        "value": "Cherry",
+        "image": "cherry.png"
+      }
+    ]
+  },
+  "sweet_chestnut": {
+    "name": "sweet_chestnut",
+    "label": "It was a Sweet Chestnut",
+    "info": "Check: Sweet Chestnut leaves do not have 2 red spots at the top of the leaf stalk",
+    "edges": [
+      {
+        "label": "Sweet Chestnut",
+        "next": "__end__",
+        "value": "Sweet Chestnut[sweet_chestnut.png]"
+      }
+    ]
+  },
+  "red_spots": {
+    "name": "red_spots",
+    "label": "Are there 2 red spots at the top of the leaf stalk?",
+    "edges": [
+      {
+        "label": "Yes",
+        "next": "cherry",
+        "value": "Yes"
+      },
+      {
+        "label": "No",
+        "next": "willow",
+        "value": "No"
+      }
+    ]
+  },
+  "willow": {
+    "name": "willow",
+    "label": "It was a Willow",
+    "edges": [
+      {
+        "label": "Willow",
+        "next": "__end__",
+        "value": "Willow",
+        "image": "willow.png"
+      }
+    ]
+  },
+  "beech": {
+    "name": "beech",
+    "label": "It was a Beech",
+    "info": "Check: Beech leaves have a wavy edge",
+    "edges": [
+      {
+        "label": "Beech",
+        "next": "__end__",
+        "value": "Beech",
+        "image": "beech.png"
+      }
+    ]
+  },
+  "alder": {
+    "name": "alder",
+    "label": "It was an Alder",
+    "edges": [
+      {
+        "label": "Alder",
+        "next": "__end__",
+        "value": "Alder",
+        "image": "alder.png"
+      }
+    ]
+  },
+  "elm": {
+    "name": "elm",
+    "label": "It was an Elm",
+    "info": "Check: Elm leaves feel rough when rubbed between the fingers"
+  },
+  "Elm": {
+    "name": "Elm",
+    "edges": [
+      {
+        "label": "Elm",
+        "next": "__end__",
+        "value": "Elm",
+        "image": "elm.png"
+      }
+    ]
+  },
+  "birch": {
+    "name": "birch",
+    "label": "It was a Birch",
+    "info": "Check you are looking at Birch not Alder. Alder has a rounded leaf tip",
+    "edges": [
+      {
+        "label": "Birch",
+        "next": "__end__",
+        "value": "Birch",
+        "image": "birch.png"
+      }
+    ]
+  },
+  "crab_apple": {
+    "name": "crab_apple",
+    "label": "It was a Crab Apple",
+    "edges": [
+      {
+        "label": "Crab Apple",
+        "next": "__end__",
+        "value": "Crab Apple",
+        "image": "crab_apple.png"
+      }
+    ]
+  },
+  "poplar": {
+    "name": "poplar",
+    "label": "It was a Poplar",
+    "edges": [
+      {
+        "label": "Poplar",
+        "next": "__end__",
+        "value": "Poplar",
+        "image": "poplar.png"
+      }
+    ]
+  },
+  "lime": {
+    "name": "lime",
+    "label": "It was a Lime",
+    "edges": [
+      {
+        "label": "Lime",
+        "next": "__end__",
+        "value": "Lime",
+        "image": "lime.png"
+      }
+    ]
+  },
+  "hazel": {
+    "name": "hazel",
+    "label": "It was a Hazel",
+    "info": "Check: Hazel leaves and leaf stems are hairy",
+    "edges": [
+      {
+        "label": "Hazel",
+        "next": "__end__",
+        "value": "Hazel",
+        "image": "hazel.png"
+      }
+    ]
+  }
+}
