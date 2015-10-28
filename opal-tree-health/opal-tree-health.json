@@ -29,13 +29,14 @@
         "label": "Conifer",
         "next": "__end__",
         "value": "Conifer",
-        "image": "conifer.png"
+        "image": "conifers.png"
       }
     ]
   },
   "leaves": {
     "name": "leaves",
     "label": "Does the tree have simple leaves?",
+    "info": "box2.png",
     "edges": [
       {
         "label": "Yes",
@@ -268,7 +269,7 @@
   },
   "opposite_pairs_twig": {
     "name": "opposite_pairs_twig",
-    "label": "Does the leaves grow in opposite pairs on the twig?",
+    "label": "Do the leaves grow in opposite pairs on the twig?",
     "info": "box4.png",
     "edges": [
       {
@@ -326,11 +327,26 @@
     ]
   },
   "toothed_edge2": {
-    "name": "toothed_edge2"
+    "name": "toothed_edge2",
+    "label": "Does the leaf have a toothed edge?",
+    "info": "box6.png",
+    "edges": [
+      {
+        "label": "Yes",
+        "next": "pale",
+        "value": "Yes"
+      },
+      {
+        "label": "No",
+        "next": "white_hair",
+        "value": "No"
+      }
+    ]
   },
   "double_toothed": {
     "name": "double_toothed",
-    "label": "Is the leaf shorter than 10cm?",
+    "label": "Is the edge of the leaf double toothed?",
+    "info": "box6.png",
     "edges": [
       {
         "label": "Yes",
@@ -367,7 +383,8 @@
       {
         "label": "Hornbeam",
         "next": "__end__",
-        "value": "Hornbeam[hornbeam.png]"
+        "value": "Hornbeam",
+        "image": "hornbeam.png"
       }
     ]
   },
@@ -392,7 +409,8 @@
       {
         "label": "Sweet Chestnut",
         "next": "__end__",
-        "value": "Sweet Chestnut[sweet_chestnut.png]"
+        "value": "Sweet Chestnut",
+        "image": "sweet_chestnut.png"
       }
     ]
   },
@@ -452,10 +470,7 @@
   "elm": {
     "name": "elm",
     "label": "It was an Elm",
-    "info": "Check: Elm leaves feel rough when rubbed between the fingers"
-  },
-  "Elm": {
-    "name": "Elm",
+    "info": "Check: Elm leaves feel rough when rubbed between the fingers",
     "edges": [
       {
         "label": "Elm",
@@ -524,6 +539,147 @@
         "next": "__end__",
         "value": "Hazel",
         "image": "hazel.png"
+      }
+    ]
+  },
+  "whitebeam": {
+    "name": "whitebeam",
+    "label": "It was a Whitebeam",
+    "edges": [
+      {
+        "label": "Whitebeam",
+        "next": "__end__",
+        "value": "Whitebeam",
+        "image": "whitebeam.png"
+      }
+    ]
+  },
+  "pale": {
+    "name": "pale",
+    "label": "Is the underside of the leaf pale?",
+    "edges": [
+      {
+        "label": "Yes",
+        "next": "bud_grow_stalk",
+        "value": "Yes"
+      },
+      {
+        "label": "No",
+        "next": "leaf_tip_distinct",
+        "value": "No"
+      }
+    ]
+  },
+  "white_hair": {
+    "name": "white_hair",
+    "label": "Are there fine white hairs on the edge of the leaf?",
+    "edges": [
+      {
+        "label": "Yes",
+        "next": "beech",
+        "value": "Yes"
+      },
+      {
+        "label": "No",
+        "next": "leaf_blunt",
+        "value": "No"
+      }
+    ]
+  },
+  "bud_grow_stalk": {
+    "name": "bud_grow_stalk",
+    "label": "Does the bud grow on stalk?",
+    "edges": [
+      {
+        "label": "Yes",
+        "next": "crab_apple",
+        "value": "Yes"
+      },
+      {
+        "label": "No",
+        "next": "whitebeam",
+        "value": "No"
+      }
+    ]
+  },
+  "leaf_tip_distinct": {
+    "name": "leaf_tip_distinct",
+    "label": "Is the leaf tip a distinct point?",
+    "info": "distinct_point.png",
+    "edges": [
+      {
+        "label": "Yes",
+        "next": "leaf_stalk_flattened",
+        "value": "Yes"
+      },
+      {
+        "label": "No",
+        "next": "leaf_asymetrical",
+        "value": "No"
+      }
+    ]
+  },
+  "leaf_stalk_flattened": {
+    "name": "leaf_stalk_flattened",
+    "label": "Is the leaf stalk flattened?",
+    "edges": [
+      {
+        "label": "Yes",
+        "next": "poplar",
+        "value": "Yes"
+      },
+      {
+        "label": "No",
+        "next": "leaf_bulge",
+        "value": "No"
+      }
+    ]
+  },
+  "leaf_asymetrical": {
+    "name": "leaf_asymetrical",
+    "label": "Is the leaf base assymetrical?",
+    "edges": [
+      {
+        "label": "Yes",
+        "next": "elm",
+        "value": "Yes"
+      },
+      {
+        "label": "No",
+        "next": "birch",
+        "value": "No"
+      }
+    ]
+  },
+  "leaf_bulge": {
+    "name": "leaf_bulge",
+    "label": "Does the leaf bulge out more one side?",
+    "edges": [
+      {
+        "label": "Yes",
+        "next": "lime",
+        "value": "Yes"
+      },
+      {
+        "label": "No",
+        "next": "hazel",
+        "value": "No"
+      }
+    ]
+  },
+  "leaf_blunt": {
+    "name": "leaf_blunt",
+    "label": "Does the leaf have a blunt or rounded tip?",
+    "edges": [
+      {
+        "label": "Yes",
+        "next": "alder",
+        "value": "Yes"
+      },
+      {
+        "label": "No",
+        "next": "willow",
+        "value": "No"
       }
     ]
   }
