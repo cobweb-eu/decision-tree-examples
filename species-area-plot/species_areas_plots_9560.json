@@ -1,0 +1,279 @@
+
+> eo-graph@0.2.0 parse:csv /home/gmh04/geo-dev/eo-graph
+> node scripts/csv2eo.js "../decision-tree-examples/species-area-plot/species_areas_plots_9560.csv"
+
+{
+  "__version__": 2,
+  "__end__": {
+    "label": "END"
+  },
+  "__root__": "root",
+  "root": {
+    "name": "root",
+    "label": "Select a species",
+    "edges": [
+      {
+        "label": "Abies cephalonica",
+        "next": "B",
+        "value": "abicep"
+      },
+      {
+        "label": "Acer monspessulanum",
+        "next": "B",
+        "value": "acemon"
+      },
+      {
+        "label": "Acinos alpinus",
+        "next": "B",
+        "value": "aciapl"
+      },
+      {
+        "label": "Aethionema saxatile",
+        "next": "B",
+        "value": "aetsax"
+      },
+      {
+        "label": "Allium flavum",
+        "next": "B",
+        "value": "allfla"
+      },
+      {
+        "label": "Alyssum montanum",
+        "next": "B",
+        "value": "alymon"
+      },
+      {
+        "label": "Arabis glabra",
+        "next": "B",
+        "value": "aragla"
+      },
+      {
+        "label": "Armeria canescens",
+        "next": "B",
+        "value": "armcan"
+      },
+      {
+        "label": "Asparagus acutifolius",
+        "next": "B",
+        "value": "aspacu"
+      },
+      {
+        "label": "Asperula aristata",
+        "next": "B",
+        "value": "aspari"
+      },
+      {
+        "label": "Astragalus angustifolius",
+        "next": "B",
+        "value": "astang"
+      },
+      {
+        "label": "Astragalus creticus",
+        "next": "B",
+        "value": "astcre"
+      },
+      {
+        "label": "Asyneuma limonifolium",
+        "next": "B",
+        "value": "asylim"
+      },
+      {
+        "label": "Aubrieta deltoidea",
+        "next": "B",
+        "value": "aubdel"
+      },
+      {
+        "label": "Brachypodium pinnatum",
+        "next": "B",
+        "value": "brapin"
+      },
+      {
+        "label": "Brachypodium retusum",
+        "next": "B",
+        "value": "braret"
+      },
+      {
+        "label": "Buxus sempervirens",
+        "next": "B",
+        "value": "buxsem"
+      },
+      {
+        "label": "Campanula spatulata",
+        "next": "B",
+        "value": "camspa"
+      },
+      {
+        "label": "Carex distachya",
+        "next": "B",
+        "value": "cardis"
+      },
+      {
+        "label": "Carex flacca",
+        "next": "B",
+        "value": "carfla"
+      },
+      {
+        "label": "Carex illegitima",
+        "next": "B",
+        "value": "carill"
+      },
+      {
+        "label": "Carpinus orientalis",
+        "next": "B",
+        "value": "carori"
+      },
+      {
+        "label": "Cerastium candidissimum",
+        "next": "B",
+        "value": "cercan"
+      },
+      {
+        "label": "Crepis fraasii",
+        "next": "B",
+        "value": "crefra"
+      },
+      {
+        "label": "Daphne oleoides",
+        "next": "B",
+        "value": "dapole"
+      },
+      {
+        "label": "Eryngium amethystinum",
+        "next": "B",
+        "value": "eryame"
+      },
+      {
+        "label": "Erysimum parnassi",
+        "next": "B",
+        "value": "erypar"
+      },
+      {
+        "label": "Erysimum pectinatum",
+        "next": "B",
+        "value": "erypec"
+      },
+      {
+        "label": "Euphorbia apios",
+        "next": "B",
+        "value": "eupapi"
+      },
+      {
+        "label": "Festuca jeanpertii",
+        "next": "B",
+        "value": "fesjea"
+      },
+      {
+        "label": "Festuca polita",
+        "next": "B",
+        "value": "fespol"
+      },
+      {
+        "label": "Fritillaria mutabilis",
+        "next": "B",
+        "value": "frimut"
+      },
+      {
+        "label": "Galium peloponnesiacum",
+        "next": "B",
+        "value": "galpel"
+      },
+      {
+        "label": "Galium thymifolium",
+        "next": "B",
+        "value": "galthy"
+      },
+      {
+        "label": "Genista parnassica",
+        "next": "B",
+        "value": "genpar"
+      },
+      {
+        "label": "Geocaryum capillifolium",
+        "next": "B",
+        "value": "geocap"
+      },
+      {
+        "label": "Geranium lucidum",
+        "next": "B",
+        "value": "gerluc"
+      },
+      {
+        "label": "Helictotrichon convolutum",
+        "next": "B",
+        "value": "helcon"
+      }
+    ]
+  },
+  "B": {
+    "name": "B",
+    "label": "Define the coverage of the plot",
+    "edges": [
+      {
+        "label": "no coverage",
+        "next": "C",
+        "value": "B0"
+      },
+      {
+        "label": "r",
+        "next": "C",
+        "value": "B1"
+      },
+      {
+        "label": "+",
+        "next": "C",
+        "value": "B2"
+      },
+      {
+        "label": "1",
+        "next": "C",
+        "value": "B3"
+      },
+      {
+        "label": "2",
+        "next": "C",
+        "value": "B4"
+      },
+      {
+        "label": "3",
+        "next": "C",
+        "value": "B5"
+      },
+      {
+        "label": "4",
+        "next": "C",
+        "value": "B6"
+      },
+      {
+        "label": "5",
+        "next": "C",
+        "value": "B7"
+      }
+    ]
+  },
+  "C": {
+    "name": "C",
+    "label": "Define how often you see this species in the general area",
+    "edges": [
+      {
+        "label": "A (Abundant)",
+        "next": "__end__",
+        "value": "C1"
+      },
+      {
+        "label": "F (Frequent)",
+        "next": "__end__",
+        "value": "C2"
+      },
+      {
+        "label": "O (Occasional)",
+        "next": "__end__",
+        "value": "C3"
+      },
+      {
+        "label": "R (Rare)",
+        "next": "__end__",
+        "value": "C4"
+      }
+    ]
+  }
+}
