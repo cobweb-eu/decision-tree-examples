@@ -1,7 +1,3 @@
-
-> eo-graph@0.2.0 parse:csv /home/gmh04/geo-dev/eo-graph
-> node scripts/csv2eo.js "../decision-tree-examples/species-area-plot/species_areas_plots_9560.csv"
-
 {
   "__version__": 2,
   "__end__": {
