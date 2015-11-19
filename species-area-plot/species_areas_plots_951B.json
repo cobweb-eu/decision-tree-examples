@@ -1,0 +1,535 @@
+{
+  "__version__": 2,
+  "__end__": {
+    "label": "END"
+  },
+  "__root__": "root",
+  "root": {
+    "name": "root",
+    "label": "Select a species",
+    "edges": [
+      {
+        "label": "Abies borisii-regis",
+        "next": "B",
+        "value": "abibor"
+      },
+      {
+        "label": "Abies cephalonica",
+        "next": "B",
+        "value": "abicep"
+      },
+      {
+        "label": "Acer monspessulanum",
+        "next": "B",
+        "value": "acemon"
+      },
+      {
+        "label": "Achillea ligustica",
+        "next": "B",
+        "value": "achlig"
+      },
+      {
+        "label": "Anemone blanda",
+        "next": "B",
+        "value": "anebla"
+      },
+      {
+        "label": "Anthoxanthum odoratum",
+        "next": "B",
+        "value": "antodo"
+      },
+      {
+        "label": "Arabis turrita",
+        "next": "B",
+        "value": "aratur"
+      },
+      {
+        "label": "Arbutus unedo",
+        "next": "B",
+        "value": "arbune"
+      },
+      {
+        "label": "Aremonia agrimonoides",
+        "next": "B",
+        "value": "areagr"
+      },
+      {
+        "label": "Asparagus acutifolius",
+        "next": "B",
+        "value": "aspacu"
+      },
+      {
+        "label": "Berberis cretica",
+        "next": "B",
+        "value": "bercre"
+      },
+      {
+        "label": "Brachypodium pinnatum",
+        "next": "B",
+        "value": "brapin"
+      },
+      {
+        "label": "Brachypodium retusum",
+        "next": "B",
+        "value": "braret"
+      },
+      {
+        "label": "Brachypodium sylvaticum",
+        "next": "B",
+        "value": "brasyl"
+      },
+      {
+        "label": "Bromus benekenii",
+        "next": "B",
+        "value": "broben"
+      },
+      {
+        "label": "Calamintha grandiflora",
+        "next": "B",
+        "value": "calgra"
+      },
+      {
+        "label": "Calamintha nepeta",
+        "next": "B",
+        "value": "calnep"
+      },
+      {
+        "label": "Campanula spatulata",
+        "next": "B",
+        "value": "camspa"
+      },
+      {
+        "label": "Cardamine graeca",
+        "next": "B",
+        "value": "cargra"
+      },
+      {
+        "label": "Carex distachya",
+        "next": "B",
+        "value": "cardis"
+      },
+      {
+        "label": "Carex flacca",
+        "next": "B",
+        "value": "carfla"
+      },
+      {
+        "label": "Cephalanthera longifolia",
+        "next": "B",
+        "value": "ceplon"
+      },
+      {
+        "label": "Cephalanthera rubra",
+        "next": "B",
+        "value": "ceprub"
+      },
+      {
+        "label": "Chaerophyllum hirsutum",
+        "next": "B",
+        "value": "chahir"
+      },
+      {
+        "label": "Clinopodium vulgare",
+        "next": "B",
+        "value": "clivul"
+      },
+      {
+        "label": "Colutea arborescens",
+        "next": "B",
+        "value": "colarb"
+      },
+      {
+        "label": "Crataegus heldreichii",
+        "next": "B",
+        "value": "crahel"
+      },
+      {
+        "label": "Crataegus monogyna",
+        "next": "B",
+        "value": "cramon"
+      },
+      {
+        "label": "Crataegus pycnoloba",
+        "next": "B",
+        "value": "crapyc"
+      },
+      {
+        "label": "Crepis fraasii",
+        "next": "B",
+        "value": "crefra"
+      },
+      {
+        "label": "Cyclamen graecum",
+        "next": "B",
+        "value": "cycgra"
+      },
+      {
+        "label": "Cyclamen hederifolium",
+        "next": "B",
+        "value": "cyched"
+      },
+      {
+        "label": "Cytisus villosus",
+        "next": "B",
+        "value": "cytvil"
+      },
+      {
+        "label": "Daphne oleoides",
+        "next": "B",
+        "value": "dapole"
+      },
+      {
+        "label": "Digitalis ferruginea",
+        "next": "B",
+        "value": "digfer"
+      },
+      {
+        "label": "Digitalis laevigata",
+        "next": "B",
+        "value": "diglae"
+      },
+      {
+        "label": "Doronicum orientale",
+        "next": "B",
+        "value": "dorori"
+      },
+      {
+        "label": "Epipactis helleborine",
+        "next": "B",
+        "value": "epihel"
+      },
+      {
+        "label": "Euphorbia apios",
+        "next": "B",
+        "value": "eupapi"
+      },
+      {
+        "label": "Festuca jeanpertii",
+        "next": "B",
+        "value": "fesjea"
+      },
+      {
+        "label": "Fragaria vesca",
+        "next": "B",
+        "value": "fraves"
+      },
+      {
+        "label": "Galium rotundifolium",
+        "next": "B",
+        "value": "galrot"
+      },
+      {
+        "label": "Geocaryum capillifolium",
+        "next": "B",
+        "value": "geocap"
+      },
+      {
+        "label": "Geranium lucidum",
+        "next": "B",
+        "value": "gerluc"
+      },
+      {
+        "label": "Geranium robertianum",
+        "next": "B",
+        "value": "gerrob"
+      },
+      {
+        "label": "Hedera helix",
+        "next": "B",
+        "value": "hedhel"
+      },
+      {
+        "label": "Helictotrichon convolutum",
+        "next": "B",
+        "value": "helcon"
+      },
+      {
+        "label": "Helleborus cyclophyllus",
+        "next": "B",
+        "value": "helcyc"
+      },
+      {
+        "label": "Hippocrepis emerus",
+        "next": "B",
+        "value": "hipeme"
+      },
+      {
+        "label": "Juniperus oxycedrus",
+        "next": "B",
+        "value": "junoxy"
+      },
+      {
+        "label": "Lamium garganicum",
+        "next": "B",
+        "value": "lamgar"
+      },
+      {
+        "label": "Lapsana communis",
+        "next": "B",
+        "value": "lapcom"
+      },
+      {
+        "label": "Lathyrus digitatus",
+        "next": "B",
+        "value": "latdig"
+      },
+      {
+        "label": "Lathyrus laxiflorus",
+        "next": "B",
+        "value": "latlax"
+      },
+      {
+        "label": "Lilium chalcedonicum",
+        "next": "B",
+        "value": "lilcha"
+      },
+      {
+        "label": "Limodorum abortivum",
+        "next": "B",
+        "value": "limabo"
+      },
+      {
+        "label": "Lonicera etrusca",
+        "next": "B",
+        "value": "lonetr"
+      },
+      {
+        "label": "Lonicera implexa",
+        "next": "B",
+        "value": "lonimp"
+      },
+      {
+        "label": "Lonicera xylosteum",
+        "next": "B",
+        "value": "lonxyl"
+      },
+      {
+        "label": "Luzula forsteri",
+        "next": "B",
+        "value": "luzfor"
+      },
+      {
+        "label": "Luzula nodulosa",
+        "next": "B",
+        "value": "luznod"
+      },
+      {
+        "label": "Melica uniflora",
+        "next": "B",
+        "value": "meluni"
+      },
+      {
+        "label": "Ostrya carpinifolia",
+        "next": "B",
+        "value": "ostcar"
+      },
+      {
+        "label": "Phillyrea latifolia",
+        "next": "B",
+        "value": "philat"
+      },
+      {
+        "label": "Phlomis samia",
+        "next": "B",
+        "value": "phlsam"
+      },
+      {
+        "label": "Pistacia lentiscus",
+        "next": "B",
+        "value": "pislen"
+      },
+      {
+        "label": "Pistacia terebinthus",
+        "next": "B",
+        "value": "pister"
+      },
+      {
+        "label": "Poa nemoralis",
+        "next": "B",
+        "value": "poanem"
+      },
+      {
+        "label": "Prunus cocomilia",
+        "next": "B",
+        "value": "prucoc"
+      },
+      {
+        "label": "Pteridium aquilinum",
+        "next": "B",
+        "value": "pteaqu"
+      },
+      {
+        "label": "Pyrus spinosa",
+        "next": "B",
+        "value": "pyrspi"
+      },
+      {
+        "label": "Quercus coccifera",
+        "next": "B",
+        "value": "quecoc"
+      },
+      {
+        "label": "Quercus pubescens",
+        "next": "B",
+        "value": "quepub"
+      },
+      {
+        "label": "Ribes uva-crispa",
+        "next": "B",
+        "value": "ribuva"
+      },
+      {
+        "label": "Rosa sempervirens",
+        "next": "B",
+        "value": "rossem"
+      },
+      {
+        "label": "Rubia peregrina",
+        "next": "B",
+        "value": "rubper"
+      },
+      {
+        "label": "Ruscus aculeatus",
+        "next": "B",
+        "value": "rusacu"
+      },
+      {
+        "label": "Sanicula europaea",
+        "next": "B",
+        "value": "saneur"
+      },
+      {
+        "label": "Scilla bifolia",
+        "next": "B",
+        "value": "scibif"
+      },
+      {
+        "label": "Scilla nivalis s.l.",
+        "next": "B",
+        "value": "sciniv"
+      },
+      {
+        "label": "Silene italica",
+        "next": "B",
+        "value": "silita"
+      },
+      {
+        "label": "Silene multicaulis",
+        "next": "B",
+        "value": "silmul"
+      },
+      {
+        "label": "Teucrium chamaedrys",
+        "next": "B",
+        "value": "teucha"
+      },
+      {
+        "label": "Trifolium ochroleucon",
+        "next": "B",
+        "value": "trioch"
+      },
+      {
+        "label": "Trifolium patulum",
+        "next": "B",
+        "value": "tripat"
+      },
+      {
+        "label": "Veronica chamaedrys",
+        "next": "B",
+        "value": "vercha"
+      },
+      {
+        "label": "Viola alba",
+        "next": "B",
+        "value": "vioalb"
+      },
+      {
+        "label": "Viola odorata",
+        "next": "B",
+        "value": "vioodo"
+      },
+      {
+        "label": "Viola reichenbachiana/riviniana",
+        "next": "B",
+        "value": "viorei"
+      },
+      {
+        "label": "Viscum album",
+        "next": "B",
+        "value": "visalb"
+      }
+    ]
+  },
+  "B": {
+    "name": "B",
+    "label": "Define the coverage of the plot",
+    "edges": [
+      {
+        "label": "no coverage",
+        "next": "C",
+        "value": "B0"
+      },
+      {
+        "label": "r",
+        "next": "C",
+        "value": "B1"
+      },
+      {
+        "label": "+",
+        "next": "C",
+        "value": "B2"
+      },
+      {
+        "label": "1",
+        "next": "C",
+        "value": "B3"
+      },
+      {
+        "label": "2",
+        "next": "C",
+        "value": "B4"
+      },
+      {
+        "label": "3",
+        "next": "C",
+        "value": "B5"
+      },
+      {
+        "label": "4",
+        "next": "C",
+        "value": "B6"
+      },
+      {
+        "label": "5",
+        "next": "C",
+        "value": "B7"
+      }
+    ]
+  },
+  "C": {
+    "name": "C",
+    "label": "Define how often you see this species in the general area",
+    "edges": [
+      {
+        "label": "A (Abundant)",
+        "next": "__end__",
+        "value": "C1"
+      },
+      {
+        "label": "F (Frequent)",
+        "next": "__end__",
+        "value": "C2"
+      },
+      {
+        "label": "O (Occasional)",
+        "next": "__end__",
+        "value": "C3"
+      },
+      {
+        "label": "R (Rare)",
+        "next": "__end__",
+        "value": "C4"
+      }
+    ]
+  }
+}
