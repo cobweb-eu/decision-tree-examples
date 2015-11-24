@@ -1,123 +1,123 @@
-"type","id",,,
-"root","root",,,
-,,,,
-"type","label","id",,
-"question","Select a species","root",,
-"type","label","value","from","to"
-"answer","Acinos alpinus","acialp","root","B"
-"answer","Allium subhirsutum","allsub","root","B"
-"answer","Aetheorhiza bulbosa","aetbul","root","B"
-"answer","Anagallis arvensis","anaarv","root","B"
-"answer","Arisarum vulgare","arivul","root","B"
-"answer","Asphodelus ramosus","aspram","root","B"
-"answer","Asterolinon linum-stellatum","astlin","root","B"
-"answer","Astragalus creticus","astcre","root","B"
-"answer","Asperula pulvinaris","asppul","root","B"
-"answer","Atractylis cancellata","atrcan","root","B"
-"answer","Avena barbata","avebar","root","B"
-"answer","Brachypodium distachyon","bradis","root","B"
-"answer","Brachypodium pinnatum","brapin","root","B"
-"answer","Brachypodium retusum","braret","root","B"
-"answer","Briza maxima","brimax","root","B"
-"answer","Bupleurum gaudianum","bupgau","root","B"
-"answer","Bupleurum flavum","bupfla","root","B"
-"answer","Bupleurum gracile","bupgra","root","B"
-"answer","Calendula arvensis","calarv","root","B"
-"answer","Calicotome villosa","calvil","root","B"
-"answer","Carex liparocarpos","carlip","root","B"
-"answer","Catapodium rigidum","catrig","root","B"
-"answer","Centaurea laconica","cenlac","root","B"
-"answer","Centaurea raphanina","cenrap","root","B"
-"answer","Cerastium candidissimum","cercan","root","B"
-"answer","Cirsium candelabrum","circan","root","B"
-"answer","Coridothymus capitatus","corcap","root","B"
-"answer","Crataegus pycnoloba","crapyc","root","B"
-"answer","Crucianella latifolia","crulat","root","B"
-"answer","Cynoglossum creticum","cyncre","root","B"
-"answer","Cynara cornigera","cyncor","root","B"
-"answer","Daphne oleoides","dapole","root","B"
-"answer","Eryngium amethystinum","eryame","root","B"
-"answer","Euphorbia acanthothamnos","eupaca","root","B"
-"answer","Euphorbia exigua","eupexi","root","B"
-"answer","Euphorbia myrsinites","eupmyr","root","B"
-"answer","Fumana arabica","fumara","root","B"
-"answer","Fumana procumbens","fumpro","root","B"
-"answer","Gladiolus illyricus","glaill","root","B"
-"answer","Globularia bisnagarica","globis","root","B"
-"answer","Helianthemum salicifolium","helsal","root","B"
-"answer","Hippocrepis unisiliquosa","hipuni","root","B"
-"answer","Hymenonema graecum","hymgra","root","B"
-"answer","Hypochaeris achyrophorus","hypach","root","B"
-"answer","Juniperus excelsa (for 5213)","junexc","root","B"
-"answer","Juniperus macrocarpa (for 5211)","junmac","root","B"
-"answer","Juniperus oxycedrus","junoxy","root","B"
-"answer","Juniperus phoenicea  (for 5212)","junpho","root","B"
-"answer","Lagoecia cuminoides","lagcum","root","B"
-"answer","Leontodon tuberosus","leotub","root","B"
-"answer","Limonium antipaxorum","limant","root","B"
-"answer","Linum strictum","linstr","root","B"
-"answer","Linum trigynum","lintri","root","B"
-"answer","Malcolmia maritima","malmar","root","B"
-"answer","Melica ciliata","melcil","root","B"
-"answer","Micromeria graeca","micgra","root","B"
-"answer","Micromeria nervosa","micner","root","B"
-"answer","Minuartia attica","minatt","root","B"
-"answer","Myrtus communis","myrcom","root","B"
-"answer","Nepeta camphorata","nepcam","root","B"
-"answer","Nigella arvensis","nigarv","root","B"
-"answer","Olea europaea","oleeur","root","B"
-"answer","Ononis reclinata","onorec","root","B"
-"answer","Paronychia albanica","paralb","root","B"
-"answer","Paronychia macrosepala","parmac","root","B"
-"answer","Paronychia rechingeri","parrec","root","B"
-"answer","Periploca angustifolia","perang","root","B"
-"answer","Phagnalon graecum","phagra","root","B"
-"answer","Pistacia lentiscus","pislen","root","B"
-"answer","Piptatherum miliaceum","pipmil","root","B"
-"answer","Plantago bellardii","plabel","root","B"
-"answer","Pisum sativum","pissat","root","B"
-"answer","Prasium majus","pramaj","root","B"
-"answer","Potentilla arcadiensis","potarc","root","B"
-"answer","Prunus cocomilia","prucoc","root","B"
-"answer","Ptilostemon afer","ptiafe","root","B"
-"answer","Rhamnus lycioides","rhalyc","root","B"
-"answer","Rosa heckeliana","roshec","root","B"
-"answer","Rostraria cristata","roscri","root","B"
-"answer","Selaginella denticulata","selden","root","B"
-"answer","Sideritis raeseri","sidrae","root","B"
-"answer","Silene radicosa","silrad","root","B"
-"answer","Smilax aspera","smiasp","root","B"
-"answer","Stipa capensis","sticap","root","B"
-"answer","Stipa capillata","sticap","root","B"
-"answer","Stipa pennata","stipen","root","B"
-"answer","Teucrium brevifolium","teubre","root","B"
-"answer","Teucrium capitatum","teucap","root","B"
-"answer","Thymus longicaulis","thylon","root","B"
-"answer","Thymus rechingeri","thyrec","root","B"
-"answer","Thymus sipyleus","thysip","root","B"
-"answer","Trifolium campestre","tricam","root","B"
-"answer","Trigonella coerulescens","tricoe","root","B"
-"answer","Tuberaria guttata","tubgut","root","B"
-"answer","Urginea maritima","urgmar","root","B"
-"answer","Valantia hispida","valhis","root","B"
-"answer","Valantia muralis","valmur","root","B"
-,,,,
-"type","label","id",,
-"question","Define the coverage of the plot","B",,
-"type","label","value","from","to"
-"answer","no coverage","B0","B","C"
-"answer","r","B1","B","C"
-"answer","+","B2","B","C"
-"answer",1,"B3","B","C"
-"answer",2,"B4","B","C"
-"answer",3,"B5","B","C"
-"answer",4,"B6","B","C"
-"answer",5,"B7","B","C"
-,,,,
-"type","label","id",,
-"question","Define how often you see this species in the general area","C",,
-"type","label","value","from","to"
-"answer","A (Abundant)","C1","C",
-"answer","F (Frequent)","C2","C",
-"answer","O (Occasional)","C3","C",
-"answer","R (Rare)","C4","C",
+type,id,,,,,
+root,root,,,,,
+,,,,,,
+type,label,id,,,,
+question,"Select a species",root,,,action,image
+type,label,value,from,to,,
+answer,"Acinos alpinus",acialp,root,B,,
+answer,"Allium subhirsutum",allsub,root,B,,
+answer,"Aetheorhiza bulbosa",aetbul,root,B,,
+answer,"Anagallis arvensis",anaarv,root,B,,
+answer,"Arisarum vulgare",arivul,root,B,,
+answer,"Asphodelus ramosus",aspram,root,B,,
+answer,"Asterolinon linum-stellatum",astlin,root,B,,
+answer,"Astragalus creticus",astcre,root,B,,
+answer,"Asperula pulvinaris",asppul,root,B,,
+answer,"Atractylis cancellata",atrcan,root,B,,
+answer,"Avena barbata",avebar,root,B,,
+answer,"Brachypodium distachyon",bradis,root,B,,
+answer,"Brachypodium pinnatum",brapin,root,B,,
+answer,"Brachypodium retusum",braret,root,B,,
+answer,"Briza maxima",brimax,root,B,,
+answer,"Bupleurum gaudianum",bupgau,root,B,,
+answer,"Bupleurum flavum",bupfla,root,B,,
+answer,"Bupleurum gracile",bupgra,root,B,,
+answer,"Calendula arvensis",calarv,root,B,,
+answer,"Calicotome villosa",calvil,root,B,,
+answer,"Carex liparocarpos",carlip,root,B,,
+answer,"Catapodium rigidum",catrig,root,B,,
+answer,"Centaurea laconica",cenlac,root,B,,
+answer,"Centaurea raphanina",cenrap,root,B,,
+answer,"Cerastium candidissimum",cercan,root,B,,
+answer,"Cirsium candelabrum",circan,root,B,,
+answer,"Coridothymus capitatus",corcap,root,B,,
+answer,"Crataegus pycnoloba",crapyc,root,B,,
+answer,"Crucianella latifolia",crulat,root,B,,
+answer,"Cynoglossum creticum",cyncre,root,B,,
+answer,"Cynara cornigera",cyncor,root,B,,
+answer,"Daphne oleoides",dapole,root,B,,
+answer,"Eryngium amethystinum",eryame,root,B,,
+answer,"Euphorbia acanthothamnos",eupaca,root,B,,
+answer,"Euphorbia exigua",eupexi,root,B,,
+answer,"Euphorbia myrsinites",eupmyr,root,B,,
+answer,"Fumana arabica",fumara,root,B,,
+answer,"Fumana procumbens",fumpro,root,B,,
+answer,"Gladiolus illyricus",glaill,root,B,,
+answer,"Globularia bisnagarica",globis,root,B,,
+answer,"Helianthemum salicifolium",helsal,root,B,,
+answer,"Hippocrepis unisiliquosa",hipuni,root,B,,
+answer,"Hymenonema graecum",hymgra,root,B,,
+answer,"Hypochaeris achyrophorus",hypach,root,B,,
+answer,"Juniperus excelsa (for 5213)",junexc,root,B,,
+answer,"Juniperus macrocarpa (for 5211)",junmac,root,B,,
+answer,"Juniperus oxycedrus",junoxy,root,B,,
+answer,"Juniperus phoenicea  (for 5212)",junpho,root,B,,
+answer,"Lagoecia cuminoides",lagcum,root,B,,
+answer,"Leontodon tuberosus",leotub,root,B,,
+answer,"Limonium antipaxorum",limant,root,B,,
+answer,"Linum strictum",linstr,root,B,,
+answer,"Linum trigynum",lintri,root,B,,
+answer,"Malcolmia maritima",malmar,root,B,,
+answer,"Melica ciliata",melcil,root,B,,
+answer,"Micromeria graeca",micgra,root,B,,
+answer,"Micromeria nervosa",micner,root,B,,
+answer,"Minuartia attica",minatt,root,B,,
+answer,"Myrtus communis",myrcom,root,B,,
+answer,"Nepeta camphorata",nepcam,root,B,,
+answer,"Nigella arvensis",nigarv,root,B,,
+answer,"Olea europaea",oleeur,root,B,,
+answer,"Ononis reclinata",onorec,root,B,,
+answer,"Paronychia albanica",paralb,root,B,,
+answer,"Paronychia macrosepala",parmac,root,B,,
+answer,"Paronychia rechingeri",parrec,root,B,,
+answer,"Periploca angustifolia",perang,root,B,,
+answer,"Phagnalon graecum",phagra,root,B,,
+answer,"Pistacia lentiscus",pislen,root,B,,
+answer,"Piptatherum miliaceum",pipmil,root,B,,
+answer,"Plantago bellardii",plabel,root,B,,
+answer,"Pisum sativum",pissat,root,B,,
+answer,"Prasium majus",pramaj,root,B,,
+answer,"Potentilla arcadiensis",potarc,root,B,,
+answer,"Prunus cocomilia",prucoc,root,B,,
+answer,"Ptilostemon afer",ptiafe,root,B,,
+answer,"Rhamnus lycioides",rhalyc,root,B,,
+answer,"Rosa heckeliana",roshec,root,B,,
+answer,"Rostraria cristata",roscri,root,B,,
+answer,"Selaginella denticulata",selden,root,B,,
+answer,"Sideritis raeseri",sidrae,root,B,,
+answer,"Silene radicosa",silrad,root,B,,
+answer,"Smilax aspera",smiasp,root,B,,
+answer,"Stipa capensis",sticap,root,B,,
+answer,"Stipa capillata",sticap,root,B,,
+answer,"Stipa pennata",stipen,root,B,,
+answer,"Teucrium brevifolium",teubre,root,B,,
+answer,"Teucrium capitatum",teucap,root,B,,
+answer,"Thymus longicaulis",thylon,root,B,,
+answer,"Thymus rechingeri",thyrec,root,B,,
+answer,"Thymus sipyleus",thysip,root,B,,
+answer,"Trifolium campestre",tricam,root,B,,
+answer,"Trigonella coerulescens",tricoe,root,B,,
+answer,"Tuberaria guttata",tubgut,root,B,,
+answer,"Urginea maritima",urgmar,root,B,,
+answer,"Valantia hispida",valhis,root,B,,
+answer,"Valantia muralis",valmur,root,B,,
+,,,,,,
+type,label,id,,,,
+question,"Define the coverage of the plot",B,,,,
+type,label,value,from,to,,
+answer,"no coverage",B0,B,C,,
+answer,r,B1,B,C,,
+answer,+,B2,B,C,,
+answer,1,B3,B,C,,
+answer,2,B4,B,C,,
+answer,3,B5,B,C,,
+answer,4,B6,B,C,,
+answer,5,B7,B,C,,
+,,,,,,
+type,label,id,,,,
+question,"Define how often you see this species in the general area",C,,,,
+type,label,value,from,to,,
+answer,"A (Abundant)",C1,C,,,
+answer,"F (Frequent)",C2,C,,,
+answer,"O (Occasional)",C3,C,,,
+answer,"R (Rare)",C4,C,,,

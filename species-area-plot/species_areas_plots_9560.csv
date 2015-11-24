@@ -1,97 +1,97 @@
-"type","id",,,
-"root","root",,,
-,,,,
-"type","label","id",,
-"question","Select a species","root",,
-"answer","Abies cephalonica","abicep","root","B"
-"answer","Acer monspessulanum","acemon","root","B"
-"answer","Acinos alpinus","acialp","root","B"
-"answer","Aethionema saxatile","aetsax","root","B"
-"answer","Allium flavum","allfla","root","B"
-"answer","Alyssum montanum","alymon","root","B"
-"answer","Arabis glabra","aragla","root","B"
-"answer","Armeria canescens","armcan","root","B"
-"answer","Asparagus acutifolius","aspacu","root","B"
-"answer","Asperula aristata","aspari","root","B"
-"answer","Astragalus angustifolius","astang","root","B"
-"answer","Astragalus creticus","astcre","root","B"
-"answer","Asyneuma limonifolium","asylim","root","B"
-"answer","Aubrieta deltoidea","aubdel","root","B"
-"answer","Brachypodium pinnatum","brapin","root","B"
-"answer","Brachypodium retusum","braret","root","B"
-"answer","Buxus sempervirens","buxsem","root","B"
-"answer","Campanula spatulata","camspa","root","B"
-"answer","Carex distachya","cardis","root","B"
-"answer","Carex flacca","carfla","root","B"
-"answer","Carex illegitima","carill","root","B"
-"answer","Carpinus orientalis","carori","root","B"
-"answer","Cerastium candidissimum","cercan","root","B"
-"answer","Crepis fraasii","crefra","root","B"
-"answer","Daphne oleoides","dapole","root","B"
-"answer","Eryngium amethystinum","eryame","root","B"
-"answer","Erysimum parnassi","erypar","root","B"
-"answer","Erysimum pectinatum","erypec","root","B"
-"answer","Euphorbia apios","eupapi","root","B"
-"answer","Festuca jeanpertii","fesjea","root","B"
-"answer","Festuca polita","fespol","root","B"
-"answer","Fritillaria mutabilis","frimut","root","B"
-"answer","Galium peloponnesiacum","galpel","root","B"
-"answer","Galium thymifolium","galthy","root","B"
-"answer","Genista parnassica","genpar","root","B"
-"answer","Geocaryum capillifolium","geocap","root","B"
-"answer","Geranium lucidum","gerluc","root","B"
-"answer","Helictotrichon convolutum","helcon","root","B"
-"answer","Hippocrepis emerus","hipeme","root","B"
-"answer","Hypericum barbatum","hypbar","root","B"
-"answer","Juniperus drupacea","jundru","root","B"
-"answer","Juniperus excelsa","junexc","root","B"
-"answer","Juniperus foetidissima","junfoe","root","B"
-"answer","Juniperus oxycedrus","junoxy","root","B"
-"answer","Lamium garganicum","lamgar","root","B"
-"answer","Leontodon crispus","leocri","root","B"
-"answer","Lonicera etrusca","lonetr","root","B"
-"answer","Malcolmia graeca","malgra","root","B"
-"answer","Marrubium velutinum","marvel","root","B"
-"answer","Melica ciliata","melcil","root","B"
-"answer","Melica uniflora","meluni","root","B"
-"answer","Morina persica","morper","root","B"
-"answer","Onobrychis alba","onoalb","root","B"
-"answer","Phillyrea latifolia","philat","root","B"
-"answer","Prunus cocomilia","prucoc","root","B"
-"answer","Prunus spinosa","pruspi","root","B"
-"answer","Pteridium aquilinum","pteaqu","root","B"
-"answer","Pterocephalus perennis","pteper","root","B"
-"answer","Pyrus spinosa","pyrspi","root","B"
-"answer","Quercus coccifera","quecoc","root","B"
-"answer","Ranunculus brevifolius","ranbre","root","B"
-"answer","Rhamnus saxatilis","rhasax","root","B"
-"answer","Ribes uva-crispa","ribuva","root","B"
-"answer","Rubia peregrina","rubper","root","B"
-"answer","Scabiosa columbaria","scacol","root","B"
-"answer","Scrophularia canina","scrcan","root","B"
-"answer","Scutellaria rupestris","scurup","root","B"
-"answer","Sesleria vaginalis","sesvag","root","B"
-"answer","Silene italica","silita","root","B"
-"answer","Spartium junceum","spajun","root","B"
-"answer","Stipa bromoides","stibro","root","B"
-"answer","Teucrium chamaedrys","teucha","root","B"
-"answer","Trifolium medium","trimed","root","B"
-"answer","Trisetum flavescens","trifla","root","B"
-"answer","Viola alba","vioalb","root","B"
-,,,,
-"question","Define the coverage of the plot","B",,
-"answer","no coverage","B0","B","C"
-"answer","r","B1","B","C"
-"answer","+","B2","B","C"
-"answer",1,"B3","B","C"
-"answer",2,"B4","B","C"
-"answer",3,"B5","B","C"
-"answer",4,"B6","B","C"
-"answer",5,"B7","B","C"
-,,,,
-,,,,
-"question","Define how often you see this species in the general area","C",,
-"answer","A (Abundant)","C1","C",
-"answer","F (Frequent)","C2","C",
-"answer","O (Occasional)","C3","C",
-"answer","R (Rare)","C4","C",
+type,id,,,,,
+root,root,,,,,
+,,,,,,
+type,label,id,,,,
+question,"Select a species",root,,,action,image
+answer,"Abies cephalonica",abicep,root,B,,
+answer,"Acer monspessulanum",acemon,root,B,,
+answer,"Acinos alpinus",acialp,root,B,,
+answer,"Aethionema saxatile",aetsax,root,B,,
+answer,"Allium flavum",allfla,root,B,,
+answer,"Alyssum montanum",alymon,root,B,,
+answer,"Arabis glabra",aragla,root,B,,
+answer,"Armeria canescens",armcan,root,B,,
+answer,"Asparagus acutifolius",aspacu,root,B,,
+answer,"Asperula aristata",aspari,root,B,,
+answer,"Astragalus angustifolius",astang,root,B,,
+answer,"Astragalus creticus",astcre,root,B,,
+answer,"Asyneuma limonifolium",asylim,root,B,,
+answer,"Aubrieta deltoidea",aubdel,root,B,,
+answer,"Brachypodium pinnatum",brapin,root,B,,
+answer,"Brachypodium retusum",braret,root,B,,
+answer,"Buxus sempervirens",buxsem,root,B,,
+answer,"Campanula spatulata",camspa,root,B,,
+answer,"Carex distachya",cardis,root,B,,
+answer,"Carex flacca",carfla,root,B,,
+answer,"Carex illegitima",carill,root,B,,
+answer,"Carpinus orientalis",carori,root,B,,
+answer,"Cerastium candidissimum",cercan,root,B,,
+answer,"Crepis fraasii",crefra,root,B,,
+answer,"Daphne oleoides",dapole,root,B,,
+answer,"Eryngium amethystinum",eryame,root,B,,
+answer,"Erysimum parnassi",erypar,root,B,,
+answer,"Erysimum pectinatum",erypec,root,B,,
+answer,"Euphorbia apios",eupapi,root,B,,
+answer,"Festuca jeanpertii",fesjea,root,B,,
+answer,"Festuca polita",fespol,root,B,,
+answer,"Fritillaria mutabilis",frimut,root,B,,
+answer,"Galium peloponnesiacum",galpel,root,B,,
+answer,"Galium thymifolium",galthy,root,B,,
+answer,"Genista parnassica",genpar,root,B,,
+answer,"Geocaryum capillifolium",geocap,root,B,,
+answer,"Geranium lucidum",gerluc,root,B,,
+answer,"Helictotrichon convolutum",helcon,root,B,,
+answer,"Hippocrepis emerus",hipeme,root,B,,
+answer,"Hypericum barbatum",hypbar,root,B,,
+answer,"Juniperus drupacea",jundru,root,B,,
+answer,"Juniperus excelsa",junexc,root,B,,
+answer,"Juniperus foetidissima",junfoe,root,B,,
+answer,"Juniperus oxycedrus",junoxy,root,B,,
+answer,"Lamium garganicum",lamgar,root,B,,
+answer,"Leontodon crispus",leocri,root,B,,
+answer,"Lonicera etrusca",lonetr,root,B,,
+answer,"Malcolmia graeca",malgra,root,B,,
+answer,"Marrubium velutinum",marvel,root,B,,
+answer,"Melica ciliata",melcil,root,B,,
+answer,"Melica uniflora",meluni,root,B,,
+answer,"Morina persica",morper,root,B,,
+answer,"Onobrychis alba",onoalb,root,B,,
+answer,"Phillyrea latifolia",philat,root,B,,
+answer,"Prunus cocomilia",prucoc,root,B,,
+answer,"Prunus spinosa",pruspi,root,B,,
+answer,"Pteridium aquilinum",pteaqu,root,B,,
+answer,"Pterocephalus perennis",pteper,root,B,,
+answer,"Pyrus spinosa",pyrspi,root,B,,
+answer,"Quercus coccifera",quecoc,root,B,,
+answer,"Ranunculus brevifolius",ranbre,root,B,,
+answer,"Rhamnus saxatilis",rhasax,root,B,,
+answer,"Ribes uva-crispa",ribuva,root,B,,
+answer,"Rubia peregrina",rubper,root,B,,
+answer,"Scabiosa columbaria",scacol,root,B,,
+answer,"Scrophularia canina",scrcan,root,B,,
+answer,"Scutellaria rupestris",scurup,root,B,,
+answer,"Sesleria vaginalis",sesvag,root,B,,
+answer,"Silene italica",silita,root,B,,
+answer,"Spartium junceum",spajun,root,B,,
+answer,"Stipa bromoides",stibro,root,B,,
+answer,"Teucrium chamaedrys",teucha,root,B,,
+answer,"Trifolium medium",trimed,root,B,,
+answer,"Trisetum flavescens",trifla,root,B,,
+answer,"Viola alba",vioalb,root,B,,
+,,,,,,
+question,"Define the coverage of the plot",B,,,,
+answer,"no coverage",B0,B,C,,
+answer,r,B1,B,C,,
+answer,+,B2,B,C,,
+answer,1,B3,B,C,,
+answer,2,B4,B,C,,
+answer,3,B5,B,C,,
+answer,4,B6,B,C,,
+answer,5,B7,B,C,,
+,,,,,,
+,,,,,,
+question,"Define how often you see this species in the general area",C,,,,
+answer,"A (Abundant)",C1,C,,,
+answer,"F (Frequent)",C2,C,,,
+answer,"O (Occasional)",C3,C,,,
+answer,"R (Rare)",C4,C,,,
