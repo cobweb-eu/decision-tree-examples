@@ -129,17 +129,74 @@
       {
         "label": "Broadleaved",
         "value": "PV.1.1",
-        "next": "PV.2"
+        "next": "PV.1.1.1"
       },
       {
         "label": "Coniferous",
         "value": "PV1.2",
-        "next": "PV.2"
+        "next": "PV.1.1.2"
       },
       {
         "label": "Palm Trees",
         "value": "PV1.3",
         "next": "PV.2"
+      }
+    ]
+  },
+  "PV.1.1.1": {
+    "name": "PV.1.1.1",
+    "label": "Is the dominant species",
+    "edges": [
+      {
+        "label": "beech",
+        "value": "PV.1.1.1.1",
+        "next": "__end__"
+      },
+      {
+        "label": "oak",
+        "value": "PV.1.1.1.2",
+        "next": "__end__"
+      },
+      {
+        "label": "other species",
+        "value": "PV.1.1.1.3",
+        "next": "__end__"
+      }
+    ]
+  },
+  "PV.1.1.2": {
+    "name": "PV.1.1.2",
+    "label": "Is the dominant species",
+    "edges": [
+      {
+        "label": "black pine (Pinus nigra)",
+        "value": "PV.1.1.2.1",
+        "next": "__end__"
+      },
+      {
+        "label": "other pine species",
+        "value": "PV.1.1.2.2",
+        "next": "__end__"
+      },
+      {
+        "label": "Greek fir (Abies cephalonica)",
+        "value": "PV.1.1.2.3",
+        "next": "__end__"
+      },
+      {
+        "label": "white fir (Abies alba)",
+        "value": "PV.1.1.2.4",
+        "next": "__end__"
+      },
+      {
+        "label": "juniper (stinking juniper) (Juniperus foeditissima)",
+        "value": "PV.1.1.2.5",
+        "next": "__end__"
+      },
+      {
+        "label": "other species",
+        "value": "PV.1.1.2.6",
+        "next": "__end__"
       }
     ]
   },
@@ -259,13 +316,60 @@
     "edges": [
       {
         "label": "Regular bushes",
-        "value": "PV2.1",
-        "next": "PV.1"
+        "value": "reg_bushes",
+        "next": "PV.2.1.1"
       },
       {
         "label": "Dwarf Shrubs",
-        "value": "PV2.2",
-        "next": "PV.1"
+        "value": "dwarf_shrubs",
+        "next": "PV.2.1.2"
+      }
+    ]
+  },
+  "PV.2.1.1": {
+    "label": "Is the dominant species",
+    "name": "PV.2.1.1",
+    "edges": [
+      {
+        "label": "juniper",
+        "value": "PV2.1.1.1",
+        "next": "__end__"
+      },
+      {
+        "label": "kermes oak (Quercus coccifera)",
+        "value": "PV2.1.1.2",
+        "next": "__end__"
+      },
+      {
+        "label": "other species",
+        "value": "PV2.1.1.3",
+        "next": "__end__"
+      }
+    ]
+  },
+  "PV.2.1.2": {
+    "label": "Is the dominant species",
+    "name": "PV.2.1.2",
+    "edges": [
+      {
+        "label": "tragacanth",
+        "value": "PV2.1.2.1",
+        "next": "__end__"
+      },
+      {
+        "label": "chickweed",
+        "value": "PV2.1.2.2",
+        "next": "__end__"
+      },
+      {
+        "label": "phrygana",
+        "value": "PV2.1.2.3",
+        "next": "__end__"
+      },
+      {
+        "label": "other species",
+        "value": "PV2.1.2.4",
+        "next": "__end__"
       }
     ]
   },
@@ -275,18 +379,39 @@
     "edges": [
       {
         "label": "Regular graminaceous",
-        "value": "PV1.1",
-        "next": "PV.1"
+        "value": "regular_graminaceous",
+        "next": "PV.3.1.1"
       },
       {
         "label": "Reeds",
-        "value": "PV1.2",
+        "value": "reeds",
         "next": "PV.1"
       },
       {
         "label": "Forbs, ferns",
-        "value": "PV3.3",
+        "value": "forbs",
         "next": "PV.1"
+      }
+    ]
+  },
+  "PV.3.1.1": {
+    "label": "Is the dominant species",
+    "name": "PV.3.1.1",
+    "edges": [
+      {
+        "label": "Festuca varia",
+        "value": "festuca_varia",
+        "next": "__end__"
+      },
+      {
+        "label": "Stippa sp",
+        "value": "stippa",
+        "next": "__end__"
+      },
+      {
+        "label": "Other species",
+        "value": "other",
+        "next": "__end__"
       }
     ]
   },
