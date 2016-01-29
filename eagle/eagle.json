@@ -1,0 +1,465 @@
+{
+  "__version__": 2,
+  "__end__": {
+    "label": "END"
+  },
+  "__root__": "eagle",
+  "needles": {
+    "name": "needles",
+    "label": "Firstly, why don’t you take a stab at naming the land cover type that you are in?",
+    "info": "There is a Europe wide land cover dataset called CORINE and in CORINE there are 44 different land cover classes. You can only choose one. Use the headings below to help navigate your way to the class you are in."
+  },
+  "eagle": {
+    "name": "eagle",
+    "edges": [
+      {
+        "label": "Artificial surfaces",
+        "next": "artificial",
+        "value": "artificial"
+      },
+      {
+        "label": "Agricultural areas ",
+        "next": "agricultural",
+        "value": "agricultural"
+      },
+      {
+        "label": "Forest and semi-natural areas",
+        "next": "forest",
+        "value": "forest"
+      },
+      {
+        "label": "Wetlands",
+        "next": "wetlands",
+        "value": "wetlands"
+      },
+      {
+        "label": "Water bodies",
+        "next": "water_bodies",
+        "value": "water_bodies"
+      }
+    ]
+  },
+  "artificial": {
+    "name": "artificial",
+    "label": "Please select the most appropriate land cover class",
+    "edges": [
+      {
+        "label": "Continuous urban fabric",
+        "next": "step2",
+        "value": "Continuous urban fabric"
+      },
+      {
+        "label": "Discontinuous urban fabric",
+        "next": "step2",
+        "value": "Discontinuous urban fabric"
+      },
+      {
+        "label": "Industrial or commercial units",
+        "next": "step2",
+        "value": "Industrial or commercial units"
+      },
+      {
+        "label": "Road and rail networks and associated land",
+        "next": "step2",
+        "value": "Road and rail networks and associated land"
+      },
+      {
+        "label": "Port areas",
+        "next": "step2",
+        "value": "Port areas"
+      },
+      {
+        "label": "Airports mineral extraction sites",
+        "next": "step2",
+        "value": "Airports mineral extraction sites"
+      },
+      {
+        "label": "Dump sites",
+        "next": "step2",
+        "value": "Dump sites"
+      },
+      {
+        "label": "Construction sites",
+        "next": "step2",
+        "value": "Construction sites"
+      },
+      {
+        "label": "Green urban areas",
+        "next": "step2",
+        "value": "Green urban areas"
+      },
+      {
+        "label": "Sport and leisure facilities",
+        "next": "step2",
+        "value": "Sport and leisure facilities"
+      }
+    ]
+  },
+  "agricultural": {
+    "name": "agricultural",
+    "label": "Please select the most appropriate land cover class (only one selection allowed)",
+    "edges": [
+      {
+        "label": "Non-irrigated arable land",
+        "next": "step2",
+        "value": "non_irrigated"
+      },
+      {
+        "label": "Permanently irrigated land",
+        "next": "step2",
+        "value": "irrigated"
+      },
+      {
+        "label": "Rice fields",
+        "next": "step2",
+        "value": "rice"
+      },
+      {
+        "label": "Vineyards",
+        "next": "step2",
+        "value": "vineyard"
+      },
+      {
+        "label": "Fruit trees and berry plantations",
+        "next": "step2",
+        "value": "fruit"
+      },
+      {
+        "label": "Olive groves",
+        "next": "step2",
+        "value": "olive"
+      },
+      {
+        "label": "Pastures",
+        "next": "step2",
+        "value": "pasture"
+      },
+      {
+        "label": "Annual crops associated with permanent crops",
+        "next": "step2",
+        "value": "annual_crops"
+      },
+      {
+        "label": "Complex cultivation patterns",
+        "next": "step2",
+        "value": "complex_patterns"
+      },
+      {
+        "label": "Land principally occupied by agriculture",
+        "next": "step2",
+        "value": "land"
+      },
+      {
+        "label": "Agro-forestry areas",
+        "next": "step2",
+        "value": "agro_forestry"
+      }
+    ]
+  },
+  "forest": {
+    "name": "forest",
+    "label": "Please select the most appropriate land cover class (only one selection allowed)",
+    "edges": [
+      {
+        "label": "Broad-leaved forest",
+        "next": "step2",
+        "value": "broad_leaved"
+      },
+      {
+        "label": "Coniferous forest",
+        "next": "step2",
+        "value": "coniferous"
+      },
+      {
+        "label": "Mixed forest",
+        "next": "step2",
+        "value": "mixed"
+      },
+      {
+        "label": "Natural grassland",
+        "next": "step2",
+        "value": "natural_grassland"
+      },
+      {
+        "label": "Moors and heathland",
+        "next": "step2",
+        "value": "moors"
+      },
+      {
+        "label": "Sclerophyllous vegetation",
+        "next": "step2",
+        "value": "sclerophyllous"
+      },
+      {
+        "label": "Transitional woodland shrub",
+        "next": "step2",
+        "value": "woodland"
+      },
+      {
+        "label": "Beaches, dunes and sand plains",
+        "next": "step2",
+        "value": "beaches"
+      },
+      {
+        "label": "Bare rock",
+        "next": "step2",
+        "value": "bare_rock"
+      },
+      {
+        "label": "Sparsely vegetated areas",
+        "next": "step2",
+        "value": "sparsely_vegetated"
+      },
+      {
+        "label": "Burnt areas",
+        "next": "step2",
+        "value": "burnt_areas"
+      },
+      {
+        "label": "Glaciers and perpetual snow",
+        "next": "step2",
+        "value": "glaciers"
+      }
+    ]
+  },
+  "wetlands": {
+    "name": "wetlands",
+    "label": "Please select the most appropriate land cover class (only one selection allowed)",
+    "edges": [
+      {
+        "label": "Inland marshes",
+        "next": "step2",
+        "value": "inland_marshes"
+      },
+      {
+        "label": "Peat bogs",
+        "next": "step2",
+        "value": "peat_bogs"
+      },
+      {
+        "label": "Salt marshes",
+        "next": "step2",
+        "value": "salt_marshes"
+      },
+      {
+        "label": "Salines",
+        "next": "step2",
+        "value": "salines"
+      },
+      {
+        "label": "Intertidal flats",
+        "next": "step2",
+        "value": "intertidal_flats"
+      }
+    ]
+  },
+  "water_bodies": {
+    "name": "water_bodies",
+    "label": "Please select the most appropriate land cover class (only one selection allowed)",
+    "edges": [
+      {
+        "label": "Water courses",
+        "next": "step2",
+        "value": "water_courses"
+      },
+      {
+        "label": "Water bodies",
+        "next": "step2",
+        "value": "w_bodies"
+      },
+      {
+        "label": "Coastal lagoons",
+        "next": "step2",
+        "value": "coastal_lagoons"
+      },
+      {
+        "label": "Estuaries",
+        "next": "step2",
+        "value": "estuaries"
+      },
+      {
+        "label": "Sea and ocean",
+        "next": "step2",
+        "value": "sea_ocean"
+      }
+    ]
+  },
+  "step2": {
+    "name": "step2",
+    "label": "Now, there are three important bits of information we need to know about your study area.",
+    "edges": [
+      {
+        "label": "They are:\n1. The different land cover components (LCC) you can see;\n2. The different land use attributes (LUA) that you can see; and\n3. Some of the characteristics about the landscape around you (CH).",
+        "next": "step3",
+        "value": ""
+      }
+    ]
+  },
+  "step3": {
+    "name": "step3",
+    "label": "Land Cover Components\nHere you will input important data about the land cover components that are around you. Just answer the following questions and the app will do the rest!",
+    "edges": [
+      {
+        "label": "Select all of the components listed in the following pages that make up your study site. There are three main types, water, vegetated and non-vegetated.",
+        "next": "water",
+        "value": ""
+      }
+    ]
+  },
+  "water": {
+    "name": "water",
+    "label": "Select the most suitable description of the water at your site",
+    "edges": [
+      {
+        "label": "Natural or man-made watercourse",
+        "next": "mostly_vegetated1",
+        "value": "natural_watercourse"
+      },
+      {
+        "label": "Standing water (inland), lake or pond",
+        "next": "mostly_vegetated1",
+        "value": "standing_water"
+      },
+      {
+        "label": "Estuary",
+        "next": "mostly_vegetated1",
+        "value": "estuary"
+      },
+      {
+        "label": "Lagoon",
+        "next": "mostly_vegetated1",
+        "value": "lagoon"
+      },
+      {
+        "label": "Open sea",
+        "next": "mostly_vegetated1",
+        "value": "open_sea"
+      },
+      {
+        "label": "Permanent Snow",
+        "next": "mostly_vegetated1",
+        "value": "permanent_snow"
+      },
+      {
+        "label": "Ice or glacier ",
+        "next": "mostly_vegetated1",
+        "value": "ice_glacier"
+      },
+      {
+        "label": "Not relevant",
+        "next": "mostly_vegetated3",
+        "value": "not_revelant"
+      }
+    ]
+  },
+  "mostly_vegetated1": {
+    "name": "mostly_vegetated1",
+    "label": "Select the most suitable ‘life-form’ or description below of the vegetation at your site",
+    "edges": [
+      {
+        "label": "Trees",
+        "next": "mostly_vegetated2",
+        "value": "trees"
+      },
+      {
+        "label": "Bushes, shrubs",
+        "next": "mostly_vegetated2",
+        "value": "bushes"
+      },
+      {
+        "label": "Mainly grass-like plants, includes sedges and rushes (graminoids)",
+        "next": "mostly_vegetated2",
+        "value": "grass_like_plants"
+      },
+      {
+        "label": "Herbaceous flowering plants (that are not graminoids)",
+        "next": "mostly_vegetated2",
+        "value": "herbaceous_plants"
+      },
+      {
+        "label": "Succulents (like Aloe vera) or cacti",
+        "next": "mostly_vegetated2",
+        "value": "succulents"
+      },
+      {
+        "label": "Lichens",
+        "next": "mostly_vegetated2",
+        "value": "lichens"
+      },
+      {
+        "label": "Mosses",
+        "next": "mostly_vegetated2",
+        "value": "mosses"
+      },
+      {
+        "label": "Algae",
+        "next": "mostly_vegetated2",
+        "value": "algae"
+      },
+      {
+        "label": "Not relevant",
+        "next": "mostly_vegetated3",
+        "value": "not_revelant"
+      }
+    ]
+  },
+  "mostly_vegetated3": {
+    "name": "mostly_vegetated3"
+  },
+  "mostly_vegetated2": {
+    "name": "mostly_vegetated2",
+    "label": "Select the habitat type that seem the best match with your study site",
+    "edges": [
+      {
+        "label": "Marine habitats",
+        "next": "__end__",
+        "value": "marine_habitats"
+      },
+      {
+        "label": "Coastal habitats",
+        "next": "__end__",
+        "value": "coastal_habitats"
+      },
+      {
+        "label": "Inland surface waters",
+        "next": "__end__",
+        "value": "inland_waters"
+      },
+      {
+        "label": "Mires, bog, and fens",
+        "next": "__end__",
+        "value": "mires"
+      },
+      {
+        "label": "Grasslands and lands dominated by forbs, mosses or lichens",
+        "next": "__end__",
+        "value": "grasslands"
+      },
+      {
+        "label": "Heathland, scrub and tundra",
+        "next": "__end__",
+        "value": "heathland"
+      },
+      {
+        "label": "Woodland, forest and other wooded land",
+        "next": "__end__",
+        "value": "woodland"
+      },
+      {
+        "label": "Inland unvegetated or sparsely vegetated habitats",
+        "next": "__end__",
+        "value": "inland_unvegetated"
+      },
+      {
+        "label": "Regularly or recently cultivated agricultural horticultural and domestic habitats",
+        "next": "__end__",
+        "value": "cultivated_agricultural"
+      },
+      {
+        "label": "Constructed, industrial and other artificial habitats",
+        "next": "__end__",
+        "value": "industrial"
+      }
+    ]
+  }
+}
