@@ -6,7 +6,7 @@
   "__root__": "eagle",
   "needles": {
     "name": "needles",
-    "label": "Firstly, why don’t you take a stab at naming the land cover type that you are in?",
+    "label": "Firstly, why don't you take a stab at naming the land cover type that you are in?",
     "info": "There is a Europe wide land cover dataset called CORINE and in CORINE there are 44 different land cover classes. You can only choose one. Use the headings below to help navigate your way to the class you are in."
   },
   "eagle": {
@@ -286,23 +286,41 @@
   },
   "step2": {
     "name": "step2",
-    "label": "Now, there are three important bits of information we need to know about your study area.",
+    "label": "",
     "edges": [
       {
-        "label": "They are:\n1. The different land cover components (LCC) you can see;\n2. The different land use attributes (LUA) that you can see; and\n3. Some of the characteristics about the landscape around you (CH).",
+        "label": "",
         "next": "step3",
-        "value": ""
+        "element": {
+          "type": "info",
+          "value": "display_info_components_1",
+          "options": {
+            "text": "<div style='text-align: left;'>\n  <p>Now, there are three important bits of information we need to know about your study area. They are:</p>\n  <p>\n    <span>1. The different land cover components (LCC) you can see</span><br><br>\n    <span>2. The different land use attributes (LUA) that you can see</span><br><br>\n    <span>3. Some of the characteristics about the landscape around you (CH)</span>\n  </p>\n</div>"
+          }
+        },
+        "match": {
+          "type": "anything"
+        }
       }
     ]
   },
   "step3": {
     "name": "step3",
-    "label": "Land Cover Components\nHere you will input important data about the land cover components that are around you. Just answer the following questions and the app will do the rest!",
+    "label": "",
     "edges": [
       {
-        "label": "Select all of the components listed in the following pages that make up your study site. There are three main types, water, vegetated and non-vegetated.",
+        "label": "",
         "next": "water",
-        "value": ""
+        "element": {
+          "type": "info",
+          "value": "display_info_components_2",
+          "options": {
+            "text": "<div style='text-align: left'>\n  <h2>Land Cover Components</h2>\n  <p>\n    Here you will input important data about the land cover components that are around you.\n    Just answer the following questions and the app will do the rest!\n  </p>\n  <p>\n    Select all of the components listed in the following pages that make up your study site.\n    There are three main types, water, vegetated and non-vegetated.\n  </p>\n</div>"
+          }
+        },
+        "match": {
+          "type": "anything"
+        }
       }
     ]
   },
@@ -354,7 +372,7 @@
   },
   "mostly_vegetated1": {
     "name": "mostly_vegetated1",
-    "label": "Select the most suitable ‘life-form’ or description below of the vegetation at your site",
+    "label": "Select the most suitable “life-form” or description below of the vegetation at your site",
     "edges": [
       {
         "label": "Trees",
