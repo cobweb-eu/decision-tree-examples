@@ -331,42 +331,106 @@
       {
         "label": "Natural or man-made watercourse",
         "next": "mostly_vegetated1",
-        "value": "natural_watercourse"
+        "element": {
+          "type": "checkbox",
+          "options": {
+            "value": "natural_watercourse"
+          }
+        },
+        "match": {
+          "type": "nonempty"
+        }
       },
       {
         "label": "Standing water (inland), lake or pond",
         "next": "mostly_vegetated1",
-        "value": "standing_water"
+        "element": {
+          "type": "checkbox",
+          "options": {
+            "value": "standing_water"
+          }
+        },
+        "match": {
+          "type": "nonempty"
+        }
       },
       {
         "label": "Estuary",
         "next": "mostly_vegetated1",
-        "value": "estuary"
+        "element": {
+          "type": "checkbox",
+          "options": {
+            "value": "estuary"
+          }
+        },
+        "match": {
+          "type": "nonempty"
+        }
       },
       {
         "label": "Lagoon",
         "next": "mostly_vegetated1",
-        "value": "lagoon"
+        "element": {
+          "type": "checkbox",
+          "options": {
+            "value": "lagoon"
+          }
+        },
+        "match": {
+          "type": "nonempty"
+        }
       },
       {
         "label": "Open sea",
         "next": "mostly_vegetated1",
-        "value": "open_sea"
+        "element": {
+          "type": "checkbox",
+          "options": {
+            "value": "open_sea"
+          }
+        },
+        "match": {
+          "type": "nonempty"
+        }
       },
       {
         "label": "Permanent Snow",
         "next": "mostly_vegetated1",
-        "value": "permanent_snow"
+        "element": {
+          "type": "checkbox",
+          "options": {
+            "value": "permanent_snow"
+          }
+        },
+        "match": {
+          "type": "nonempty"
+        }
       },
       {
         "label": "Ice or glacier ",
         "next": "mostly_vegetated1",
-        "value": "ice_glacier"
+        "element": {
+          "type": "checkbox",
+          "options": {
+            "value": "ice_glacier"
+          }
+        },
+        "match": {
+          "type": "nonempty"
+        }
       },
       {
         "label": "Not relevant",
         "next": "mostly_vegetated3",
-        "value": "not_revelant"
+        "element": {
+          "type": "checkbox",
+          "options": {
+            "value": "only_selection"
+          }
+        },
+        "match": {
+          "type": "nonempty"
+        }
       }
     ]
   },
@@ -377,55 +441,124 @@
       {
         "label": "Trees",
         "next": "mostly_vegetated2",
-        "value": "trees"
+        "element": {
+          "type": "checkbox",
+          "options": {
+            "value": "trees"
+          }
+        },
+        "match": {
+          "type": "nonempty"
+        }
       },
       {
         "label": "Bushes, shrubs",
         "next": "mostly_vegetated2",
-        "value": "bushes"
+        "element": {
+          "type": "checkbox",
+          "options": {
+            "value": "bushes"
+          }
+        },
+        "match": {
+          "type": "nonempty"
+        }
       },
       {
         "label": "Mainly grass-like plants, includes sedges and rushes (graminoids)",
         "next": "mostly_vegetated2",
-        "value": "grass_like_plants"
+        "element": {
+          "type": "checkbox",
+          "options": {
+            "value": "grass_like_plants"
+          }
+        },
+        "match": {
+          "type": "nonempty"
+        }
       },
       {
         "label": "Herbaceous flowering plants (that are not graminoids)",
         "next": "mostly_vegetated2",
-        "value": "herbaceous_plants"
+        "element": {
+          "type": "checkbox",
+          "options": {
+            "value": "herbaceous_plants"
+          }
+        },
+        "match": {
+          "type": "nonempty"
+        }
       },
       {
         "label": "Succulents (like Aloe vera) or cacti",
         "next": "mostly_vegetated2",
-        "value": "succulents"
+        "element": {
+          "type": "checkbox",
+          "options": {
+            "value": "succulents"
+          }
+        },
+        "match": {
+          "type": "nonempty"
+        }
       },
       {
         "label": "Lichens",
         "next": "mostly_vegetated2",
-        "value": "lichens"
+        "element": {
+          "type": "checkbox",
+          "options": {
+            "value": "lichens"
+          }
+        },
+        "match": {
+          "type": "nonempty"
+        }
       },
       {
         "label": "Mosses",
         "next": "mostly_vegetated2",
-        "value": "mosses"
+        "element": {
+          "type": "checkbox",
+          "options": {
+            "value": "mosses"
+          }
+        },
+        "match": {
+          "type": "nonempty"
+        }
       },
       {
         "label": "Algae",
         "next": "mostly_vegetated2",
-        "value": "algae"
+        "element": {
+          "type": "checkbox",
+          "options": {
+            "value": "algae"
+          }
+        },
+        "match": {
+          "type": "nonempty"
+        }
       },
       {
         "label": "Not relevant",
         "next": "mostly_vegetated3",
-        "value": "not_revelant"
+        "element": {
+          "type": "checkbox",
+          "options": {
+            "value": "only_selection"
+          }
+        },
+        "match": {
+          "type": "nonempty"
+        }
       }
     ]
   },
   "mostly_vegetated3": {
-    "name": "mostly_vegetated3"
-  },
-  "mostly_vegetated2": {
-    "name": "mostly_vegetated2",
+    "name": "mostly_vegetated3",
     "label": "Select the habitat type that seem the best match with your study site",
     "edges": [
       {
@@ -477,6 +610,52 @@
         "label": "Constructed, industrial and other artificial habitats",
         "next": "__end__",
         "value": "industrial"
+      }
+    ]
+  },
+  "mostly_vegetated2": {
+    "name": "mostly_vegetated2",
+    "label": "Select the most dominant 'life-form' or description below of the vegetation at your site",
+    "edges": [
+      {
+        "label": "Trees",
+        "next": "__end__",
+        "value": "marine_habitats"
+      },
+      {
+        "label": "Bushes, shrubs",
+        "next": "mostly_vegetated3",
+        "value": "coastal_habitats"
+      },
+      {
+        "label": "Mainly grass-like plants, includes sedges and rushes (graminoids)",
+        "next": "mostly_vegetated3",
+        "value": "inland_waters"
+      },
+      {
+        "label": "Herbaceous flowering plants (that are not graminoids)",
+        "next": "mostly_vegetated3",
+        "value": "mires"
+      },
+      {
+        "label": "Succulents (like Aloe vera) or cacti",
+        "next": "mostly_vegetated3",
+        "value": "grasslands"
+      },
+      {
+        "label": "Lichens",
+        "next": "mostly_vegetated3",
+        "value": "heathland"
+      },
+      {
+        "label": "Mosses",
+        "next": "mostly_vegetated3",
+        "value": "woodland"
+      },
+      {
+        "label": "Algae",
+        "next": "mostly_vegetated3",
+        "value": "inland_unvegetated"
       }
     ]
   }
