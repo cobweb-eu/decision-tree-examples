@@ -4,13 +4,10 @@
     "label": "END"
   },
   "__root__": "eagle",
-  "needles": {
-    "name": "needles",
-    "label": "Firstly, why don't you take a stab at naming the land cover type that you are in?",
-    "info": "There is a Europe wide land cover dataset called CORINE and in CORINE there are 44 different land cover classes. You can only choose one. Use the headings below to help navigate your way to the class you are in."
-  },
   "eagle": {
     "name": "eagle",
+    "label": "Firstly, why don't you take a stab at naming the land cover type that you are in?",
+    "info": "There is a Europe wide land cover dataset called CORINE and in CORINE there are 44 different land cover classes. You can only choose one. Use the headings below to help navigate your way to the class you are in.",
     "edges": [
       {
         "label": "Artificial surfaces",
@@ -421,11 +418,11 @@
       },
       {
         "label": "Not relevant",
-        "next": "mostly_vegetated3",
+        "next": "mostly_vegetated1",
         "element": {
           "type": "checkbox",
           "options": {
-            "value": "only_selection"
+            "value": "not_relevant"
           }
         },
         "match": {
@@ -438,6 +435,11 @@
     "name": "mostly_vegetated1",
     "label": "Select the most suitable “life-form” or description below of the vegetation at your site",
     "edges": [
+      {
+        "label": "Not relevant",
+        "next": "mostly_vegetated3",
+        "value": "non_relevant"
+      },
       {
         "label": "Trees",
         "next": "mostly_vegetated2",
@@ -536,19 +538,6 @@
           "type": "checkbox",
           "options": {
             "value": "algae"
-          }
-        },
-        "match": {
-          "type": "nonempty"
-        }
-      },
-      {
-        "label": "Not relevant",
-        "next": "mostly_vegetated3",
-        "element": {
-          "type": "checkbox",
-          "options": {
-            "value": "only_selection"
           }
         },
         "match": {
